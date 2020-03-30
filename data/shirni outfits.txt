@@ -142,10 +142,11 @@ outfit "Breeze-Type Thruster"
 	"thrusting energy" .4
 	"thrusting heat" .9
 	"energy capacity" 115
+	"slowing resistance" .1
 	"flare sprite" "effect/ion flare/small"
 		"frame rate" 1.1
 	"flare sound" "ion tiny"
-	description "The design philosophy of these thrusters is centred around ensuring that the ship they are equipped on is always able to move, even when under concentrated fire. As such, they use almost no power and produce miniscule amounts of heat."
+	description "The design philosophy of these thrusters is centred around ensuring that the ship they are equipped on is always able to move, even when under concentrated fire from exotic weapons. As such, they use almost no power and produce miniscule amounts of heat."
 
 outfit "Gale-Type Thruster"
 	category "Engines"
@@ -160,6 +161,7 @@ outfit "Gale-Type Thruster"
 	"thrusting energy" .7
 	"thrusting heat" 1.3
 	"energy capacity" 190
+	"slowing resistance" .2
 	"flare sprite" "effect/ion flare/medium"
 		"frame rate" 1.0
 	"flare sound" "ion small"
@@ -178,10 +180,11 @@ outfit "Storm-Type Thruster"
 	"thrusting energy" 1.5
 	"thrusting heat" 3.2
 	"energy capacity" 355
+	"slowing resistance" .5
 	"flare sprite" "effect/ion flare/large"
 		"frame rate" 0.9
 	"flare sound" "ion medium"
-	description "The Quarg, who do all things efficiently, hold a certain grudging respect for the engines produced by the Shirni."
+	description "In addition to their ability to operate on miniscule amounts of power, these thrusters are also resistant to weapons designed to impair the propulsion of a ship."
 
 outfit "Typhoon-Type Thruster"
 	category "Engines"
@@ -196,6 +199,7 @@ outfit "Typhoon-Type Thruster"
 	"thrusting energy" 2.3
 	"thrusting heat" 4.7
 	"energy capacity" 605
+	"slowing resistance" 1
 	"flare sprite" "effect/ion flare/huge"
 		"frame rate" 0.8
 	"flare sound" "ion large"
@@ -214,6 +218,7 @@ outfit "Breeze-Type Steering"
 	"turning energy" .2
 	"turning heat" .5
 	"energy capacity" 95
+	"slowing resistance" .075
 	description "The Shirni's steering systems are designed to function even when the ship they are equipped on is critically damaged, close to overheating or almost out of power. As such, these tiny engines use only a very small amount of power and produce little heat."
 
 outfit "Gale-Type Steering"
@@ -229,6 +234,7 @@ outfit "Gale-Type Steering"
 	"turning energy" .6
 	"turning heat" 1.0
 	"energy capacity" 165
+	"slowing resistance" .15
 	description "Gale-Type steering is commonly used on small Shirni ships, so that they can operate using only a relatively small generator and more space is free for whatever modifications are necessary."
 
 outfit "Storm-Type Steering"
@@ -244,6 +250,7 @@ outfit "Storm-Type Steering"
 	"turning energy" .9
 	"turning heat" 1.9
 	"energy capacity" 275
+	"slowing resistance" .25
 	description "While they may not lend quite as much agility to large ships as steering systems of similar size produced by others, these massive engines can be operated on a fraction of the power that those other steering systems would require."
 
 outfit "Typhoon-Type Steering"
@@ -259,6 +266,7 @@ outfit "Typhoon-Type Steering"
 	"turning energy" 1.5
 	"turning heat" 3.3
 	"energy capacity" 465
+	"slowing resistance" .5
 	description "The Typhoon-Type Steering is the largest steering system produced by the Shirni. Unlike its namesake, a violent and destructive force which releases vast amounts of energy every second, this steering system consumes only minimal amounts of power."
 
 outfit "Thunderbolt-Type Thruster"
