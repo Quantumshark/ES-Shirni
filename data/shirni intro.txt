@@ -256,6 +256,6 @@ mission "Shirni Alpha surveillance"
 				`	"Yes, the Leviathan was one of the most powerful ships available during the Alpha Wars. It would make sense if the Alphas were still using them."`
 			`	The Quarg turns to Votari and translates for you. Votari makes some notes on some kind of small handheld device while the Quarg is speaking. After a while of silence punctuated by odd noises from the device, Votari replies and the Quarg translates.`
 			`	"The Shirni have decided that you are a 'trustworthy ally' in their fight against the Alphas. As such, you are trusted to visit several of their planets which you were not trusted to visit previously. Furthermore," The Quarg gestures to Votari, and Votari hands you a device similar to the one he is holding, "You will be given one of these. This is a messaging device, capable of connecting across the whole of Shirni space in an instant. We Quarg alongside several of the Shirni's researchers have also cooperated in an attempt to add a translation feature to it, though thus far it is only rudimentary and not hugely effective."`
-			`	You take the device and see that, sure enough, some of the interface has been translated into your language, albeit with some more archaic phrases. Most of it, however, is still in the Shirni's smooth, curling script.`
+			`	You take the device and see that, sure enough, some of the interface has been translated into your language, albeit with some rather archaic phrases. Most of it, however, is still in the Shirni's smooth, curling script.`
 		set "shirni: recieved device"
 
