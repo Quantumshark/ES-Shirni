@@ -1,0 +1,285 @@
+# Copyright (c) 2020 by Alex di Giovanni
+#
+# Endless Sky is free software: you can redistribute it and/or modify it under the
+# terms of the GNU General Public License as published by the Free Software
+# Foundation, either version 3 of the License, or (at your option) any later version.
+#
+# Endless Sky is distributed in the hope that it will be useful, but WITHOUT ANY
+# WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A
+# PARTICULAR PURPOSE.  See the GNU General Public License for more details.
+
+outfit "Thermal Dissipator"
+	category "Systems"
+	licenses
+		Shirni
+	cost 539000
+	thumbnail "outfit/cooling ducts"
+	"mass" 14
+	"outfit space" -14
+	"cooling" 43
+	"cooling inefficiency" 2
+	"energy capacity" 70
+	description "Thermal Dissipators are incredibly space-efficient, but adding more than a few of them to the same ship will cause them to start interfering with each other and with other cooling systems."
+
+outfit "A-Type Generator"
+	category "Power"
+	licenses
+		Shirni
+	cost 738000
+	thumbnail "outfit/small thermionic"
+	"mass" 26
+	"outfit space" -26
+	"energy generation" 1.9
+	"heat generation" 5.3
+	"shield generation" .45
+	"shield heat" .95
+	"disruption resistance" .02
+	"energy capacity" 130
+	description "This generator combines some energy generation with a small amount of shield generation, all in a much smaller space than most other races could fit both. This compact and versatile outfit also provides a tiny amount of protection against weapons that disrupt a ship's shield matrix."
+	
+outfit "C-Type Generator"
+	category "Power"
+	licenses
+		Shirni
+	cost 2037000
+	thumbnail "outfit/small thermionic"
+	"mass" 53
+	"outfit space" -53
+	"energy generation" 6.1
+	"heat generation" 14.6
+	"shield generation" 1.1
+	"shield heat" 2.4
+	"disruption resistance" .08
+	"energy capacity" 265
+	description "The Shirni build shield regeneration into their generators, so that when they are recharging their shields the extra power can be drawn by adjusting the generator settings rather than risking running out of energy in the middle of a battle."
+	description "Because these systems primarily serve as generators, weapons designed to disrupt shields are less effective against them."
+	
+outfit "F-Type Generator"
+	category "Power"
+	licenses
+		Shirni
+	cost 6291100
+	thumbnail "outfit/small thermionic"
+	"mass" 109
+	"outfit space" -109
+	"energy generation" 15.3
+	"heat generation" 31.3
+	"shield generation" 3.2
+	"shield heat" 6.1
+	"disruption resistance" .2
+	"energy capacity" 545
+	description "The Shirni build shield regeneration into their generators, so that when they are recharging their shields the extra power can be drawn by adjusting the generator settings rather than risking running out of energy in the middle of a battle."
+	description "Because these systems primarily serve as generators, weapons designed to disrupt shields are less effective against them."
+	
+outfit "I-Type Generator"
+	category "Power"
+	licenses
+		Shirni
+	cost 17106000
+	thumbnail "outfit/small thermionic"
+	"mass" 173
+	"outfit space" -173
+	"energy generation" 26.4
+	"heat generation" 57.8
+	"shield generation" 5.3
+	"shield heat" 12.7
+	"disruption resistance" .4
+	"energy capacity" 865
+	description "The I-Type Generator is a recent design by the Shirni, who needed additional power for their newer, more advanced warships. Providing large amounts of power alongside integrated shield generation allows the ship this generator is equipped on to maintain its systems even while under sustained fire."
+	
+outfit "Secondary Shielding"
+	category "Systems"
+	licenses
+		Shirni
+	cost 198000
+	thumbnail "outfit/secondaryshield"
+	"mass" 6
+	"outfit space" -6
+	"shield generation" .5
+	"shield energy" 1.6
+	"shield heat" .6
+	"energy capacity" 30
+	description "This module was built to supplement the shield generation capabilities of Shirni reactors. It is unusually energy inefficient compared to other similar technology, as it is not intended to be in use for long periods of time."
+	
+outfit "Regenerating Plating"
+	category "Systems"
+	licenses
+		Shirni
+	cost 826000
+	thumbnail "outfit/interference plating"
+	"mass" 19
+	"outfit space" -19
+	"hull repair rate" .25
+	"hull energy" 0
+	"hull heat" .05
+	"energy capacity" 45
+	description "This strange organic plating is able to slowly repair any damage caused to it, producing a small amount of heat but not using any significant amount of energy."
+	
+outfit "Radio Disruptor"
+	category "Systems"
+	licenses
+		Shirni
+	cost 1310000
+	thumbnail "outfit/tactical scanner"
+	"mass" 53
+	"outfit space" -53
+	"radar jamming" 173
+	"energy consumption" 1.2
+	"heat generation" 2.7
+	"energy capacity" 265
+	description "This massive collection of jammers and broadcasters drains a considerable amount of power, but it makes it almost impossible for radar-guided seeking weapons to hit the ship using it."
+	
+outfit "Breeze-Type Thruster"
+	category "Engines"
+	licenses
+		Shirni
+	"cost" 301000
+	thumbnail "outfit/tiny atomic thruster"
+	"mass" 23
+	"outfit space" -23
+	"engine capacity" -23
+	"thrust" 9
+	"thrusting energy" .4
+	"thrusting heat" .9
+	"energy capacity" 115
+	"flare sprite" "effect/ion flare/small"
+		"frame rate" 1.1
+	"flare sound" "ion tiny"
+	description "The design philosophy of these thrusters is centred around ensuring that the ship they are equipped on is always able to move, even when under concentrated fire. As such, they use almost no power and produce miniscule amounts of heat."
+
+outfit "Gale-Type Thruster"
+	category "Engines"
+	licenses
+		Shirni
+	"cost" 517000
+	thumbnail "outfit/small atomic thruster"
+	"mass" 38
+	"outfit space" -38
+	"engine capacity" -38
+	"thrust" 19.1
+	"thrusting energy" .7
+	"thrusting heat" 1.3
+	"energy capacity" 190
+	"flare sprite" "effect/ion flare/medium"
+		"frame rate" 1.0
+	"flare sound" "ion small"
+	description "The Gale-Type thruster may not allow ships to reach a particularly high speed, but it can be relied on to always function even in unexpected circumstances."
+
+outfit "Storm-Type Thruster"
+	category "Engines"
+	licenses
+		Shirni
+	"cost" 1031000
+	thumbnail "outfit/medium atomic thruster"
+	"mass" 71
+	"outfit space" -71
+	"engine capacity" -71
+	"thrust" 39.5
+	"thrusting energy" 1.5
+	"thrusting heat" 3.2
+	"energy capacity" 355
+	"flare sprite" "effect/ion flare/large"
+		"frame rate" 0.9
+	"flare sound" "ion medium"
+	description "The Quarg, who do all things efficiently, hold a certain grudging respect for the engines produced by the Shirni."
+
+outfit "Typhoon-Type Thruster"
+	category "Engines"
+	licenses
+		Shirni
+	"cost" 2611000
+	thumbnail "outfit/large atomic thruster"
+	"mass" 121
+	"outfit space" -121
+	"engine capacity" -121
+	"thrust" 77.5
+	"thrusting energy" 2.3
+	"thrusting heat" 4.7
+	"energy capacity" 605
+	"flare sprite" "effect/ion flare/huge"
+		"frame rate" 0.8
+	"flare sound" "ion large"
+	description "Any other thruster close to this size would consume vast amounts of power and produce huge amounts of heat, but the Typhoon-Type Thruster does neither."
+
+outfit "Breeze-Type Steering"
+	category "Engines"
+	licenses
+		Shirni
+	"cost" 197000
+	thumbnail "outfit/tiny atomic steering"
+	"mass" 19
+	"outfit space" -19
+	"engine capacity" -19
+	"turn" 230
+	"turning energy" .2
+	"turning heat" .5
+	"energy capacity" 95
+	description "The Shirni's steering systems are designed to function even when the ship they are equipped on is critically damaged, close to overheating or almost out of power. As such, these tiny engines use only a very small amount of power and produce little heat."
+
+outfit "Gale-Type Steering"
+	category "Engines"
+	licenses
+		Shirni
+	"cost" 433000
+	thumbnail "outfit/small atomic steering"
+	"mass" 33
+	"outfit space" -33
+	"engine capacity" -33
+	"turn" 503
+	"turning energy" .6
+	"turning heat" 1.0
+	"energy capacity" 165
+	description "Gale-Type steering is commonly used on small Shirni ships, so that they can operate using only a relatively small generator and more space is free for whatever modifications are necessary."
+
+outfit "Storm-Type Steering"
+	category "Engines"
+	licenses
+		Shirni
+	"cost" 971000
+	thumbnail "outfit/medium atomic steering"
+	"mass" 55
+	"outfit space" -55
+	"engine capacity" -55
+	"turn" 993
+	"turning energy" .9
+	"turning heat" 1.9
+	"energy capacity" 275
+	description "While they may not lend quite as much agility to large ships as steering systems of similar size produced by others, these massive engines can be operated on a fraction of the power that those other steering systems would require."
+
+outfit "Typhoon-Type Steering"
+	category "Engines"
+	licenses
+		Shirni
+	"cost" 2037000
+	thumbnail "outfit/large atomic steering"
+	"mass" 93
+	"outfit space" -93
+	"engine capacity" -93
+	"turn" 1984
+	"turning energy" 1.5
+	"turning heat" 3.3
+	"energy capacity" 465
+	description "The Typhoon-Type Steering is the largest steering system produced by the Shirni. Unlike its namesake, a violent and destructive force which releases vast amounts of energy every second, this steering system consumes only minimal amounts of power."
+
+outfit "Thunderbolt-Type Thruster"
+	category "Engines"
+	licenses
+		Shirni
+	"cost" 1725000
+	thumbnail "outfit/ionic afterburner"
+	"mass" 32
+	"outfit space" -32
+	"engine capacity" -32
+	"heat generation" 3.1
+	"afterburner thrust" 119.3
+	"afterburner energy" 29.4
+	"afterburner heat" 67.3
+	"energy capacity" 160
+	"afterburner effect" "ionic afterburner"
+	description "The Thunderbolt-Type Thruster, despite behaving like an afterburner, is not technically one. Rather, it is a high-intensity thruster, using monumental amounts of power to produce similarly excessive thrust. While it is almost impossible to concieve of a ship that could keep it active for any length of time, the Thunderbolt provides a sudden burst of speed worthy of its namesake to all but the largest ships."
+	description "Unlike other Shirni engines, which are designed to operate in every concievable circumstance, the Thunderbolt-Type is designed to allow for a brief burst of speed, in order to escape from a losing battle that would otherwise prove fatal."
+	
+outfit "Shirni License"
+	category "Special"
+	thumbnail "outfit/navy license"
+	description "This license indicates that the Shirni trust you with their civillian technology, such as their generators and engines, and with unarmed models of some of their smaller ships."

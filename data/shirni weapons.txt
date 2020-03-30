@@ -1,0 +1,213 @@
+# Copyright (c) 2020 by Alex di Giovanni
+#
+# Endless Sky is free software: you can redistribute it and/or modify it under the
+# terms of the GNU General Public License as published by the Free Software
+# Foundation, either version 3 of the License, or (at your option) any later version.
+#
+# Endless Sky is distributed in the hope that it will be useful, but WITHOUT ANY
+# WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A
+# PARTICULAR PURPOSE.  See the GNU General Public License for more details.
+
+outfit "Energy Burst Cannon"
+	category "Guns"
+	licenses
+		"Shirni Military"
+	cost 113000
+	thumbnail "outfit/blaster"
+	"mass" 9
+	"outfit space" -9
+	"weapon capacity" -9
+	"gun ports" -1
+	"energy capacity" 45
+	weapon
+		sprite "projectile/burstcannon"
+		sound "blaster"
+		"hit effect" "skylance impact"
+		"inaccuracy" 1
+		"velocity" 12
+		"lifetime" 53
+		"reload" 16
+		"firing energy" 8
+		"firing heat" 15
+		"shield damage" 23
+		"hull damage" 15
+	description "This is the Shirni equivalent of an energy blaster - a small weapon, capable of being equipped on their smallest ships. Until relatively recently, it was the only weapon the Shirni produced in large quantities."
+	
+outfit "Energy Burst Turret"
+	category "Turrets"
+	licenses
+		"Shirni Military"
+	cost 271000
+	thumbnail "outfit/blaster turret"
+	"mass" 12
+	"outfit space" -12
+	"weapon capacity" -12
+	"required crew" 1
+	"turret mounts" -1
+	"energy capacity" 60
+	weapon
+		sprite "projectile/burstcannon"
+		"hardpoint sprite" "hardpoint/blaster turret"
+		"hardpoint offset" 9.
+		sound "blaster"
+		"hit effect" "skylance impact"
+		"inaccuracy" 1
+		"turret turn" 6.55
+		"velocity" 12
+		"lifetime" 53
+		"reload" 16
+		"firing energy" 8
+		"firing heat" 15
+		"shield damage" 23
+		"hull damage" 15
+	description "This turret may not be the most damaging, but it is excellent at tracking fast-moving targets."	
+	
+outfit "Terminator Beam"
+	category "Turrets"
+	licenses
+		"Shirni Military"
+	cost 2943000
+	thumbnail "outfit/heavy laser turret"
+	"mass" 41
+	"outfit space" -41
+	"weapon capacity" -41
+	"required crew" 1
+	"turret mounts" -1
+	"energy capacity" 205
+	weapon
+		sprite "projectile/raybeam"
+		"hardpoint sprite" "hardpoint/blaster turret"
+		"hardpoint offset" 9.
+		sound "zapper"
+		"hit effect" "electron impact"
+		"inaccuracy" .01
+		"turret turn" 1.6
+		"velocity" 500
+		"lifetime" 1
+		"burst reload" 1
+		"burst count" 30
+		"reload" 3
+		"firing energy" 24.7
+		"firing heat" 21
+		"shield damage" 16.3
+		"hull damage" 14.9
+	description "This turret was designed based on observations of the Quargs' skylances. Although it is much less powerful, and its inner workings are entirely different, it does nonetheless bear at least some resemblance."
+	
+outfit "Heavy Terminator Beam"
+	category "Turrets"
+	licenses
+		"Shirni Military"
+	cost 6597000
+	thumbnail "outfit/heavy laser turret"
+	"mass" 96
+	"outfit space" -96
+	"weapon capacity" -75
+	"required crew" 1
+	"turret mounts" -1
+	"energy capacity" 480
+	weapon
+		sprite "projectile/raybeam"
+		"hardpoint sprite" "hardpoint/blaster turret"
+		"hardpoint offset" 9.
+		sound "zapper"
+		"hit effect" "electron impact"
+		"inaccuracy" .01
+		"turret turn" 1.1
+		"velocity" 500
+		"lifetime" 1
+		"reload" 1
+		"firing energy" 24.7
+		"firing heat" 21
+		"shield damage" 16.3
+		"hull damage" 14.9
+	description "This turret is a terminator beam redesigned to be active constantly, rather than in short bursts. The extra hardware for allowing this takes up even more space than the weapon itself, though not all of it needs to be installed in the weapons section of your ship."
+	
+outfit "Plasma Rocket"
+	category "Ammunition"
+	licenses
+		"Shirni Military"
+	cost 250
+	thumbnail "outfit/meteor"
+	"mass" .5
+	"plasma rocket capacity" -1
+	description "A Plasma Rocket serves as ammunition for the Plasma Rocket Launcher. Each missile launcher has the capacity for 30 missiles; you cannot install missiles if you have not first purchased a launcher to store them in."
+
+outfit "Plasma Rocket Storage"
+	category "Ammunition"
+	licenses
+		"Shirni Military"
+	cost 29000
+	thumbnail "outfit/meteor storage"
+	"mass" 3
+	"outfit space" -8
+	"plasma rocket capacity" 10
+	"energy capacity" 40
+	ammo "Plasma Rocket"
+	description "The Plasma Rocket Storage is used to store extra ammunition for Plasma Rocket Launchers."
+
+outfit "Plasma Rocket Launcher"
+	category "Secondary Weapons"
+	licenses
+		"Shirni Military"
+	cost 530000
+	thumbnail "outfit/meteor launcher"
+	"mass" 20
+	"outfit space" -35
+	"weapon capacity" -35
+	"gun ports" -1
+	"plasma rocket capacity" 30
+	"energy capacity" 175
+	weapon
+		sprite "projectile/javelin"
+		sound "meteor"
+		ammo "Plasma Rocket"
+		icon "icon/meteor"
+		"fire effect" "meteor fire"
+		"die effect" "missile death"
+		"hit effect" "missile hit"
+		"inaccuracy" 20
+		"velocity" 30
+		"lifetime" 150
+		"burst reload" 3
+		"burst count" 5
+		"reload" 75
+		"firing energy" .1
+		"firing heat" 7.3
+		"acceleration" 1.9
+		"drag" .08
+		"turn" 2.0
+		"homing" 3
+		"radar tracking" .5
+		"shield damage" 117
+		"hull damage" 63
+		"heat damage" 243
+		"missile strength" 3
+	description "Plasma Rockets are a deadly weapon against any target. Although they are only capable of rudimentary homing, their sheer numbers and burst fire allow them to deal impressive damage even to targets with powerful anti-missile systems."
+
+outfit "Anti-missile Beam"
+	category "Turrets"
+	licenses
+		"Shirni Military"
+	cost 403000
+	thumbnail "outfit/laser turret"
+	"mass" 23
+	"outfit space" -23
+	"weapon capacity" -23
+	"turret mounts" -1
+	"energy capacity" 115
+	weapon
+		"hardpoint sprite" "hardpoint/wanderer anti-missile"
+		"hardpoint offset" 6.
+		sound "laser"
+		"hit effect" "anti-missile beam"
+		"anti-missile" 2
+		"velocity" 300
+		"lifetime" 1
+		"reload" 1
+		"firing energy" 3
+		"firing heat" 4
+
+effect "anti-missile beam"
+	sprite "effect/anti-missile beam"
+	"lifetime" 1
+	"velocity scale" 1

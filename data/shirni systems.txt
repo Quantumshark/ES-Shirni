@@ -1,0 +1,1348 @@
+# Copyright (c) 2020 by Alex di Giovanni
+#
+# Endless Sky is free software: you can redistribute it and/or modify it under the
+# terms of the GNU General Public License as published by the Free Software
+# Foundation, either version 3 of the License, or (at your option) any later version.
+#
+# Endless Sky is distributed in the hope that it will be useful, but WITHOUT ANY
+# WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A
+# PARTICULAR PURPOSE.  See the GNU General Public License for more details.
+
+system Akutal
+	pos -500.169 -459.83
+	government Shirni
+	habitable 1948.28
+	link Ikulai
+	link Takudi
+	link Kikuden
+	link Xukudae
+	asteroids "large metal" 1 3.6608
+	trade Clothing 276
+	trade Electronics 832
+	trade Equipment 768
+	trade Food 415
+	trade "Heavy Metals" 848
+	trade Industrial 871
+	trade "Luxury Goods" 1252
+	trade Medical 838
+	trade Metal 344
+	trade Plastic 403
+	fleet "shirni scout" 700
+	object
+		sprite star/f5
+		distance 14.8473
+		period 12.5132
+		offset 180
+	object
+		sprite star/m4
+		distance 109.153
+		period 12.5132
+	object
+		sprite planet/gas15
+		distance 655.313
+		period 152.022
+		object
+			sprite planet/europa
+			distance 208
+			period 15.7904
+		object
+			sprite planet/rock14
+			distance 363
+			period 36.4047
+		object
+			sprite planet/dust0
+			distance 450
+			period 50.2477
+	object
+		sprite planet/gas4
+		distance 1363.15
+		period 456.091
+	object
+		sprite planet/gas16
+		distance 2038.99
+		period 834.368
+		object Zokaderi
+			sprite planet/ocean5
+			distance 310
+			period 29
+
+system Bikutaqi
+	pos -717.589 -526.109
+	government Shirni
+	habitable 1080
+	link Gikudap
+	link Qekudat
+	link Vekuyat
+	asteroids "medium rock" 61 4.158
+	asteroids "large rock" 2 8.7318
+	asteroids "small metal" 3 7.0686
+	asteroids "medium metal" 101 3.0294
+	asteroids "large metal" 2 5.7618
+	trade Clothing 266
+	trade Electronics 819
+	trade Equipment 689
+	trade Food 366
+	trade "Heavy Metals" 861
+	trade Industrial 767
+	trade "Luxury Goods" 1200
+	trade Medical 799
+	trade Metal 383
+	trade Plastic 429
+	fleet "shirni scout" 400
+	fleet Quarg 1100
+	object
+		sprite star/g0
+		period 10
+	object
+		sprite planet/lava2
+		distance 166
+		period 26.0322
+	object
+		sprite planet/desert7
+		distance 549.04
+		period 156.586
+	object
+		sprite planet/gas9
+		distance 1239.29
+		period 531.016
+		object Ziderali
+			sprite planet/europa
+			distance 216
+			period 11.9034
+		object Shipoderni
+			sprite planet/forest3
+			distance 342
+			period 23.7154
+		object Chizoki
+			sprite planet/rock17
+			distance 438
+			period 34.3717
+	object
+		sprite planet/gas17
+		distance 2898.13
+		period 1899
+		object
+			sprite planet/io
+			distance 231
+			period 15
+		object
+			sprite planet/rock0
+			distance 333
+			period 25.9621
+
+system Bokulat
+	pos -357.242 -457.356
+	government Shirni
+	habitable 436.68
+	link Takudi
+	link Ikulai
+	asteroids "large rock" 2 3.078
+	asteroids "small metal" 9 2.6676
+	asteroids "medium metal" 8 4.275
+	asteroids "large metal" 1 2.1204
+	trade Clothing 276
+	trade Electronics 793
+	trade Equipment 689
+	trade Food 389
+	trade "Heavy Metals" 874
+	trade Industrial 793
+	trade "Luxury Goods" 1252
+	trade Medical 799
+	trade Metal 344
+	trade Plastic 390
+	fleet "shirni scout" 2000
+	object
+		sprite star/k0
+		period 10
+	object
+		sprite planet/mars
+		distance 145.01
+		period 31.6618
+	object Lizorati
+		sprite planet/dust0
+		distance 331.01
+		period 99.4489
+	object
+		sprite planet/gas15
+		distance 875.01
+		period 469.308
+		object
+			sprite planet/ice7
+			distance 237
+			period 19.2052
+		object
+			sprite planet/dust4
+			distance 344
+			period 33.5842
+	object
+		sprite planet/rock14
+		distance 1375.5
+		period 924.973
+	object
+		sprite planet/gas6
+		distance 2315.5
+		period 2020.25
+		object
+			sprite planet/rock7
+			distance 283
+			period 12.1603
+
+system Dakutlak
+	pos -828.829 -594.097
+	government Shirni
+	habitable 1715
+	link Vekuyat
+	link Ekubakto
+	link Kukutob
+	link Ukudotok
+	asteroids "large metal" 1 8.37
+	trade Clothing 250
+	trade Electronics 780
+	trade Equipment 650
+	trade Food 350
+	trade "Heavy Metals" 900
+	trade Industrial 780
+	trade "Luxury Goods" 1200
+	trade Medical 760
+	trade Metal 370
+	trade Plastic 390
+	fleet "shirni scout" 3000
+	object
+		sprite star/f5
+		period 10
+	object
+		sprite planet/ice6
+		distance 219.29
+		period 31.3658
+	object
+		sprite planet/europa
+		distance 440.9
+		period 89.4207
+	object
+		sprite planet/rock5
+		distance 582.15
+		period 135.669
+	object
+		sprite planet/venus
+		distance 1372.4
+		period 491.076
+	object
+		sprite planet/gas11
+		distance 2077.44
+		period 914.578
+
+system Dekurex
+	pos -621.651 -537.36
+	government Shirni
+	habitable 1080
+	link Xukudae
+	link Vakubo
+	link Vokutva
+	asteroids "small rock" 4 6.4583
+	asteroids "medium rock" 1 5.2258
+	asteroids "large rock" 34 6.3104
+	asteroids "small metal" 24 3.2045
+	asteroids "medium metal" 39 6.7048
+	asteroids "large metal" 16 4.5849
+	trade Clothing 221
+	trade Electronics 826
+	trade Equipment 728
+	trade Food 350
+	trade "Heavy Metals" 900
+	trade Industrial 845
+	trade "Luxury Goods" 1174
+	trade Medical 773
+	trade Metal 396
+	trade Plastic 403
+	fleet "shirni scout" 800
+	fleet Quarg 1600
+	object
+		sprite star/g0
+		period 10
+	object
+		sprite planet/desert5
+		distance 162
+		period 25.0969
+	object
+		sprite planet/rock18
+		distance 508.09
+		period 139.399
+		object
+			sprite planet/oberon
+			distance 158
+			period 24.966
+	object
+		sprite planet/gas3
+		distance 1423.9
+		period 653.984
+		object
+			sprite planet/io
+			distance 265
+			period 11.0188
+		object
+			sprite planet/dust0
+			distance 399
+			period 20.3575
+	object
+		sprite planet/gas12
+		distance 2917.66
+		period 1918.23
+		object Rikuzari
+			sprite planet/ice7
+			distance 318
+			period 14.8945
+		object
+			sprite planet/luna
+			distance 468
+			period 26.5922
+
+system Ekubakto
+	pos -845.829 -526.097
+	government Shirni
+	habitable 625
+	link Vekuyat
+	link Dakutlak
+	asteroids "large metal" 1 6.05
+	trade Clothing 250
+	trade Electronics 780
+	trade Equipment 650
+	trade Food 350
+	trade "Heavy Metals" 900
+	trade Industrial 780
+	trade "Luxury Goods" 1200
+	trade Medical 760
+	trade Metal 370
+	trade Plastic 390
+	fleet "shirni scout" 3300
+	object
+		sprite star/wr
+		period 10
+	object
+		sprite planet/rock5
+		distance 451.61
+		period 123.046
+	object
+		sprite planet/gas14
+		distance 1320.3
+		period 615.081
+		object
+			sprite planet/dust3
+			distance 250
+			period 16.0979
+		object
+			sprite planet/dust4
+			distance 367
+			period 28.6324
+	object
+		sprite planet/gas0
+		distance 2577.55
+		period 1677.78
+
+system Gikudap
+	pos -673.383 -549.546
+	government Shirni
+	habitable 2035
+	link Vokutva
+	link Bikutaqi
+	asteroids "small rock" 1 2.0196
+	asteroids "medium rock" 1 1.2903
+	asteroids "large rock" 2 1.1594
+	asteroids "medium metal" 95 1.496
+	asteroids "large metal" 6 1.7017
+	trade Clothing 237
+	trade Electronics 819
+	trade Equipment 689
+	trade Food 350
+	trade "Heavy Metals" 926
+	trade Industrial 754
+	trade "Luxury Goods" 1187
+	trade Medical 812
+	trade Metal 370
+	trade Plastic 390
+	fleet "shirni scout" 900
+	fleet Quarg 1500
+	object
+		sprite star/f5
+		distance 18.398
+		period 11.2216
+	object
+		sprite star/m0
+		distance 98.602
+		period 11.2216
+		offset 180
+	object
+		sprite planet/desert10
+		distance 305.012
+		period 47.2338
+	object
+		sprite planet/rock18
+		distance 823.652
+		period 209.601
+		object
+			sprite planet/io
+			distance 145
+			period 21.949
+	object
+		sprite planet/gas15
+		distance 1618.49
+		period 577.356
+		object
+			sprite planet/luna
+			distance 209
+			period 15.9044
+	object
+		sprite planet/gas8
+		distance 2441.73
+		period 1069.85
+		object
+			sprite planet/callisto
+			distance 223
+			period 17.727
+		object Kozarna
+			sprite planet/dust3
+			distance 371
+			period 38.0398
+		object
+			sprite planet/ice8
+			distance 479
+			period 55.8059
+
+system Ikulai
+	pos -419.038 -410.433
+	government Shirni
+	habitable 486.68
+	link Takudi
+	link Akutal
+	link Bokulat
+	asteroids "large metal" 1 4.77
+	trade Clothing 250
+	trade Electronics 795
+	trade Equipment 702
+	trade Food 402
+	trade "Heavy Metals" 861
+	trade Industrial 793
+	trade "Luxury Goods" 1239
+	trade Medical 799
+	trade Metal 344
+	trade Plastic 390
+	fleet "shirni scout" 1200
+	object
+		sprite star/k0
+		period 10
+	object
+		sprite planet/dust6
+		distance 212.81
+		period 56.2894
+	object Vuzotarne
+		sprite planet/ice4
+		distance 417.85
+		period 154.871
+	object
+		sprite planet/gas16
+		distance 704.94
+		period 339.365
+	object
+		sprite planet/rock15
+		distance 1652.5
+		period 1218.01
+	object
+		sprite planet/gas10
+		distance 2147.74
+		period 1804.72
+		object
+			sprite planet/europa
+			distance 184
+			period 13.1378
+
+system Kakuyal
+	pos -729.351 -433.542
+	government Shirni
+	habitable 625
+	link Vakubo
+	link Quku'ar
+	link Qekudat
+	asteroids "small rock" 7 1.5936
+	asteroids "medium rock" 20 1.4592
+	asteroids "large rock" 16 1.2096
+	asteroids "medium metal" 11 2.3424
+	asteroids "large metal" 1 1.5168
+	trade Clothing 250
+	trade Electronics 780
+	trade Equipment 650
+	trade Food 350
+	trade "Heavy Metals" 900
+	trade Industrial 780
+	trade "Luxury Goods" 1200
+	trade Medical 760
+	trade Metal 370
+	trade Plastic 390
+	fleet Quarg 800
+	fleet "shirni scout" 2000
+	object
+		sprite star/g5
+		period 10
+	object
+		sprite planet/gas12
+		distance 532.41
+		period 196.557
+		object
+			sprite planet/tethys
+			distance 290
+			period 12.9713
+		object Quzo'ar
+			sprite planet/dust3
+			distance 411
+			period 21.8851
+	object
+		sprite planet/gas0
+		distance 1398.22
+		period 836.533
+		object
+			sprite planet/oberon
+			distance 252
+			period 11.7235
+	object
+		sprite planet/gas2
+		distance 2612.22
+		period 2136.16
+		object
+			sprite planet/rock14
+			distance 218
+			period 19.5029
+		object
+			sprite planet/dust5
+			distance 389
+			period 46.4878
+		object
+			sprite planet/ice0
+			distance 486
+			period 64.9186
+
+system Kikuden
+	pos -546.477 -374.81
+	government Shirni
+	habitable 320
+	link Akutal
+	asteroids "medium rock" 28 4.284
+	asteroids "large rock" 1 5.208
+	asteroids "small metal" 50 5.628
+	asteroids "medium metal" 14 4.536
+	asteroids "large metal" 20 3.234
+	trade Clothing 250
+	trade Electronics 780
+	trade Equipment 650
+	trade Food 350
+	trade "Heavy Metals" 900
+	trade Industrial 780
+	trade "Luxury Goods" 1200
+	trade Medical 760
+	trade Metal 370
+	trade Plastic 390
+	fleet "shirni scout" 1200
+	object
+		sprite star/m0
+		period 10
+	object
+		sprite planet/fog0
+		distance 332.36
+		period 135.487
+		object
+			sprite planet/desert4
+			distance 198
+			period 20.5531
+	object
+		sprite planet/neptune
+		distance 1168.97
+		period 893.696
+		object
+			sprite planet/rhea
+			distance 223
+			period 16.5916
+		object
+			sprite planet/rock3
+			distance 377
+			period 36.4707
+	object
+		sprite planet/lava5
+		distance 1873.21
+		period 1812.86
+	object
+		sprite planet/gas11
+		distance 2441.17
+		period 2697.01
+
+system Kukutob
+	pos -756.829 -645.097
+	government Shirni
+	habitable 3780
+	link Dakutlak
+	asteroids "medium rock" 17 2.21
+	asteroids "large rock" 11 3.5275
+	asteroids "small metal" 14 5.0575
+	asteroids "medium metal" 11 5.95
+	asteroids "large metal" 8 5.355
+	trade Clothing 250
+	trade Electronics 780
+	trade Equipment 650
+	trade Food 350
+	trade "Heavy Metals" 900
+	trade Industrial 780
+	trade "Luxury Goods" 1200
+	trade Medical 760
+	trade Metal 370
+	trade Plastic 390
+	fleet "shirni scout" 8000
+	object
+		sprite star/giant
+		period 10
+		offset 180
+	object
+		sprite planet/fog0
+		distance 490.833
+		period 70.7481
+		object
+			sprite planet/callisto
+			distance 177
+			period 17.3716
+	object
+		sprite planet/uranus
+		distance 1321.39
+		period 312.509
+		object
+			sprite planet/dust4
+			distance 253
+			period 17.1931
+		object
+			sprite planet/io
+			distance 350
+			period 27.9753
+		object
+			sprite planet/europa
+			distance 514
+			period 49.7872
+	object
+		sprite planet/gas17
+		distance 2664.88
+		period 895.017
+		object
+			sprite planet/dust1
+			distance 229
+			period 14.8056
+		object
+			sprite planet/dust5
+			distance 329
+			period 25.4957
+
+system Lyikta
+	pos -596.257 -455.778
+	government "Pug (Shirni)"
+	habitable 1111.68
+	asteroids "small rock" 6 6.3936
+	asteroids "large rock" 1 4.5792
+	asteroids "large metal" 1 2.2896
+	object
+		sprite star/g5
+		distance 39.8387
+		period 10.4144
+	object
+		sprite star/k0
+		distance 51.1613
+		period 10.4144
+		offset 180
+	object
+		sprite planet/rock11
+		distance 269.411
+		period 53.051
+	object
+		sprite planet/io
+		distance 465.171
+		period 120.362
+	object
+		sprite planet/gas15
+		distance 1222.93
+		period 513.066
+		object
+			sprite planet/rock0
+			distance 230
+			period 18.3607
+		object
+			sprite planet/rock17
+			distance 313
+			period 29.1483
+		object
+			sprite planet/ice8
+			distance 425
+			period 46.1191
+		object
+			sprite planet/lava0
+			distance 618
+			period 80.8686
+	object
+		sprite planet/gas14
+		distance 2120.02
+		period 1171.06
+
+system Pakutla
+	pos -578.157 -565.837
+	government Shirni
+	habitable 625
+	link Vokutva
+	link Xukudae
+	asteroids "small rock" 8 4.968
+	asteroids "medium rock" 16 4.14
+	asteroids "large rock" 7 4.68
+	asteroids "small metal" 3 3.024
+	asteroids "medium metal" 62 5.076
+	asteroids "large metal" 1 2.376
+	trade Clothing 250
+	trade Electronics 832
+	trade Equipment 705
+	trade Food 363
+	trade "Heavy Metals" 864
+	trade Industrial 821
+	trade "Luxury Goods" 1184
+	trade Medical 812
+	trade Metal 396
+	trade Plastic 377
+	fleet "shirni scout" 2400
+	object
+		sprite star/g5
+		period 10
+	object
+		sprite planet/ice2
+		distance 158.41
+		period 31.9002
+	object Bakudara
+		sprite planet/desert2
+		distance 364.41
+		period 111.303
+	object
+		sprite planet/gas15
+		distance 1348.77
+		period 792.55
+		object
+			sprite planet/rock3
+			distance 184
+			period 13.1378
+		object
+			sprite planet/ice8
+			distance 269
+			period 23.2234
+		object
+			sprite planet/dust1
+			distance 403
+			period 42.5848
+		object
+			sprite planet/rock0
+			distance 573
+			period 72.1987
+	object
+		sprite planet/gas13
+		distance 2691.38
+		period 2234
+
+system Qekudat
+	pos -737.37 -485.919
+	government Shirni
+	habitable 625
+	link Kakuyal
+	link Bikutaqi
+	link Vekuyat
+	asteroids "medium rock" 27 7.917
+	asteroids "small metal" 4 11.31
+	asteroids "medium metal" 61 6.09
+	trade Clothing 250
+	trade Electronics 806
+	trade Equipment 702
+	trade Food 324
+	trade "Heavy Metals" 874
+	trade Industrial 780
+	trade "Luxury Goods" 1226
+	trade Medical 773
+	trade Metal 370
+	trade Plastic 429
+	fleet "shirni scout" 1100
+	fleet Quarg 1100
+	object
+		sprite star/g5
+		period 10
+	object
+		sprite planet/gas7
+		distance 458.01
+		period 156.831
+		object
+			sprite planet/desert4
+			distance 252
+			period 14.2309
+	object Xidera
+		sprite planet/cloud4
+		distance 892.42
+		period 426.554
+	object
+		sprite planet/lava1
+		distance 1096.66
+		period 581.069
+	object
+		sprite planet/mars
+		distance 1691.91
+		period 1113.49
+	object
+		sprite planet/uranus
+		distance 2822.95
+		period 2399.8
+		object
+			sprite planet/ice0
+			distance 207
+			period 12.7242
+		object
+			sprite planet/ice7
+			distance 347
+			period 27.6164
+
+system Quku'ar
+	pos -786.367 -411.709
+	government Quarg
+	habitable 700
+	link Kakuyal
+	asteroids "small rock" 12 3.876
+	asteroids "small metal" 27 3.4272
+	trade Clothing 237
+	trade Electronics 780
+	trade Equipment 663
+	trade Food 337
+	trade "Heavy Metals" 900
+	trade Industrial 780
+	trade "Luxury Goods" 1200
+	trade Medical 760
+	trade Metal 370
+	trade Plastic 403
+	fleet Quarg 750
+	fleet "shirni scout" 4000
+	object
+		sprite star/g5
+		period 10
+	object
+		sprite planet/lava5-b
+		distance 812
+		period 360
+	object
+		sprite "planet/ringworld left"
+		distance 812
+		period 360
+		offset -30
+	object Quta'ar
+		sprite planet/ringworld
+		distance 812
+		period 360
+		offset -50
+	object
+		sprite "planet/ringworld right"
+		distance 812
+		period 360
+		offset -70
+	object
+		sprite "planet/ringworld left"
+		distance 812
+		period 360
+		offset -90
+	object
+		sprite "planet/ringworld right"
+		distance 812
+		period 360
+		offset -110
+	object
+		sprite "planet/ringworld right"
+		distance 812
+		period 360
+		offset 40
+	object Quta'ar
+		sprite planet/ringworld
+		distance 812
+		period 360
+		offset 60
+	object Quta'ar
+		sprite planet/ringworld
+		distance 812
+		period 360
+		offset 80
+	object
+		sprite "planet/ringworld left"
+		distance 812
+		period 360
+		offset 100
+
+system Takudi
+	pos -427.267 -490.797
+	government Shirni
+	habitable 425.92
+	link Ikulai
+	link Akutal
+	link Bokulat
+	asteroids "small rock" 63 3.402
+	asteroids "medium rock" 35 2.709
+	asteroids "large rock" 18 4.3785
+	asteroids "medium metal" 4 4.095
+	asteroids "large metal" 1 2.142
+	trade Clothing 289
+	trade Electronics 793
+	trade Equipment 715
+	trade Food 389
+	trade "Heavy Metals" 848
+	trade Industrial 819
+	trade "Luxury Goods" 1239
+	trade Medical 812
+	trade Metal 341
+	trade Plastic 390
+	fleet "shirni scout" 900
+	object
+		sprite star/k5
+		period 10
+	object
+		sprite planet/rock6
+		distance 190.56
+		period 50.9851
+	object Docitari
+		sprite planet/rock12
+		distance 400.72
+		period 155.474
+	object
+		sprite planet/desert7
+		distance 653.01
+		period 323.427
+	object
+		sprite planet/gas1
+		distance 1131.9
+		period 738.088
+		object
+			sprite planet/luna
+			distance 258
+			period 16.5632
+	object
+		sprite planet/gas8
+		distance 2153.79
+		period 1937.32
+
+system Ukudotok
+	pos -842.829 -684.097
+	government Shirni
+	habitable 1772.76
+	link Dakutlak
+	asteroids "large metal" 1 2.366
+	trade Clothing 250
+	trade Electronics 780
+	trade Equipment 689
+	trade Food 362
+	trade "Heavy Metals" 900
+	trade Industrial 819
+	trade "Luxury Goods" 1187
+	trade Medical 812
+	trade Metal 370
+	trade Plastic 390
+	fleet "shirni scout" 2000
+	object
+		sprite star/k0
+		period 10
+	object
+		sprite planet/ice5
+		distance 204.04
+		period 23.9335
+	object
+		sprite planet/cloud7
+		distance 602.48
+		period 121.436
+	object
+		sprite planet/lava6
+		distance 1044.17
+		period 277.07
+	object
+		sprite planet/uranus
+		distance 1962.38
+		period 713.851
+		object
+			sprite planet/rock17
+			distance 239
+			period 15.7859
+		object "Citoka Shibizi"
+			sprite planet/dust7
+			distance 330
+			period 25.612
+
+system Vakubo
+	pos -674.16 -494.713
+	government Shirni
+	habitable 806.68
+	link Dekurex
+	link Kakuyal
+	asteroids "small rock" 6 4.536
+	asteroids "medium rock" 54 4.956
+	asteroids "large rock" 3 5.208
+	asteroids "small metal" 1 3.864
+	asteroids "medium metal" 11 2.52
+	asteroids "large metal" 2 2.268
+	trade Clothing 211
+	trade Electronics 780
+	trade Equipment 689
+	trade Food 337
+	trade "Heavy Metals" 900
+	trade Industrial 806
+	trade "Luxury Goods" 1200
+	trade Medical 760
+	trade Metal 370
+	trade Plastic 426
+	fleet "shirni scout" 1200
+	fleet Quarg 1300
+	object
+		sprite star/k0
+		distance 38.8754
+		period 13.6631
+	object
+		sprite star/m0
+		distance 59.1246
+		period 13.6631
+		offset 180
+	object
+		sprite planet/titan
+		distance 186.015
+		period 35.7297
+	object
+		sprite planet/desert4
+		distance 464.625
+		period 141.047
+	object Tazarna
+		sprite planet/ocean2
+		distance 664.785
+		period 241.396
+	object
+		sprite planet/desert8
+		distance 1174.27
+		period 566.714
+		object
+			sprite planet/rock7
+			distance 127
+			period 18.3575
+	object
+		sprite planet/gas13
+		distance 1939.71
+		period 1203.14
+
+system Vekuyat
+	pos -787.829 -549.097
+	government Shirni
+	habitable 1217.76
+	link Bikutaqi
+	link Qekudat
+	link Dakutlak
+	link Ekubakto
+	asteroids "large metal" 1 2.0636
+	trade Clothing 263
+	trade Electronics 806
+	trade Equipment 702
+	trade Food 376
+	trade "Heavy Metals" 900
+	trade Industrial 793
+	trade "Luxury Goods" 1187
+	trade Medical 825
+	trade Metal 370
+	trade Plastic 416
+	fleet "shirni scout" 650
+	fleet Quarg 1200
+	object
+		sprite star/g0-old
+		distance 27.9375
+		period 11.3323
+		offset 180
+	object
+		sprite star/g5
+		distance 106.062
+		period 11.3323
+	object
+		sprite planet/desert2
+		distance 337.752
+		period 45.3481
+	object
+		sprite planet/cloud3
+		distance 565.192
+		period 98.1649
+	object
+		sprite planet/lava1
+		distance 831.192
+		period 175.071
+	object Shibirni
+		sprite planet/cloud3-b
+		distance 1162.55
+		period 289.588
+		object
+			sprite planet/dust4
+			distance 186
+			period 23.8595
+	object
+		sprite planet/gas1
+		distance 4274.84
+		period 2041.93
+		object
+			sprite planet/ice7
+			distance 260
+			period 16.7562
+		object
+			sprite planet/dust1
+			distance 400
+			period 31.9746
+		object
+			sprite planet/ice8
+			distance 560
+			period 52.9661
+
+system Vokutva
+	pos -599.144 -609.092
+	government Shirni
+	habitable 486.68
+	link Pakutla
+	link Gikudap
+	link Dekurex
+	asteroids "small rock" 13 2.4592
+	asteroids "large rock" 83 6.5888
+	asteroids "medium metal" 15 4.176
+	asteroids "large metal" 2 5.568
+	trade Clothing 250
+	trade Electronics 806
+	trade Equipment 702
+	trade Food 350
+	trade "Heavy Metals" 926
+	trade Industrial 806
+	trade "Luxury Goods" 1161
+	trade Medical 773
+	trade Metal 409
+	trade Plastic 351
+	fleet "shirni scout" 500
+	fleet Quarg 1600
+	object
+		sprite star/k0
+		period 10
+	object Cipodeku
+		sprite planet/desert6
+		distance 161.61
+		period 37.2512
+	object
+		sprite planet/gas7
+		distance 692.7
+		period 330.564
+		object Kutaze
+			sprite planet/dust1
+			distance 241
+			period 13.3093
+		object
+			sprite planet/lava0
+			distance 348
+			period 23.094
+	object
+		sprite planet/lava6
+		distance 1196.95
+		period 750.848
+	object
+		sprite planet/rock5
+		distance 1638.51
+		period 1202.57
+	object
+		sprite planet/neptune
+		distance 4491.07
+		period 5457.11
+		object
+			sprite planet/callisto
+			distance 215
+			period 15.7069
+		object
+			sprite planet/desert4
+			distance 374
+			period 36.0362
+		object
+			sprite planet/dust5
+			distance 524
+			period 59.7625
+
+system Xukudae
+	pos -535.63 -520.02
+	government Shirni
+	habitable 210
+	link Dekurex
+	link Akutal
+	link Pakutla
+	asteroids "small rock" 9 4.752
+	asteroids "medium rock" 20 7.344
+	asteroids "large rock" 17 7.344
+	asteroids "small metal" 1 4.248
+	asteroids "large metal" 10 9.792
+	trade Clothing 263
+	trade Electronics 832
+	trade Equipment 790
+	trade Food 363
+	trade "Heavy Metals" 861
+	trade Industrial 897
+	trade "Luxury Goods" 1213
+	trade Medical 812
+	trade Metal 370
+	trade Plastic 377
+	fleet "shirni scout" 1600
+	object
+		sprite star/m8
+		period 10
+	object
+		sprite planet/dust5-b
+		distance 121.25
+		period 25.8773
+	object Atokiza
+		sprite planet/ice7
+		distance 296.41
+		period 98.9089
+	object
+		sprite planet/fog0
+		distance 898.5
+		period 522.003
+	object
+		sprite planet/gas16
+		distance 2125.86
+		period 1899.76
+
+planet Atokiza
+	attributes shirni
+	landscape land/snow5
+	description `Atokiza's surface is covered in a layer of ice and snow. Beneath this layer, however, is a vast ocean kept liquid by the radioactive decay of the unusually high concentration of radioisotopes in the planet's core.`
+	description `	A massive station, located on what would be a small island if the ocean were not frozen over, pumps up material from the planet's core and filters out fissile isotopes.`
+	spaceport `With the exception of the landing pads, the entire spaceport here is built underneath the ice. Huge windows provide a view of the clear, empty ocean as it stretches endlessly in every direction.`
+	outfitter "Shirni Basics"
+
+planet Bakudara
+	attributes shirni
+	landscape land/forest3
+	description `The jungles of Bakudara are full of some of the most terrifying organisms you have ever seen. The apex predators appear to be many-legged flying invertebrates the size of a fighter and massive burrowing mole-like organisms that produce huge mountains when they emerge.`
+	description `	The Shirni use this planet as a test site for their starships' weaponry. Every now and then one of the massive flying beasts gets too close to one of the test sites and must be scared off with a flight of plasma rockets.`
+	spaceport `The Shirni here all appear to be weapons engineers. A sizable crowd of them are staring at the weapons on your ship, perhaps hoping to discover how they work.`
+	outfitter "Shirni Weapons"
+	outfitter "Shirni Basics"
+	"required reputation" 5
+
+planet Chizoki
+	attributes shirni arid
+	landscape land/badlands0
+	description `Chizoki is home to the oldest remaining Shirni colony outside their homeworld. When the Shirni first reached this planet, they were amazed to find that life was already present here and a full-scale colonisation effort began.`
+	spaceport `Sections of the architecture of the spaceport resemble some of the older buildings on the Shirni's nearby homeworld. The spaceport, as with most Shirni spaceports, has far fewer shops than the majority of human spaceports and a huge variety of restaurants.`
+	outfitter "Shirni Minimal"
+
+planet Cipodeku
+	attributes shirni factory urban arid
+	landscape land/nasa2
+	description `This is a factory world, where electronics and industrial equipment are produced for the whole of Shirni space. The atmosphere is unbreathable, full of smoke and fumes, and the ocean is highly acidic and has turned a sickly green colour.`
+	description `	Huge aerial vehicles covered in solar panels float through the upper atmosphere, powered by the searingly bright sunlight that scorches the planet. Every so often, one of these vehicles lands to transfer its battery power to one of the factories below.`
+	spaceport `To enter the spaceport, your ship has to pass through a triple airlock. You can see the air brought in with you mixing with the clear air in the first chamber, before it is filtered out in the second.`
+	spaceport ` The spaceport itself is brightly coloured and full of vibrant plant life, in stark contrast with the rest of this planet.`
+	outfitter "Shirni Minimal"
+	"required reputation" 5
+
+planet "Citoka Shibizi"
+	attributes shirni
+	landscape land/snow2
+	description `This frozen moon, orbiting a gas giant in a dead-end system distant from any other civilisation, is home to a vast underground complex of cryogenic preservation cells. The cells are configured to release a contingent of twenty thousand Shirni every fourty years, as a measure to prevent the extinction of their species. The Shirni in the cells are all volunteers, chosen to ensure that each contingent has enough of a variety of skills to rebuild their entire society.`
+	spaceport `The workers here refuel your ship, but it is clear you are not permitted to leave it. There are galleries of carefully maintained ships here, specially prepared for the Shirni in cryogenic storage.`
+	"required reputation" 1000
+
+planet Docitari
+	attributes shirni urban arid
+	landscape land/city4
+	description `This planet is the most populous in all of Shirni space, home to almost twice earth's population. The planet has huge underground caverns, which have been converted into additional urban areas complete with artificial sky on the ceilings to prevent claustrophobia. The primary industries on this planet are mining and software development.`
+	spaceport `There are two spaceports on this planet. One of them is huge, established as a cargo port for transporting metals around Shirni space. The other, the spaceport you are permitted to visit, is almost empty, with robots and digital displays performing the roles of most of the staff.`
+	outfitter "Shirni Basics"
+
+planet Kozarna
+	attributes shirni arid
+	landscape land/dune0
+	description `Despite the slightly arid climate, Kozarna is a heavily populated planet. When the Shirni first arrived here they found huge reserves of oil, which are now exhausted. Instead of leaving the planet, the Shirni converted it into a farming planet for various exotic foods.`
+	spaceport `The spaceports here are busier than any you have seen elsewhere in Shirni space. Upon closer inspection, you realise that the whole spaceport is serving as an enormous food market with a vast variety of exotic foodstuffs. Despite the alien nature of most of the food, you are eventually able to find something to your liking.`
+	outfitter "Shirni Basics"
+
+planet Kutaze
+	attributes shirni
+	landscape land/dmottl4
+	description `Kutaze is an idyllic resort world. All workers, regardless of their position, on the nearby factory world of Cipodeku are entitled to one month each year of free vacation on Kutaze to make up for the factory world's oppressive environment.`
+	spaceport ` The spaceport seems to have been intentionally built much larger than necessary, in order to provide a more pleasant atmosphere. A variety of art adorns sections of the walls, and calming music plays quietly in the background.`
+
+planet Lizorati
+	attributes shirni arid
+	landscape land/hills1
+	description `Lizorati is a lifeless world, with no atmospheric oxygen and dry, dusty soil that blows away in the wind. The Shirni settlement here serves as a prison for the Alphas captured in their attempted invasion of Shirni space.`
+	spaceport `The spaceport is hundreds of miles away from the prison, with the only transport between the two in small vehicles which can easily be searched to prevent escape.`
+	"required reputation" 25
+
+planet Quta'ar
+	attributes quarg station
+	landscape land/station2
+	description `This Quarg ringworld is not much closer to being completed than the one in human space, with much of the difference being internal rather than in the segments of the ring. Unlike that ringworld, however, this one is inhabited. Based on the size of the completed sections of the ring, you estimate that it is home to tens of billions of Quarg.`
+	spaceport `The spaceport's architecture resembles the Quarg architecture you have seen elsewhere. There is evidence of some limited attempts to accommodate the Shirni, but they seem to have been given up on fairly shortly after the construction of the spaceport began.`
+	spaceport ` There are almost no Shirni here. It seems only a small portion of them are willing to visit this region.`
+	bribe 0
+	security 1
+
+planet Quzo'ar
+	attributes shirni
+	landscape land/badlands2
+	description `Were it not for its strategic location, no sane species would ever consider this tiny, sun-scorched desert moon a candidate for settlement. Sandstorms frequently blanket much of the surface, with only the tallest mountains still visible over the storm.`
+	description `	The only permanent settlement on this planet is a tiny outpost near the summit of one of the larger mountains created to monitor the Quarg, of whom the Shirni are highly suspicious. Most of the buildings here are underground, with the exceptions being massive arrays of sensors.`
+
+planet Rikuzari
+	attributes shirni
+	landscape land/water4
+	description `This moon is covered in a freshwater ocean, kept liquid by tidal forces from the gas giant it orbits. Rikuzari provides the drinking water for many of the more arid Shirni worlds, which is transported in specially modified freighters.`
+	spaceport `Your ship is extensively decontaminated in midair over the polar icecap before you are allowed to land. Once you land, your cargo and outfits are put through a similar procedure, as are you the moment you step off your ship. It seems the Shirni want to minimise the chance of alien pathogens entering their water supply.`
+	spaceport ` The spaceport facilities are fairly rudimentary apart from the massive pumps for loading water onto ships. Evidently this moon is not expected to recieve many visitors.`
+	"required reputation" 5
+
+planet Shibirni
+	attributes shirni urban
+	landscape land/city1
+	description `Shibirni was the first planet the Shirni reached outside their home system. The urban areas are all planned, with large skyscrapers abruptly giving way to idyllic countryside and streets forming a triangular grid.`
+	spaceport `There are two spaceports on this planet. The first is relatively small for the planet's population, having been designed when the planet was originally settled. The second is huge, easily as large as some cities in human space.`
+	outfitter "Shirni Advanced"
+
+planet Shipoderni
+	attributes shirni urban
+	landscape land/city12
+	description `This is the home planet of the Shirni. The population is slightly more than that of earth, but due to the Shirni's small size the extent of the urban regions is lesser.`
+	spaceport `The spaceport is an odd mixture of several quite different architectures. Many of the older buildings have sharp triangular shapes and appear to be made of a concrete-like material.`
+	shipyard Shirni
+	outfitter "Shirni Advanced"
+	outfitter "Shirni Weapons"
+
+planet Tazarna
+	attributes shirni
+	landscape land/beach2
+	description `The primary industry on Tazarna is the farming of a species of rapidly growing kelp-like algae. Most fabrics in use in Shirni space are made from processed algal fibres farmed on this planet.`
+	spaceport `The docks for the massive cargo ships ferrying huge loads of kelp are situated as close to the spaceport as possible, to maximise the efficiency of the loading and unloading processes. There are large teams of Shirni whose jobs appear to consist entirely of hosing down the floors with a chemical that serves both as a cleaning fluid and as a form of odour control.`
+
+planet Vuzotarne
+	attributes shirni
+	landscape land/lava4
+	description `Vuzotarne is the centre of the research efforts of the Shirni. It is here that new technology is developed to further the Shirni's civilisation. Vuzotarne is also home to much of the best higher education in all of Shirni space.`
+	spaceport `The spaceport is sleek and modern, with smooth, reflective walls illuminated by blueish light. There is a second spaceport on the other side of the planet which is restricted to only those involved directly with cutting-edge research projects.`
+	"required reputation" 5
+
+planet Xidera
+	attributes shirni
+	landscape land/fog1
+	description `Xidera is a cold, wet farming world where the Shirni grow a species of edible fungus that forms the basis of much of their diet. The sun is perpetually obscured by clouds, and days without precipitation are almost unheard of.`
+	spaceport `The spaceport dwarfs every other urban region on this planet - this city easily holds more than two thirds of the planet's entire population. The spaceport has an extensive drainage system, to prevent the heavy rainfall from causing flooding.`
+	outfitter "Shirni Minimal"
+
+planet Ziderali
+	attributes uninhabited
+	landscape land/snow9
+	description `Ziderali is home to the remains of the first colony created by the Shirni outside their home planet. This tiny moon has no atmosphere, so the colony consisted entirely of small pressurised domes which were abandoned when the Shirni first began colonising other more habitable planets.`
+	government Uninhabited
+
+planet Zokaderi
+	attributes shirni
+	landscape land/sea5
+	description `Zokaderi is the main base of the Shirni military. There are no major landmasses on the planet, so starships are built and equipped on enormous floating cities the size of an island. `
+	spaceport `You are not permitted to travel outside of a small area of the spaceport. There are large numbers of heavily armed Shirni guards here, watching your every move from strategic locations.`
+	shipyard Shirni
+	outfitter "Shirni Advanced"
+	outfitter "Shirni Weapons"
+	"required reputation" 25
+
