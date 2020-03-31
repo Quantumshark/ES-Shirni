@@ -19,7 +19,7 @@ system Akutal
 	asteroids "large metal" 1 3.6608
 	trade Clothing 276
 	trade Electronics 832
-	trade Equipment 768
+	trade Equipment 728
 	trade Food 415
 	trade "Heavy Metals" 848
 	trade Industrial 871
@@ -80,7 +80,7 @@ system Bikutaqi
 	asteroids "large metal" 2 5.7618
 	trade Clothing 266
 	trade Electronics 819
-	trade Equipment 689
+	trade Equipment 649
 	trade Food 366
 	trade "Heavy Metals" 861
 	trade Industrial 767
@@ -142,7 +142,7 @@ system Bokulat
 	asteroids "large metal" 1 2.1204
 	trade Clothing 276
 	trade Electronics 793
-	trade Equipment 689
+	trade Equipment 649
 	trade Food 389
 	trade "Heavy Metals" 874
 	trade Industrial 793
@@ -198,7 +198,7 @@ system Dakutlak
 	asteroids "large metal" 1 8.37
 	trade Clothing 250
 	trade Electronics 780
-	trade Equipment 650
+	trade Equipment 610
 	trade Food 350
 	trade "Heavy Metals" 900
 	trade Industrial 780
@@ -246,7 +246,7 @@ system Dekurex
 	asteroids "large metal" 16 4.5849
 	trade Clothing 221
 	trade Electronics 826
-	trade Equipment 728
+	trade Equipment 688
 	trade Food 350
 	trade "Heavy Metals" 900
 	trade Industrial 845
@@ -305,7 +305,7 @@ system Ekubakto
 	asteroids "large metal" 1 6.05
 	trade Clothing 250
 	trade Electronics 780
-	trade Equipment 650
+	trade Equipment 610
 	trade Food 350
 	trade "Heavy Metals" 900
 	trade Industrial 780
@@ -351,7 +351,7 @@ system Gikudap
 	asteroids "large metal" 6 1.7017
 	trade Clothing 237
 	trade Electronics 819
-	trade Equipment 689
+	trade Equipment 649
 	trade Food 350
 	trade "Heavy Metals" 926
 	trade Industrial 754
@@ -417,7 +417,7 @@ system Ikulai
 	asteroids "large metal" 1 4.77
 	trade Clothing 250
 	trade Electronics 795
-	trade Equipment 702
+	trade Equipment 662
 	trade Food 402
 	trade "Heavy Metals" 861
 	trade Industrial 793
@@ -468,7 +468,7 @@ system Kakuyal
 	asteroids "large metal" 1 1.5168
 	trade Clothing 250
 	trade Electronics 780
-	trade Equipment 650
+	trade Equipment 610
 	trade Food 350
 	trade "Heavy Metals" 900
 	trade Industrial 780
@@ -530,7 +530,7 @@ system Kikuden
 	asteroids "large metal" 20 3.234
 	trade Clothing 250
 	trade Electronics 780
-	trade Equipment 650
+	trade Equipment 610
 	trade Food 350
 	trade "Heavy Metals" 900
 	trade Industrial 780
@@ -583,7 +583,7 @@ system Kukutob
 	asteroids "large metal" 8 5.355
 	trade Clothing 250
 	trade Electronics 780
-	trade Equipment 650
+	trade Equipment 610
 	trade Food 350
 	trade "Heavy Metals" 900
 	trade Industrial 780
@@ -696,7 +696,7 @@ system Pakutla
 	asteroids "large metal" 1 2.376
 	trade Clothing 250
 	trade Electronics 832
-	trade Equipment 705
+	trade Equipment 665
 	trade Food 363
 	trade "Heavy Metals" 864
 	trade Industrial 821
@@ -753,7 +753,7 @@ system Qekudat
 	asteroids "medium metal" 61 6.09
 	trade Clothing 250
 	trade Electronics 806
-	trade Equipment 702
+	trade Equipment 662
 	trade Food 324
 	trade "Heavy Metals" 874
 	trade Industrial 780
@@ -808,7 +808,7 @@ system Quku'ar
 	asteroids "small metal" 27 3.4272
 	trade Clothing 237
 	trade Electronics 780
-	trade Equipment 663
+	trade Equipment 623
 	trade Food 337
 	trade "Heavy Metals" 900
 	trade Industrial 780
@@ -885,7 +885,7 @@ system Takudi
 	asteroids "large metal" 1 2.142
 	trade Clothing 289
 	trade Electronics 793
-	trade Equipment 715
+	trade Equipment 675
 	trade Food 389
 	trade "Heavy Metals" 848
 	trade Industrial 819
@@ -930,7 +930,7 @@ system Ukudotok
 	asteroids "large metal" 1 2.366
 	trade Clothing 250
 	trade Electronics 780
-	trade Equipment 689
+	trade Equipment 649
 	trade Food 362
 	trade "Heavy Metals" 900
 	trade Industrial 819
@@ -981,7 +981,7 @@ system Vakubo
 	asteroids "large metal" 2 2.268
 	trade Clothing 211
 	trade Electronics 780
-	trade Equipment 689
+	trade Equipment 649
 	trade Food 337
 	trade "Heavy Metals" 900
 	trade Industrial 806
@@ -1036,7 +1036,7 @@ system Vekuyat
 	asteroids "large metal" 1 2.0636
 	trade Clothing 263
 	trade Electronics 806
-	trade Equipment 702
+	trade Equipment 662
 	trade Food 376
 	trade "Heavy Metals" 900
 	trade Industrial 793
@@ -1105,7 +1105,7 @@ system Vokutva
 	asteroids "large metal" 2 5.568
 	trade Clothing 250
 	trade Electronics 806
-	trade Equipment 702
+	trade Equipment 662
 	trade Food 350
 	trade "Heavy Metals" 926
 	trade Industrial 806
@@ -1173,7 +1173,7 @@ system Xukudae
 	asteroids "large metal" 10 9.792
 	trade Clothing 263
 	trade Electronics 832
-	trade Equipment 790
+	trade Equipment 750
 	trade Food 363
 	trade "Heavy Metals" 861
 	trade Industrial 897
@@ -1283,8 +1283,9 @@ planet Quta'ar
 planet Quzo'ar
 	attributes shirni
 	landscape land/badlands2
-	description `Were it not for its strategic location, no sane species would ever consider this tiny, sun-scorched desert moon a candidate for settlement. Sandstorms frequently blanket much of the surface, with only the tallest mountains still visible over the storm.`
-	description `	The only permanent settlement on this planet is a tiny outpost near the summit of one of the larger mountains created to monitor the Quarg, of whom the Shirni are highly suspicious. Most of the buildings here are underground, with the exceptions being massive arrays of sensors.`
+	description `This tiny, sun-scorched desert moon is the site of a recent major Shirni industrial development. The original settlements here were tiny outposts established to monitor the Quarg, which were abandoned once the Shirni realised that the Quarg were not hostile.`
+	description `	The industries here specialise in technology based off the Quarg, similar to the Tarazed corporation in human space.`
+	spaceport `The architecture here is an odd mixture of Quarg and Shirni. The hallways, unlike those in most other buildings in Shirni space, are tall enough that a Quarg can stand fully upright and painted to resemble the interior of a Quarg ringworld. There are many Quarg here, some of whom you suspect are monitoring the industries on the planet.
 
 planet Rikuzari
 	attributes shirni
