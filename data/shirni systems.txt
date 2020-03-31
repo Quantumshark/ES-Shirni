@@ -80,7 +80,7 @@ system Bikutaqi
 	asteroids "large metal" 2 5.7618
 	trade Clothing 266
 	trade Electronics 819
-	trade Equipment 649
+	trade Equipment 636
 	trade Food 366
 	trade "Heavy Metals" 861
 	trade Industrial 767
@@ -246,7 +246,7 @@ system Dekurex
 	asteroids "large metal" 16 4.5849
 	trade Clothing 221
 	trade Electronics 826
-	trade Equipment 688
+	trade Equipment 675
 	trade Food 350
 	trade "Heavy Metals" 900
 	trade Industrial 845
@@ -753,7 +753,7 @@ system Qekudat
 	asteroids "medium metal" 61 6.09
 	trade Clothing 250
 	trade Electronics 806
-	trade Equipment 662
+	trade Equipment 636
 	trade Food 324
 	trade "Heavy Metals" 874
 	trade Industrial 780
@@ -808,7 +808,7 @@ system Quku'ar
 	asteroids "small metal" 27 3.4272
 	trade Clothing 237
 	trade Electronics 780
-	trade Equipment 623
+	trade Equipment 597
 	trade Food 337
 	trade "Heavy Metals" 900
 	trade Industrial 780
@@ -981,7 +981,7 @@ system Vakubo
 	asteroids "large metal" 2 2.268
 	trade Clothing 211
 	trade Electronics 780
-	trade Equipment 649
+	trade Equipment 623
 	trade Food 337
 	trade "Heavy Metals" 900
 	trade Industrial 806
@@ -1036,7 +1036,7 @@ system Vekuyat
 	asteroids "large metal" 1 2.0636
 	trade Clothing 263
 	trade Electronics 806
-	trade Equipment 662
+	trade Equipment 649
 	trade Food 376
 	trade "Heavy Metals" 900
 	trade Industrial 793
