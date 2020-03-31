@@ -466,16 +466,16 @@ system Kakuyal
 	asteroids "large rock" 16 1.2096
 	asteroids "medium metal" 11 2.3424
 	asteroids "large metal" 1 1.5168
-	trade Clothing 250
-	trade Electronics 780
+	trade Clothing 237
+	trade Electronics 793
 	trade Equipment 610
 	trade Food 350
 	trade "Heavy Metals" 900
-	trade Industrial 780
+	trade Industrial 793
 	trade "Luxury Goods" 1200
-	trade Medical 760
+	trade Medical 773
 	trade Metal 370
-	trade Plastic 390
+	trade Plastic 429
 	fleet Quarg 800
 	fleet "shirni scout" 2000
 	object
