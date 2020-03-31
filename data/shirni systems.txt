@@ -854,22 +854,22 @@ system Quku'ar
 		sprite "planet/ringworld right"
 		distance 812
 		period 360
-		offset 40
-	object Quta'ar
-		sprite planet/ringworld
-		distance 812
-		period 360
 		offset 60
 	object Quta'ar
 		sprite planet/ringworld
 		distance 812
 		period 360
 		offset 80
+	object Quta'ar
+		sprite planet/ringworld
+		distance 812
+		period 360
+		offset 100
 	object
 		sprite "planet/ringworld left"
 		distance 812
 		period 360
-		offset 100
+		offset 120
 
 system Takudi
 	pos -427.267 -490.797
