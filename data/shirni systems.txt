@@ -27,7 +27,7 @@ system Akutal
 	trade Medical 838
 	trade Metal 344
 	trade Plastic 403
-	fleet "shirni scout" 700
+	fleet "shirni scout" 1600
 	object
 		sprite star/f5
 		distance 14.8473
@@ -88,7 +88,7 @@ system Bikutaqi
 	trade Medical 799
 	trade Metal 383
 	trade Plastic 429
-	fleet "shirni scout" 400
+	fleet "shirni scout" 1600
 	fleet Quarg 1100
 	object
 		sprite star/g0
@@ -150,7 +150,7 @@ system Bokulat
 	trade Medical 799
 	trade Metal 344
 	trade Plastic 390
-	fleet "shirni scout" 2000
+	fleet "shirni scout" 900
 	object
 		sprite star/k0
 		period 10
@@ -254,8 +254,8 @@ system Dekurex
 	trade Medical 773
 	trade Metal 396
 	trade Plastic 403
-	fleet "shirni scout" 800
-	fleet Quarg 1600
+	fleet "shirni scout" 1600
+	fleet Quarg 1500
 	object
 		sprite star/g0
 		period 10
@@ -313,7 +313,7 @@ system Ekubakto
 	trade Medical 760
 	trade Metal 370
 	trade Plastic 390
-	fleet "shirni scout" 3300
+	fleet "shirni scout" 3100
 	object
 		sprite star/wr
 		period 10
@@ -359,7 +359,7 @@ system Gikudap
 	trade Medical 812
 	trade Metal 370
 	trade Plastic 390
-	fleet "shirni scout" 900
+	fleet "shirni scout" 1600
 	fleet Quarg 1500
 	object
 		sprite star/f5
@@ -425,7 +425,7 @@ system Ikulai
 	trade Medical 799
 	trade Metal 344
 	trade Plastic 390
-	fleet "shirni scout" 1200
+	fleet "shirni scout" 1600
 	object
 		sprite star/k0
 		period 10
@@ -477,7 +477,7 @@ system Kakuyal
 	trade Metal 370
 	trade Plastic 429
 	fleet Quarg 800
-	fleet "shirni scout" 2000
+	fleet "shirni scout" 1600
 	object
 		sprite star/g5
 		period 10
@@ -538,7 +538,7 @@ system Kikuden
 	trade Medical 760
 	trade Metal 370
 	trade Plastic 390
-	fleet "shirni scout" 1200
+	fleet "shirni scout" 1600
 	object
 		sprite star/m0
 		period 10
@@ -591,7 +591,7 @@ system Kukutob
 	trade Medical 760
 	trade Metal 370
 	trade Plastic 390
-	fleet "shirni scout" 8000
+	fleet "shirni scout" 6000
 	object
 		sprite star/giant
 		period 10
@@ -761,7 +761,7 @@ system Qekudat
 	trade Medical 773
 	trade Metal 370
 	trade Plastic 429
-	fleet "shirni scout" 1100
+	fleet "shirni scout" 1600
 	fleet Quarg 1100
 	object
 		sprite star/g5
@@ -817,7 +817,7 @@ system Quku'ar
 	trade Metal 370
 	trade Plastic 403
 	fleet Quarg 750
-	fleet "shirni scout" 4000
+	fleet "shirni scout" 1600
 	object
 		sprite star/g5
 		period 10
@@ -893,7 +893,7 @@ system Takudi
 	trade Medical 812
 	trade Metal 341
 	trade Plastic 390
-	fleet "shirni scout" 900
+	fleet "shirni scout" 1600
 	object
 		sprite star/k5
 		period 10
@@ -989,7 +989,7 @@ system Vakubo
 	trade Medical 760
 	trade Metal 370
 	trade Plastic 426
-	fleet "shirni scout" 1200
+	fleet "shirni scout" 1600
 	fleet Quarg 1300
 	object
 		sprite star/k0
@@ -1044,7 +1044,7 @@ system Vekuyat
 	trade Medical 825
 	trade Metal 370
 	trade Plastic 416
-	fleet "shirni scout" 650
+	fleet "shirni scout" 1600
 	fleet Quarg 1200
 	object
 		sprite star/g0-old
@@ -1113,7 +1113,7 @@ system Vokutva
 	trade Medical 773
 	trade Metal 409
 	trade Plastic 351
-	fleet "shirni scout" 500
+	fleet "shirni scout" 1600
 	fleet Quarg 1600
 	object
 		sprite star/k0
