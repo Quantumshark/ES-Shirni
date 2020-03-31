@@ -142,7 +142,7 @@ mission "Shirni science important stuff delivery"
 			`The workers unload the cargo in silence after paying you <payment>. Given that you do not know their language, it seems like an unnecessary precaution.`
 		payment 7500 230
 		
-mission "Shirni industrial supplies"
+mission "Shirni industrial supplies A"
 	repeat
 	job
 	name "Delivery to <planet>"
@@ -152,10 +152,28 @@ mission "Shirni industrial supplies"
 		near Vokutva 1 20
 	destination Cipodeku
 	to offer
-		random < 40
+		random < 20
 		has "license: Shirni"
 	cargo "Industrial" 61 3 .1
 	on complete
 		dialog
 			`The workers unload the <commodity> and pay you <payment>.`
 		payment 1500 100
+
+mission "Shirni industrial supplies B"
+	repeat
+	job
+	name "Delivery to <planet>"
+	description "Deliver <cargo> to supply the factories on <planet>. Payment is <payment>."
+	source
+		government "Shirni"
+		near Kakuyal 1 20
+	destination "Quzo'ar"
+	to offer
+		random < 20
+		has "license: Shirni"
+	cargo "Industrial" 41 2 .1
+	on complete
+		dialog
+			`The workers unload the <commodity> and pay you <payment>.`
+		payment 1100 90
