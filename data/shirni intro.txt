@@ -31,7 +31,7 @@ mission "First Contact: Shirni"
 	on offer
 		log "Discovered a species of mothlike aliens to the north of the Deep. Was asked to visit the Quarg ringworld in their space."
 		conversation
-			`This planet is inhabited by a race of strange-looking aliens. They stand around two to three feet tall, with bodies covered in brightly coloured fur and with a pair of large mothlike wings. Their limbs are thin and insectile, but unlike insects they appear to only posess a total of four of them.`
+			`This planet is inhabited by a race of strange-looking aliens. They stand around two to three feet tall, with bodies covered in brightly coloured fur and with a pair of large mothlike wings. Their limbs are thin and insectile, but unlike insects they appear to only posess a total of four of them. Their clothing is rough and made up of many bright contrasting colours.`
 			`	Upon seeing your ship land, most of these aliens scatter, running into their ships or just flying away deeper into the spaceport. The remaining ones gather together and stand outside your ship's door, waiting for you to exit.`
 			choice
 				`	(Exit my ship.)`
