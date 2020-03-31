@@ -95,8 +95,8 @@ outfit "Industrial Solar Cell"
 	thumbnail "outfit/small photovoltaic"
 	"mass" 61
 	"outfit space" -47
-	"solar collection" 11.3
-	"solar heat" 37.2
+	"solar collection" 10.3
+	"solar heat" 34.2
 	"energy capacity" 235
 	description "This massive bundle of solar cells is repurposed from designs used in some Shirni factories. While it produces plenty of power, it is designed to operate with the cooling effects of an atmosphere and thus can easily cause the ship using it to overheat."
 	
