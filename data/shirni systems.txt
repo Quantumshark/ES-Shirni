@@ -635,7 +635,7 @@ system Kukutob
 
 system Lyikta
 	pos -596.257 -455.778
-	government "Pug (Shirni)"
+	government Uninhabited
 	habitable 1111.68
 	asteroids "small rock" 6 6.3936
 	asteroids "large rock" 1 4.5792
@@ -669,7 +669,7 @@ system Lyikta
 			sprite planet/rock17
 			distance 313
 			period 29.1483
-		object
+		object "Evoyrati"
 			sprite planet/ice8
 			distance 425
 			period 46.1191
@@ -1251,6 +1251,11 @@ planet Docitari
 	spaceport `There are two spaceports on this planet. One of them is huge, established as a cargo port for transporting metals around Shirni space. The other, the spaceport you are permitted to visit, is almost empty, with robots and digital displays performing the roles of most of the staff.`
 	outfitter "Shirni Basics"
 
+planet Evoyrati
+	attributes uninhabited
+	landscape "land/beach9-sfiera"
+	description "This planet is uninhabited currently, but evidently once was not. Huge buildings built with standard Shirni tetrahedral shapes are scattered across the land, yet there is no record of the Shirni ever having visited this system and it is not included on any of their maps."
+	
 planet Kozarna
 	attributes shirni arid
 	landscape land/dune0
