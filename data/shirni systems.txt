@@ -835,13 +835,13 @@ system Quku'ar
 		distance 812
 		period 360
 		offset -50
-	object
-		sprite "planet/ringworld right"
+	object Quta'ar
+		sprite planet/ringworld
 		distance 812
 		period 360
 		offset -70
-	object
-		sprite "planet/ringworld left"
+	object Quta'ar
+		sprite planet/ringworld
 		distance 812
 		period 360
 		offset -90
