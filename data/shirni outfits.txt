@@ -288,9 +288,9 @@ outfit "Thunderbolt-Type Afterburner"
 		Shirni
 	"cost" 1725000
 	thumbnail "outfit/ionic afterburner"
-	"mass" 32
-	"outfit space" -32
-	"engine capacity" -32
+	"mass" 26
+	"outfit space" -26
+	"engine capacity" -26
 	"heat generation" 3.1
 	"afterburner thrust" 119.3
 	"afterburner energy" 29.4
