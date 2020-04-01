@@ -8,6 +8,16 @@
 # WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A
 # PARTICULAR PURPOSE.  See the GNU General Public License for more details.
 
+outfit "Storage Cell"
+	category "Power"
+	licenses
+		Shirni
+	thumbnail "outfit/supercapacitor"
+	"mass" 12
+	"outfit space" -12
+	"energy capacity" 1400
+	"fuel capacity" 100
+
 outfit "Thermal Dissipator"
 	category "Systems"
 	licenses

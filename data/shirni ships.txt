@@ -39,6 +39,7 @@ ship "Azolla"
 		"Terminator Beam"
 	
 		"C-Type Generator"
+		"Storage Cell"
 		"Thermal Dissipator"
 		"Regenerating Plating"
 		"Secondary Shielding" 2
