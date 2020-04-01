@@ -87,10 +87,10 @@ outfit "Terminator Beam"
 		"burst reload" 1
 		"burst count" 30
 		"reload" 3
-		"firing energy" 24.7
-		"firing heat" 21
-		"shield damage" 16.3
-		"hull damage" 14.9
+		"firing energy" 21.7
+		"firing heat" 17
+		"shield damage" 12.3
+		"hull damage" 8.9
 	description "This turret was designed based on observations of the Quargs' skylances. Although it is much less powerful, and its inner workings are entirely different, it does nonetheless bear at least some resemblance."
 	
 outfit "Heavy Terminator Beam"
@@ -116,10 +116,10 @@ outfit "Heavy Terminator Beam"
 		"velocity" 500
 		"lifetime" 1
 		"reload" 1
-		"firing energy" 24.7
-		"firing heat" 21
-		"shield damage" 16.3
-		"hull damage" 14.9
+		"firing energy" 21.7
+		"firing heat" 17
+		"shield damage" 12.3
+		"hull damage" 8.9
 	description "This turret is a terminator beam redesigned to be active constantly, rather than in short bursts. The extra hardware for allowing this takes up even more space than the weapon itself, though not all of it needs to be installed in the weapons section of your ship."
 	
 outfit "Plasma Rocket"
