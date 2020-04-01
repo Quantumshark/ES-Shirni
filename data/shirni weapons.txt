@@ -18,7 +18,6 @@ outfit "Energy Burst Cannon"
 	"outfit space" -9
 	"weapon capacity" -9
 	"gun ports" -1
-	"energy capacity" 45
 	weapon
 		sprite "projectile/burstcannon"
 		sound "blaster"
@@ -44,7 +43,6 @@ outfit "Energy Burst Turret"
 	"weapon capacity" -12
 	"required crew" 1
 	"turret mounts" -1
-	"energy capacity" 60
 	weapon
 		sprite "projectile/burstcannon"
 		"hardpoint sprite" "hardpoint/blaster turret"
@@ -73,7 +71,6 @@ outfit "Terminator Beam"
 	"weapon capacity" -41
 	"required crew" 1
 	"turret mounts" -1
-	"energy capacity" 205
 	weapon
 		sprite "projectile/raybeam"
 		"hardpoint sprite" "hardpoint/blaster turret"
@@ -104,7 +101,6 @@ outfit "Heavy Terminator Beam"
 	"weapon capacity" -75
 	"required crew" 1
 	"turret mounts" -1
-	"energy capacity" 480
 	weapon
 		sprite "projectile/raybeam"
 		"hardpoint sprite" "hardpoint/blaster turret"
@@ -141,7 +137,6 @@ outfit "Plasma Rocket Storage"
 	"mass" 3
 	"outfit space" -8
 	"plasma rocket capacity" 10
-	"energy capacity" 40
 	ammo "Plasma Rocket"
 	description "The Plasma Rocket Storage is used to store extra ammunition for Plasma Rocket Launchers."
 
@@ -156,7 +151,6 @@ outfit "Plasma Rocket Launcher"
 	"weapon capacity" -35
 	"gun ports" -1
 	"plasma rocket capacity" 30
-	"energy capacity" 175
 	weapon
 		sprite "projectile/javelin"
 		sound "meteor"
@@ -194,7 +188,6 @@ outfit "Anti-missile Beam"
 	"outfit space" -23
 	"weapon capacity" -23
 	"turret mounts" -1
-	"energy capacity" 115
 	weapon
 		"hardpoint sprite" "hardpoint/wanderer anti-missile"
 		"hardpoint offset" 6.

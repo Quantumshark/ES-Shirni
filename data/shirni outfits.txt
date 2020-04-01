@@ -18,7 +18,6 @@ outfit "Thermal Dissipator"
 	"outfit space" -14
 	"cooling" 43
 	"cooling inefficiency" 2
-	"energy capacity" 70
 	description "Thermal Dissipators are incredibly space-efficient, but adding more than a few of them to the same ship will cause them to start interfering with each other and with other cooling systems."
 
 outfit "A-Type Generator"
@@ -34,7 +33,6 @@ outfit "A-Type Generator"
 	"shield generation" .45
 	"shield heat" .95
 	"disruption resistance" .02
-	"energy capacity" 130
 	description "This generator combines some energy generation with a small amount of shield generation, all in a much smaller space than most other races could fit both. This compact and versatile outfit also provides a tiny amount of protection against weapons that disrupt a ship's shield matrix."
 	
 outfit "C-Type Generator"
@@ -50,7 +48,6 @@ outfit "C-Type Generator"
 	"shield generation" 1.1
 	"shield heat" 2.4
 	"disruption resistance" .08
-	"energy capacity" 265
 	description "The Shirni build shield regeneration into their generators, so that when they are recharging their shields the extra power can be drawn by adjusting the generator settings rather than risking running out of energy in the middle of a battle."
 	description "Because these systems primarily serve as generators, weapons designed to disrupt shields are less effective against them."
 	
@@ -67,7 +64,6 @@ outfit "F-Type Generator"
 	"shield generation" 3.2
 	"shield heat" 6.1
 	"disruption resistance" .2
-	"energy capacity" 545
 	description "The Shirni build shield regeneration into their generators, so that when they are recharging their shields the extra power can be drawn by adjusting the generator settings rather than risking running out of energy in the middle of a battle."
 	description "Because these systems primarily serve as generators, weapons designed to disrupt shields are less effective against them."
 	
@@ -84,7 +80,6 @@ outfit "I-Type Generator"
 	"shield generation" 5.3
 	"shield heat" 12.7
 	"disruption resistance" .4
-	"energy capacity" 865
 	description "The I-Type Generator is a recent design by the Shirni, who needed additional power for their newer, more advanced warships. Providing large amounts of power alongside integrated shield generation allows the ship this generator is equipped on to maintain its systems even while under sustained fire."
 	
 outfit "Industrial Solar Cell"
@@ -97,7 +92,6 @@ outfit "Industrial Solar Cell"
 	"outfit space" -47
 	"solar collection" 10.3
 	"solar heat" 27.2
-	"energy capacity" 235
 	description "This massive bundle of solar cells is repurposed from designs used in some Shirni factories. While it produces plenty of power, it is designed to operate with the cooling effects of an atmosphere and thus can easily cause the ship using it to overheat."
 	
 outfit "Secondary Shielding"
@@ -111,7 +105,6 @@ outfit "Secondary Shielding"
 	"shield generation" .5
 	"shield energy" 1.6
 	"shield heat" .6
-	"energy capacity" 30
 	description "This module was built to supplement the shield generation capabilities of Shirni reactors. It is unusually energy inefficient compared to other similar technology, as it is not intended to be in use for long periods of time."
 	
 outfit "Regenerating Plating"
@@ -125,7 +118,6 @@ outfit "Regenerating Plating"
 	"hull repair rate" .25
 	"hull energy" 0
 	"hull heat" .05
-	"energy capacity" 45
 	description "This strange organic plating is able to slowly repair any damage caused to it, producing a small amount of heat but not using any significant amount of energy."
 	
 outfit "Radio Disruptor"
@@ -139,7 +131,6 @@ outfit "Radio Disruptor"
 	"radar jamming" 173
 	"energy consumption" 1.2
 	"heat generation" 2.7
-	"energy capacity" 265
 	description "This massive collection of jammers and broadcasters drains a considerable amount of power, but it makes it almost impossible for radar-guided seeking weapons to hit the ship using it."
 	
 outfit "Breeze-Type Thruster"
@@ -154,7 +145,6 @@ outfit "Breeze-Type Thruster"
 	"thrust" 9
 	"thrusting energy" .4
 	"thrusting heat" .9
-	"energy capacity" 115
 	"slowing resistance" .1
 	"flare sprite" "effect/ion flare/small"
 		"frame rate" 1.1
@@ -173,7 +163,6 @@ outfit "Gale-Type Thruster"
 	"thrust" 19.1
 	"thrusting energy" .7
 	"thrusting heat" 1.3
-	"energy capacity" 190
 	"slowing resistance" .2
 	"flare sprite" "effect/ion flare/medium"
 		"frame rate" 1.0
@@ -192,7 +181,6 @@ outfit "Storm-Type Thruster"
 	"thrust" 39.5
 	"thrusting energy" 1.5
 	"thrusting heat" 3.2
-	"energy capacity" 355
 	"slowing resistance" .5
 	"flare sprite" "effect/ion flare/large"
 		"frame rate" 0.9
@@ -211,7 +199,6 @@ outfit "Typhoon-Type Thruster"
 	"thrust" 77.5
 	"thrusting energy" 2.3
 	"thrusting heat" 4.7
-	"energy capacity" 605
 	"slowing resistance" 1
 	"flare sprite" "effect/ion flare/huge"
 		"frame rate" 0.8
@@ -230,7 +217,6 @@ outfit "Breeze-Type Steering"
 	"turn" 230
 	"turning energy" .2
 	"turning heat" .5
-	"energy capacity" 95
 	"slowing resistance" .075
 	description "The Shirni's steering systems are designed to function even when the ship they are equipped on is critically damaged, close to overheating or almost out of power. As such, these tiny engines use only a very small amount of power and produce little heat."
 
@@ -246,7 +232,6 @@ outfit "Gale-Type Steering"
 	"turn" 503
 	"turning energy" .6
 	"turning heat" 1.0
-	"energy capacity" 165
 	"slowing resistance" .15
 	description "Gale-Type steering is commonly used on small Shirni ships, so that they can operate using only a relatively small generator and more space is free for whatever modifications are necessary."
 
@@ -262,7 +247,6 @@ outfit "Storm-Type Steering"
 	"turn" 993
 	"turning energy" .9
 	"turning heat" 1.9
-	"energy capacity" 275
 	"slowing resistance" .25
 	description "While they may not lend quite as much agility to large ships as steering systems of similar size produced by others, these massive engines can be operated on a fraction of the power that those other steering systems would require."
 
@@ -278,7 +262,6 @@ outfit "Typhoon-Type Steering"
 	"turn" 1984
 	"turning energy" 1.5
 	"turning heat" 3.3
-	"energy capacity" 465
 	"slowing resistance" .5
 	description "The Typhoon-Type Steering is the largest steering system produced by the Shirni. Unlike its namesake, a violent and destructive force which releases vast amounts of energy every second, this steering system consumes only minimal amounts of power."
 
@@ -295,7 +278,6 @@ outfit "Thunderbolt-Type Thruster"
 	"afterburner thrust" 119.3
 	"afterburner energy" 29.4
 	"afterburner heat" 67.3
-	"energy capacity" 160
 	"afterburner effect" "ionic afterburner"
 	description "The Thunderbolt-Type Thruster, despite behaving like an afterburner, is not technically one. Rather, it is a high-intensity thruster, using monumental amounts of power to produce similarly excessive thrust. While it is almost impossible to concieve of a ship that could keep it active for any length of time, the Thunderbolt provides a sudden burst of speed worthy of its namesake to all but the largest ships."
 	description "Unlike other Shirni engines, which are designed to operate in every concievable circumstance, the Thunderbolt-Type is designed to allow for a brief burst of speed, in order to escape from a losing battle that would otherwise prove fatal."
