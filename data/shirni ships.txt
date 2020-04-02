@@ -30,10 +30,10 @@ ship "Azolla"
 		"weapon capacity" 86
 		"engine capacity" 101
 		weapon
-			"blast radius" 140
-			"shield damage" 1400
-			"hull damage" 700
-			"hit force" 2100
+			"blast radius" 70
+			"shield damage" 700
+			"hull damage" 350
+			"hit force" 1050
 	outfits
 		"Energy Burst Cannon" 2
 		"Terminator Beam"
@@ -56,8 +56,9 @@ ship "Azolla"
 	turret 0 2 "Terminator Beam"
 	engine 11 107
 	engine -11 107
-	explode "tiny explosion" 15
-	explode "small explosion" 20
+	explode "tiny explosion" 20
+	explode "small explosion" 15
+	explode "medium explosion" 5
 	"final explode" "final explosion small"
 	description `The Azolla is a long-range light scout ship, used by the Shirni when they were first exploring their space. When the Alphas attacked, the Azolla was put back into production in a modified design as the first purpose-built Shirni warship in centuries.`
 
