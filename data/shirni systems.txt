@@ -581,6 +581,9 @@ system Kukutob
 	asteroids "small metal" 14 5.0575
 	asteroids "medium metal" 11 5.95
 	asteroids "large metal" 8 5.355
+	minables platinum 19 6.4
+	minables titanium 16 5.9
+	minables gold 8 2.7
 	trade Clothing 250
 	trade Electronics 780
 	trade Equipment 610
@@ -822,7 +825,7 @@ system Quku'ar
 		sprite star/g5
 		period 10
 	object
-		sprite planet/lava5-b
+		sprite planet/lava1
 		distance 812
 		period 360
 	object
@@ -1247,7 +1250,7 @@ planet "Citoka Shibizi"
 planet Docitari
 	attributes shirni urban arid
 	landscape land/city4
-	description `This planet is the most populous in all of Shirni space, home to almost twice earth's population. The planet has huge underground caverns, which have been converted into additional urban areas complete with artificial sky on the ceilings to prevent claustrophobia. The primary industries on this planet are mining and software development.`
+	description `This planet is the most populous in all of Shirni space, home to more than twice earth's population. The planet has huge underground caverns, which have been converted into additional urban areas complete with artificial sky on the ceilings to prevent claustrophobia. The primary industries on this planet are mining and software development.`
 	spaceport `There are two spaceports on this planet. One of them is huge, established as a cargo port for transporting metals around Shirni space. The other, the spaceport you are permitted to visit, is almost empty, with robots and digital displays performing the roles of most of the staff.`
 	outfitter "Shirni Basics"
 
@@ -1279,9 +1282,9 @@ planet Lizorati
 planet Quta'ar
 	attributes quarg station
 	landscape land/station2
-	description `This Quarg ringworld is not much closer to being completed than the one in human space, with much of the difference being internal rather than in the segments of the ring. Unlike that ringworld, however, this one is inhabited. Based on the size of the completed sections of the ring, you estimate that it is home to tens of billions of Quarg.`
-	spaceport `The spaceport's architecture resembles the Quarg architecture you have seen elsewhere. There is evidence of some limited attempts to accommodate the Shirni, but they seem to have been given up on fairly shortly after the construction of the spaceport began.`
-	spaceport ` There are almost no Shirni here. It seems only a small portion of them are willing to visit this region.`
+	description `This is an incomplete Quarg ringworld. The Quarg appear to have stripped off the surface of an entire planet to gather materials for the construction, and are also harvesting metal-rich asteroids.`
+	description `Based on the size of this ringworld, you estimate it must be home to tens of billions of Quarg.`
+	spaceport `The spaceport is unusually busy for a Quarg spaceport, with large crowds of Shirni gathering to meet with the Quarg. The gravity is weaker and the air thinner than you are used to, but this does not seem to be causing the Shirni any issues.`
 	bribe 0
 	security 1
 
@@ -1310,7 +1313,7 @@ planet Shibirni
 planet Shipoderni
 	attributes shirni urban
 	landscape land/city12
-	description `This is the home planet of the Shirni. The population is slightly more than that of earth, but due to the Shirni's small size the extent of the urban regions is lesser.`
+	description `This is the homeworld of the Shirni, an unusually large moon orbiting a gas giant in this system's habitable zone. The population is slightly more than that of earth, but due to the Shirni's small size the extent of the urban regions is lesser.`
 	spaceport `The spaceport is an odd mixture of several quite different architectures. Many of the older buildings have sharp triangular shapes and appear to be made of a concrete-like material.`
 	shipyard Shirni
 	outfitter "Shirni Advanced"
