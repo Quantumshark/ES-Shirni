@@ -12,6 +12,7 @@ outfit "Storage Cell"
 	category "Power"
 	licenses
 		Shirni
+	"cost" 92000
 	thumbnail "outfit/supercapacitor"
 	"mass" 12
 	"outfit space" -12
@@ -23,6 +24,7 @@ outfit "Heavy Storage Cell"
 	category "Power"
 	licenses
 		Shirni
+	"cost" 341000
 	thumbnail "outfit/supercapacitor"
 	"mass" 33
 	"outfit space" -33
