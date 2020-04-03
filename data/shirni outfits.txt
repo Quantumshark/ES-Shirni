@@ -19,6 +19,17 @@ outfit "Storage Cell"
 	"fuel capacity" 100
 	description "The Storage Cell provides a useful backup of both fuel and energy."
 	
+outfit "Heavy Storage Cell"
+	category "Power"
+	licenses
+		Shirni
+	thumbnail "outfit/supercapacitor"
+	"mass" 33
+	"outfit space" -33
+	"energy capacity" 5700
+	"fuel capacity" 300
+	description "The Heavy Storage Cell provides a sizeable backup of both fuel and energy."
+
 outfit "Thermal Dissipator"
 	category "Systems"
 	licenses
