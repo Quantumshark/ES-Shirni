@@ -72,14 +72,14 @@ outfit "Terminator Beam"
 	"required crew" 1
 	"turret mounts" -1
 	weapon
-		sprite "projectile/raybeam"
+		sprite "projectile/laser"
 		"hardpoint sprite" "hardpoint/blaster turret"
 		"hardpoint offset" 9.
 		sound "zapper"
 		"hit effect" "electron impact"
 		"inaccuracy" .01
 		"turret turn" 1.6
-		"velocity" 500
+		"velocity" 300
 		"lifetime" 1
 		"burst reload" 1
 		"burst count" 30
@@ -102,14 +102,14 @@ outfit "Heavy Terminator Beam"
 	"required crew" 1
 	"turret mounts" -1
 	weapon
-		sprite "projectile/raybeam"
+		sprite "projectile/laser"
 		"hardpoint sprite" "hardpoint/blaster turret"
 		"hardpoint offset" 9.
 		sound "zapper"
 		"hit effect" "electron impact"
 		"inaccuracy" .01
 		"turret turn" 1.1
-		"velocity" 500
+		"velocity" 300
 		"lifetime" 1
 		"reload" 1
 		"firing energy" 21.7
