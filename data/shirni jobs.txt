@@ -79,7 +79,7 @@ mission "Shirni Eclipse Preemptive Shipoderni"
 	on complete
 		dialog
 			`The sightseers, who have been talking excitedly for the whole journey, exit your ship and pay you <payment>.`
-		payment 4000 70		
+		payment 2000 70		
 		
 mission "Shirni Eclipse Preemptive Chizoki"
 	repeat
@@ -97,7 +97,7 @@ mission "Shirni Eclipse Preemptive Chizoki"
 	on complete
 		dialog
 			`The sightseers, who have been talking excitedly for the whole journey, exit your ship and pay you <payment>.`
-		payment 2000 60
+		payment 1000 60
 		
 mission "Shirni Water Resupply"
 	repeat
