@@ -228,7 +228,7 @@ mission "Shirni Alpha surveillance"
 				"Leviathan (Heavy)"
 	on offer
 		conversation
-			`When you leave your ship, a Shirni wearing what looks like a military outfit complete with medals is waiting for you along with a Quarg interpreter. The Shirni looks up and begins speaking with the Quarg, and the Quarg gestures for you to sit down. You notice that you have been given a larger chair, possibly specially made. As you approach them, you see that one of the Shirni's antennae is missing`
+			`When you leave your ship, a Shirni wearing what you presume is a military outfit complete with medals is waiting for you along with a Quarg interpreter. The Shirni looks up and begins speaking with the Quarg, and the Quarg gestures for you to sit down. You notice that you have been given a larger chair, possibly specially made. As you approach them, you see that one of the Shirni's antennae is missing`
 			`	Eventually, the Shirni stops talking and the Quarg translates. "This is Votari, the leader of the Shirni military response against the recent Alpha attacks on their space and the first Shirni to contact us on our ring. He has requested that, seeing as you have a jump drive, you survey any nearby systems in which you suspect there may be Alpha activity."`
 			choice
 				`	"Yes, I can do that."`
