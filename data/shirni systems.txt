@@ -1289,7 +1289,7 @@ planet Quta'ar
 	security 1
 
 planet Quzo'ar
-	attributes shirni
+	attributes shirni arid
 	landscape land/badlands2
 	description `This tiny, sun-scorched desert moon is the site of a recent major Shirni industrial development. The original settlements here were tiny outposts established to monitor the Quarg, which were abandoned once the Shirni realised that the Quarg were not hostile.`
 	description `	The industries here specialise in technology based off the Quarg, similar to the Tarazed corporation in human space.`
@@ -1343,14 +1343,14 @@ planet Xidera
 planet Ziderali
 	attributes uninhabited
 	landscape land/snow9
-	description `Ziderali is home to the remains of the first colony created by the Shirni outside their home planet. This tiny moon has no atmosphere, so the colony consisted entirely of small pressurised domes which were abandoned when the Shirni first began colonising other more habitable planets.`
+	description `Ziderali is home to the remains of the first colony created by the Shirni outside their home planet. This tiny moon has no atmosphere, so the colony consisted entirely of small pressurised domes which were abandoned shortly after the Shirni began colonising other more habitable planets.`
 	government Uninhabited
 
 planet Zokaderi
 	attributes shirni
 	landscape land/sea5
 	description `Zokaderi is the main base of the Shirni military. There are no major landmasses on the planet, so starships are built and equipped on enormous floating cities the size of an island. `
-	spaceport `You are not permitted to travel outside of a small area of the spaceport. There are large numbers of heavily armed Shirni guards here, watching your every move from strategic locations.`
+	spaceport `The spaceport here is busy, as the crew of the huge number of ships stationed here pick up food in the many restaurants and cafes. The tables are built with a modular design, so that larger tables can be easily assembled to seat the crew of even the largest ships.`
 	shipyard Shirni
 	outfitter "Shirni Advanced"
 	outfitter "Shirni Weapons"

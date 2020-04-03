@@ -9,7 +9,7 @@
 # PARTICULAR PURPOSE.  See the GNU General Public License for more details.
 
 ship "Azolla"
-	sprite "ship/shiptest"
+	sprite "ship/azolla"
 	thumbnail "thumbnail/shiptest"
 	attributes
 		category "Light Warship"
@@ -49,13 +49,15 @@ ship "Azolla"
 		
 		"Hyperdrive"
 		
-	gun 30 -25 "Energy Burst Cannon"
-	gun -30 -25 "Energy Burst Cannon"
-	gun 51 -10 
-	gun -52 -10 
-	turret 0 2 "Terminator Beam"
-	engine 11 107
-	engine -11 107
+	gun 14 -46 "Energy Burst Cannon"
+	gun -14 -46 "Energy Burst Cannon"
+	gun 21 -34 
+	gun -21 -34 
+	turret 0 15 "Terminator Beam"
+	engine -25 48 .7
+	engine -20 48 .7
+	engine 20 48 .7
+	engine 25 48 .7
 	explode "tiny explosion" 20
 	explode "small explosion" 15
 	explode "medium explosion" 5
