@@ -1294,7 +1294,8 @@ planet Quzo'ar
 	description `This tiny, sun-scorched desert moon is the site of a recent major Shirni industrial development. The original settlements here were tiny outposts established to monitor the Quarg, which were abandoned once the Shirni realised that the Quarg were not hostile.`
 	description `	The industries here specialise in technology based off the Quarg, similar to the Tarazed corporation in human space.`
 	spaceport `The architecture here is an odd mixture of Quarg and Shirni. The hallways, unlike those in most other buildings in Shirni space, are tall enough that a Quarg can stand fully upright and painted to resemble the interior of a Quarg ringworld. There are many Quarg here, some of whom you suspect are monitoring the industries on the planet.
-
+	outfitter "Shirni Basics"
+	
 planet Rikuzari
 	attributes shirni
 	landscape land/water4
