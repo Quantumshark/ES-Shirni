@@ -55,7 +55,7 @@ outfit "A-Type Generator"
 	"energy generation" 1.9
 	"heat generation" 5.3
 	"shield generation" .45
-	"shield heat" .95
+	"shield heat" 1.25
 	"disruption resistance" .02
 	description "This generator combines some energy generation with a small amount of shield generation, all in a much smaller space than most other races could fit both. This compact and versatile outfit also provides a tiny amount of protection against weapons that disrupt a ship's shield matrix."
 	
@@ -70,7 +70,7 @@ outfit "C-Type Generator"
 	"energy generation" 6.1
 	"heat generation" 14.6
 	"shield generation" 1.1
-	"shield heat" 2.4
+	"shield heat" 3.4
 	"disruption resistance" .08
 	description "The Shirni build shield regeneration into their generators, so that when they are recharging their shields the extra power can be drawn by adjusting the generator settings rather than risking running out of energy in the middle of a battle."
 	description "Because these systems primarily serve as generators, weapons designed to disrupt shields are less effective against them."
@@ -86,7 +86,7 @@ outfit "F-Type Generator"
 	"energy generation" 15.3
 	"heat generation" 31.3
 	"shield generation" 3.2
-	"shield heat" 6.1
+	"shield heat" 7.7
 	"disruption resistance" .2
 	description "The Shirni build shield regeneration into their generators, so that when they are recharging their shields the extra power can be drawn by adjusting the generator settings rather than risking running out of energy in the middle of a battle."
 	description "Because these systems primarily serve as generators, weapons designed to disrupt shields are less effective against them."
@@ -102,7 +102,7 @@ outfit "I-Type Generator"
 	"energy generation" 26.4
 	"heat generation" 57.8
 	"shield generation" 5.3
-	"shield heat" 12.7
+	"shield heat" 16.7
 	"disruption resistance" .4
 	description "The I-Type Generator is a recent design by the Shirni, who needed additional power for their newer, more advanced warships. Providing large amounts of power alongside integrated shield generation allows the ship this generator is equipped on to maintain its systems even while under sustained fire."
 	
