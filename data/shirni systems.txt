@@ -1110,6 +1110,16 @@ system Vikudazo
 	asteroids "large rock" 1 3.468
 	asteroids "medium metal" 30 5.066
 	asteroids "large metal" 11 2.72
+	trade Clothing 250
+	trade Electronics 787
+	trade Equipment 617
+	trade Food 357
+	trade "Heavy Metals" 900
+	trade Industrial 787
+	trade "Luxury Goods" 1200
+	trade Medical 767
+	trade Metal 370
+	trade Plastic 390
 	fleet "shirni scout" 2000
 	object
 		sprite star/g0
