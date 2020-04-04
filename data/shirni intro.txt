@@ -209,6 +209,7 @@ mission "Shirni Particle Cannon delivery"
 				`	"I am unable to do that right now."
 					decline
 			`	"Excellent. I will inform the Shirni that they should wait here for you." The Quarg walks away, leaving you alone.`
+				accept
 	on complete
 		outfit "Particle Cannon" -1
 		log "Brought a particle cannon to the Shirni, so they could begin attempting to reverse-engineer the weapon that had caused them so much trouble in the Alpha attacks."
