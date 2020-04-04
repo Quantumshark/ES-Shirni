@@ -84,9 +84,9 @@ outfit "F-Type Generator"
 	"mass" 109
 	"outfit space" -109
 	"energy generation" 15.3
-	"heat generation" 31.3
+	"heat generation" 34.3
 	"shield generation" 3.2
-	"shield heat" 7.7
+	"shield heat" 9.9
 	"disruption resistance" .2
 	description "The Shirni build shield regeneration into their generators, so that when they are recharging their shields the extra power can be drawn by adjusting the generator settings rather than risking running out of energy in the middle of a battle."
 	description "Because these systems primarily serve as generators, weapons designed to disrupt shields are less effective against them."
@@ -101,8 +101,8 @@ outfit "I-Type Generator"
 	"outfit space" -173
 	"energy generation" 26.4
 	"heat generation" 57.8
-	"shield generation" 5.3
-	"shield heat" 16.7
+	"shield generation" 5.25
+	"shield heat" 17.7
 	"disruption resistance" .4
 	description "The I-Type Generator is a recent design by the Shirni, who needed additional power for their newer, more advanced warships. Providing large amounts of power alongside integrated shield generation allows the ship this generator is equipped on to maintain its systems even while under sustained fire."
 	
