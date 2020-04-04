@@ -1336,7 +1336,7 @@ planet Bakudara
 	landscape land/forest3
 	description `The jungles of Bakudara are full of some of the most terrifying organisms you have ever seen. The apex predators appear to be many-legged flying invertebrates the size of a fighter and massive burrowing mole-like organisms that produce huge mountains when they emerge.`
 	description `	The Shirni use this planet as a test site for their starships' weaponry. Every now and then one of the massive flying beasts gets too close to one of the test sites and must be scared off with a flight of plasma rockets.`
-	spaceport `The Shirni here all appear to be weapons engineers. A sizable crowd of them are staring at the weapons on your ship, perhaps hoping to discover how they work.`
+	spaceport `Most of the Shirni here appear to be weapons engineers, or some other related profession. A sizable crowd of them are staring at the weapons on your ship, perhaps hoping to discover how they work.`
 	outfitter "Shirni Weapons"
 	outfitter "Shirni Basics"
 	"required reputation" 5
