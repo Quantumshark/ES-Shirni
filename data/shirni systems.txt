@@ -1101,7 +1101,7 @@ system Vekuyat
 			period 52.9661
 
 system Vikudazo
-	pos -552.781 -302.897
+	pos -542 -281
 	government Shirni
 	habitable 1080
 	link Kikuden
