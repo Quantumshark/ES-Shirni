@@ -1300,10 +1300,10 @@ planet Evoyrati
 	description `This planet is uninhabited currently, but evidently once was not. Huge buildings built with standard Shirni tetrahedral shapes are scattered across the land, yet there is no record of the Shirni ever having visited this system and it is not included on any of their maps.`
 
 planet Kazodari
-	attributes shirni urban farming
-	landscape 
-	description
-	spaceport
+	attributes shirni
+	landscape land/city11
+	description `This planet is home to a population of nearly four billion Shirni. With large areas of arable land, frequent heavy rainfall, adequate reserves of metals and major factories on several small islands distant from the major continents, the population of this planet is entirely self-sufficient.`
+	spaceport `The spaceport is disproportionately small for this planet's population, and lacks the facilities for loading and unloading large quantities of cargo. The restaurants here serve a variety of foods, all produced entirely on-world.
 	outfitter "Shirni Basics"
 	
 planet Kozarna
