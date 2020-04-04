@@ -114,6 +114,7 @@ mission "Shirni Water Resupply"
 	to offer
 		random < 20
 		has "license: Shirni"
+		has "shirni: recieved device"
 	cargo "water tanks" 50 7 .2
 	on stopover
 		dialog
@@ -136,6 +137,7 @@ mission "Shirni science important stuff delivery"
 	to offer
 		random < 18
 		has "license: Shirni"
+		has "shirni: recieved device"
 	cargo "unlabeled containers" 5 1 .2
 	on complete
 		dialog
@@ -154,6 +156,7 @@ mission "Shirni industrial supplies A"
 	to offer
 		random < 20
 		has "license: Shirni"
+		has "shirni: recieved device"
 	cargo "Industrial" 61 3 .1
 	on complete
 		dialog

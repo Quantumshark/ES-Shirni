@@ -105,8 +105,7 @@ mission "Shirni Archives A"
 			label explain
 			`	You tell the Quarg everything you know about the Alphas, about their origin as genetically modified humans, about the Alpha Wars, and about the Alpha enclaves thought to exist on the fringes of human space and beyond.`
 			`	The Shirni continues speaking with the Quarg for a while, briefly pausing from time to time to type something on their handheld device. Eventually, they stop talking, and the Quarg translates.`
-			`	"The Shirni informed us that they trust that you are telling them the truth. They are willing to sell you their outfits and their smaller ships, but they will not sell you weapons or warships. Furthermore, they will offer you jobs on their planets."`
-			`	"The Shirni have also agreed to allow us to station Quarg interpreters in the spaceports of each of their planets, both to facilitate cultural exchange between the Shirni and the Quarg and to allow you to communicate with them."`
+			`	"The Shirni informed us that they trust that you are telling them the truth. They will offer you jobs on their planets, and will allow you to purchase and sell goods. They have also agreed to allow us to station Quarg interpreters in the spaceports of each of their planets, both to facilitate cultural exchange between the Shirni and the Quarg and to allow you to communicate with them."`
 				decline
 	on visit
 		dialog
@@ -115,7 +114,6 @@ mission "Shirni Archives A"
 	on complete
 		payment -40
 	on decline
-		set "license: Shirni"
 		log "Factions" "Shirni" "The Shirni are mothlike aliens living in a region north of the Deep. They were recently attacked by the Alphas, and were protected by the Quarg. From then on, they have viewed the Quarg as guardians."
 		log "Was able to negotiate a deal with the Shirni in which Quarg interpreters are stationed on all of their planets after giving them details about the Alphas."
 			
@@ -168,9 +166,8 @@ mission "Shirni Archives A2"
 			`	After a while, they gesture to one of the Quarg and say something quickly in their language.`
 			`	The Quarg translates for them. "They say that these archives are acceptable."`
 			`	The Shirni continues speaking with the Quarg for a while, briefly pausing from time to time to type something on their handheld device. Eventually, they stop talking, and the Quarg translates.`
-			`	"The Shirni informed us that they trust that you are telling them the truth. They are willing to sell you their outfits and their smaller ships, but they will not sell you weapons or warships. Furthermore, they will offer you jobs on their planets."`
-			`	"The Shirni have also agreed to allow us to station Quarg interpreters in the spaceports of each of their planets, both to facilitate cultural exchange between the Shirni and the Quarg and to allow you to communicate with them."`
-		set "license: Shirni"
+			`	"The Shirni informed us that they trust that you are telling them the truth. They will offer you jobs on their planets, and will allow you to purchase and sell goods. They have also agreed to allow us to station Quarg interpreters in the spaceports of each of their planets, both to facilitate cultural exchange between the Shirni and the Quarg and to allow you to communicate with them."`
+
 		
 mission "Shirni Archives B2"
 	landing
@@ -192,9 +189,8 @@ mission "Shirni Archives B2"
 			`	After a while, they gesture to one of the Quarg and say something quickly in their language.`
 			`	The Quarg translates for them. "They say that these archives are acceptable."`
 			`	The Shirni continues speaking with the Quarg for a while, briefly pausing from time to time to type something on their handheld device. Eventually, they stop talking, and the Quarg translates.`
-			`	"The Shirni informed us that they trust that you are telling them the truth. They are willing to sell you their outfits and their smaller ships, but they will not sell you weapons or warships. Furthermore, they will offer you jobs on their planets."`
-			`	"The Shirni have also agreed to allow us to station Quarg interpreters in the spaceports of each of their planets, both to facilitate cultural exchange between the Shirni and the Quarg and to allow you to communicate with them."`
-		set "license: Shirni"	
+			`	"The Shirni informed us that they trust that you are telling them the truth. They will offer you jobs on their planets, and will allow you to purchase and sell goods. They have also agreed to allow us to station Quarg interpreters in the spaceports of each of their planets, both to facilitate cultural exchange between the Shirni and the Quarg and to allow you to communicate with them."`
+
 				
 mission "Shirni Alpha surveillance"
 	source
@@ -255,7 +251,7 @@ mission "Shirni Alpha surveillance"
 				`	"Yes, the Leviathan is often used by pirates and similar groups. I wouldn't be surprised if the Alphas were using them."`
 				`	"Yes, the Leviathan was one of the most powerful ships available during the Alpha Wars. It would make sense if the Alphas were still using them."`
 			`	The Quarg turns to Votari and translates for you. Votari makes some notes on some kind of small handheld device while the Quarg is speaking. After a while of silence punctuated by odd noises from the device, Votari replies and the Quarg translates.`
-			`	"The Shirni have decided that you are a 'trustworthy ally' in their fight against the Alphas. As such, you are trusted to visit several of their planets which you were not trusted to visit previously. Furthermore," The Quarg gestures to Votari, and Votari hands you a device similar to the one he is holding, "You will be given one of these. This is a messaging device, capable of connecting across the whole of Shirni space in an instant. We Quarg alongside several of the Shirni's researchers have also cooperated in an attempt to add a translation feature to it, though thus far it is only rudimentary and not hugely effective."`
+			`	"The Shirni have decided that you are a 'trustworthy ally' in their fight against the Alphas. As such, you are trusted to visit several of their planets which you were not trusted to visit previously, and to purchase their outfits and some of their smaller ships. Furthermore," The Quarg gestures to Votari, and Votari hands you a device similar to the one he is holding, "You will be given one of these. This is a messaging device, capable of connecting across the whole of Shirni space in an instant. We Quarg alongside several of the Shirni's researchers have also cooperated in an attempt to add a translation feature to it, though thus far it is only rudimentary and not hugely effective."`
 			`	You take the device and see that, sure enough, some of the interface has been translated into your language, albeit with some rather archaic phrases. Most of it, however, is still in the Shirni's smooth, curling script.`
 		set "shirni: recieved device"
-
+		set "license: Shirni"
