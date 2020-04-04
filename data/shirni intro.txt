@@ -28,6 +28,7 @@ mission "First Contact: Shirni"
 	source
 		government "Shirni"
 	destination "Quta'ar"
+	clearance
 	on offer
 		log "Discovered a species of mothlike aliens to the north of the Deep. Was asked to visit the Quarg ringworld in their space."
 		conversation
