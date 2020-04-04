@@ -67,7 +67,7 @@ system Akutal
 			period 29
 
 system Bikutaqi
-	pos -717.589 -526.109
+	pos -718.589 -531.109
 	government Shirni
 	habitable 1080
 	link Gikudap
@@ -188,7 +188,7 @@ system Bokulat
 			period 12.1603
 
 system Dakutlak
-	pos -828.829 -594.097
+	pos -832.829 -603.097
 	government Shirni
 	habitable 1715
 	link Vekuyat
@@ -297,7 +297,7 @@ system Dekurex
 			period 26.5922
 
 system Ekubakto
-	pos -845.829 -526.097
+	pos -859.829 -528.097
 	government Shirni
 	habitable 625
 	link Vekuyat
@@ -339,7 +339,7 @@ system Ekubakto
 		period 1677.78
 
 system Gikudap
-	pos -673.383 -549.546
+	pos -667.383 -563.546
 	government Shirni
 	habitable 2035
 	link Vokutva
@@ -455,7 +455,7 @@ system Ikulai
 			period 13.1378
 
 system Kakuyal
-	pos -729.351 -433.542
+	pos -733.351 -430.542
 	government Shirni
 	habitable 625
 	link Vakubo
@@ -523,6 +523,7 @@ system Kikuden
 	government Shirni
 	habitable 320
 	link Akutal
+	link Vikudazo
 	asteroids "medium rock" 28 4.284
 	asteroids "large rock" 1 5.208
 	asteroids "small metal" 50 5.628
@@ -572,9 +573,10 @@ system Kikuden
 		period 2697.01
 
 system Kukutob
-	pos -756.829 -645.097
+	pos -756.829 -650.097
 	government Shirni
 	habitable 3780
+	belt 2104
 	link Dakutlak
 	asteroids "medium rock" 17 2.21
 	asteroids "large rock" 11 3.5275
@@ -595,6 +597,9 @@ system Kukutob
 	trade Metal 370
 	trade Plastic 390
 	fleet "shirni scout" 6000
+	minables silver 19 6.4
+	minables titanium 16 5.9
+	minables gold 8 2.7
 	object
 		sprite star/giant
 		period 10
@@ -672,7 +677,7 @@ system Lyikta
 			sprite planet/rock17
 			distance 313
 			period 29.1483
-		object "Evoyrati"
+		object Evoyrati
 			sprite planet/ice8
 			distance 425
 			period 46.1191
@@ -745,7 +750,7 @@ system Pakutla
 		period 2234
 
 system Qekudat
-	pos -737.37 -485.919
+	pos -747.37 -482.919
 	government Shirni
 	habitable 625
 	link Kakuyal
@@ -803,7 +808,7 @@ system Qekudat
 			period 27.6164
 
 system Quku'ar
-	pos -786.367 -411.709
+	pos -796.367 -407.709
 	government Quarg
 	habitable 700
 	link Kakuyal
@@ -926,7 +931,7 @@ system Takudi
 		period 1937.32
 
 system Ukudotok
-	pos -842.829 -684.097
+	pos -841.829 -694.097
 	government Shirni
 	habitable 1772.76
 	link Dakutlak
@@ -1029,7 +1034,7 @@ system Vakubo
 		period 1203.14
 
 system Vekuyat
-	pos -787.829 -549.097
+	pos -792.829 -549.097
 	government Shirni
 	habitable 1217.76
 	link Bikutaqi
@@ -1094,6 +1099,41 @@ system Vekuyat
 			sprite planet/ice8
 			distance 560
 			period 52.9661
+
+system Vikudazo
+	pos -552.781 -302.897
+	government Shirni
+	habitable 1080
+	link Kikuden
+	asteroids "small rock" 6 2.72
+	asteroids "medium rock" 1 3.162
+	asteroids "large rock" 1 3.468
+	asteroids "medium metal" 30 5.066
+	asteroids "large metal" 11 2.72
+	fleet "shirni scout" 2000
+	object
+		sprite star/g0
+		period 10
+	object
+		sprite planet/rock19
+		distance 237.21
+		period 44.468
+		object
+			sprite planet/ice0
+			distance 119
+			period 17.3491
+	object
+		sprite planet/rock4
+		distance 577.17
+		period 168.773
+	object Kazodari
+		sprite planet/forest2
+		distance 918.17
+		period 338.636
+	object
+		sprite planet/gas3
+		distance 1835.42
+		period 957.087
 
 system Vokutva
 	pos -599.144 -609.092
@@ -1256,11 +1296,18 @@ planet Docitari
 
 planet Evoyrati
 	attributes uninhabited
-	landscape "land/beach9-sfiera"
-	description "This planet is uninhabited currently, but evidently once was not. Huge buildings built with standard Shirni tetrahedral shapes are scattered across the land, yet there is no record of the Shirni ever having visited this system and it is not included on any of their maps."
+	landscape land/beach9-sfiera
+	description `This planet is uninhabited currently, but evidently once was not. Huge buildings built with standard Shirni tetrahedral shapes are scattered across the land, yet there is no record of the Shirni ever having visited this system and it is not included on any of their maps.`
+
+planet Kazodari
+	attributes shirni urban farming
+	landscape 
+	description
+	spaceport
+	outfitter "Shirni Basics"
 	
 planet Kozarna
-	attributes shirni arid
+	attributes shirni arid farming
 	landscape land/dune0
 	description `Despite the slightly arid climate, Kozarna is a heavily populated planet. When the Shirni first arrived here they found huge reserves of oil, which are now exhausted. Instead of leaving the planet, the Shirni converted it into a farming planet for various exotic foods.`
 	spaceport `The spaceports here are busier than any you have seen elsewhere in Shirni space. Upon closer inspection, you realise that the whole spaceport is serving as an enormous food market with a vast variety of exotic foodstuffs. Despite the alien nature of most of the food, you are eventually able to find something to your liking.`
@@ -1283,7 +1330,7 @@ planet Quta'ar
 	attributes quarg station
 	landscape land/station2
 	description `This is an incomplete Quarg ringworld. The Quarg appear to have stripped off the surface of an entire planet to gather materials for the construction, and are also harvesting metal-rich asteroids.`
-	description `Based on the size of this ringworld, you estimate it must be home to tens of billions of Quarg.`
+	description `	Based on the size of this ringworld, you estimate it must be home to tens of billions of Quarg.`
 	spaceport `The spaceport is unusually busy for a Quarg spaceport, with large crowds of Shirni gathering to meet with the Quarg. The gravity is weaker and the air thinner than you are used to, but this does not seem to be causing the Shirni any issues.`
 	bribe 0
 	security 1
@@ -1293,9 +1340,9 @@ planet Quzo'ar
 	landscape land/badlands2
 	description `This tiny, sun-scorched desert moon is the site of a recent major Shirni industrial development. The original settlements here were tiny outposts established to monitor the Quarg, which were abandoned once the Shirni realised that the Quarg were not hostile.`
 	description `	The industries here specialise in technology based off the Quarg, similar to the Tarazed corporation in human space.`
-	spaceport `The architecture here is an odd mixture of Quarg and Shirni. The hallways, unlike those in most other buildings in Shirni space, are tall enough that a Quarg can stand fully upright and painted to resemble the interior of a Quarg ringworld. There are many Quarg here, some of whom you suspect are monitoring the industries on the planet.
+	spaceport `The architecture here is an odd mixture of Quarg and Shirni. The hallways, unlike those in most other buildings in Shirni space, are tall enough that a Quarg can stand fully upright and painted to resemble the interior of a Quarg ringworld. There are many Quarg here, some of whom you suspect are monitoring the industries on the planet.`
 	outfitter "Shirni Basics"
-	
+
 planet Rikuzari
 	attributes shirni
 	landscape land/water4
@@ -1334,7 +1381,7 @@ planet Vuzotarne
 	"required reputation" 5
 
 planet Xidera
-	attributes shirni
+	attributes shirni farming
 	landscape land/fog1
 	description `Xidera is a cold, wet farming world where the Shirni grow a species of edible fungus that forms the basis of much of their diet. The sun is perpetually obscured by clouds, and days without precipitation are almost unheard of.`
 	spaceport `The spaceport dwarfs every other urban region on this planet - this city easily holds more than two thirds of the planet's entire population. The spaceport has an extensive drainage system, to prevent the heavy rainfall from causing flooding.`
@@ -1347,7 +1394,7 @@ planet Ziderali
 	government Uninhabited
 
 planet Zokaderi
-	attributes shirni
+	attributes shirni military
 	landscape land/sea5
 	description `Zokaderi is the main base of the Shirni military. There are no major landmasses on the planet, so starships are built and equipped on enormous floating cities the size of an island. `
 	spaceport `The spaceport here is busy, as the crew of the huge number of ships stationed here pick up food in the many restaurants and cafes. The tables are built with a modular design, so that larger tables can be easily assembled to seat the crew of even the largest ships.`
