@@ -9,7 +9,7 @@
 # PARTICULAR PURPOSE.  See the GNU General Public License for more details.
 
 system Akutal
-	pos -500.169 -459.83
+	pos -741.169 -567.83
 	government Shirni
 	habitable 1948.28
 	link Ikulai
@@ -67,7 +67,7 @@ system Akutal
 			period 29
 
 system Bikutaqi
-	pos -718.589 -531.109
+	pos -959.589 -639.109
 	government Shirni
 	habitable 1080
 	link Gikudap
@@ -131,7 +131,7 @@ system Bikutaqi
 			period 25.9621
 
 system Bokulat
-	pos -357.242 -457.356
+	pos -598.242 -565.356
 	government Shirni
 	habitable 436.68
 	link Takudi
@@ -188,7 +188,7 @@ system Bokulat
 			period 12.1603
 
 system Dakutlak
-	pos -832.829 -603.097
+	pos -1073.829 -711.097
 	government Shirni
 	habitable 1715
 	link Vekuyat
@@ -232,7 +232,7 @@ system Dakutlak
 		period 914.578
 
 system Dekurex
-	pos -621.651 -537.36
+	pos -862.651 -645.36
 	government Shirni
 	habitable 1080
 	link Xukudae
@@ -297,7 +297,7 @@ system Dekurex
 			period 26.5922
 
 system Ekubakto
-	pos -859.829 -528.097
+	pos -1100.829 -636.097
 	government Shirni
 	habitable 625
 	link Vekuyat
@@ -339,7 +339,7 @@ system Ekubakto
 		period 1677.78
 
 system Gikudap
-	pos -667.383 -563.546
+	pos -908.383 -671.546
 	government Shirni
 	habitable 2035
 	link Vokutva
@@ -408,7 +408,7 @@ system Gikudap
 			period 55.8059
 
 system Ikulai
-	pos -419.038 -410.433
+	pos -660.038 -518.433
 	government Shirni
 	habitable 486.68
 	link Takudi
@@ -455,7 +455,7 @@ system Ikulai
 			period 13.1378
 
 system Kakuyal
-	pos -733.351 -430.542
+	pos -974.351 -538.542
 	government Shirni
 	habitable 625
 	link Vakubo
@@ -519,7 +519,7 @@ system Kakuyal
 			period 64.9186
 
 system Kikuden
-	pos -546.477 -374.81
+	pos -787.477 -482.81
 	government Shirni
 	habitable 320
 	link Akutal
@@ -573,7 +573,7 @@ system Kikuden
 		period 2697.01
 
 system Kukutob
-	pos -756.829 -650.097
+	pos -997.829 -758.097
 	government Shirni
 	habitable 3780
 	belt 2104
@@ -642,7 +642,7 @@ system Kukutob
 			period 25.4957
 
 system Lyikta
-	pos -596.257 -455.778
+	pos -837.257 -563.778
 	government Uninhabited
 	habitable 1111.68
 	asteroids "small rock" 6 6.3936
@@ -691,7 +691,7 @@ system Lyikta
 		period 1171.06
 
 system Pakutla
-	pos -578.157 -565.837
+	pos -819.157 -673.837
 	government Shirni
 	habitable 625
 	link Vokutva
@@ -750,7 +750,7 @@ system Pakutla
 		period 2234
 
 system Qekudat
-	pos -747.37 -482.919
+	pos -988.37 -590.919
 	government Shirni
 	habitable 625
 	link Kakuyal
@@ -808,7 +808,7 @@ system Qekudat
 			period 27.6164
 
 system Quku'ar
-	pos -796.367 -407.709
+	pos -1037.367 -515.709
 	government Quarg
 	habitable 700
 	link Kakuyal
@@ -880,7 +880,7 @@ system Quku'ar
 		offset 120
 
 system Takudi
-	pos -427.267 -490.797
+	pos -668.267 -598.797
 	government Shirni
 	habitable 425.92
 	link Ikulai
@@ -931,7 +931,7 @@ system Takudi
 		period 1937.32
 
 system Ukudotok
-	pos -841.829 -694.097
+	pos -1082.829 -802.097
 	government Shirni
 	habitable 1772.76
 	link Dakutlak
@@ -976,7 +976,7 @@ system Ukudotok
 			period 25.612
 
 system Vakubo
-	pos -674.16 -494.713
+	pos -915.16 -602.713
 	government Shirni
 	habitable 806.68
 	link Dekurex
@@ -1034,7 +1034,7 @@ system Vakubo
 		period 1203.14
 
 system Vekuyat
-	pos -792.829 -549.097
+	pos -1033.829 -657.097
 	government Shirni
 	habitable 1217.76
 	link Bikutaqi
@@ -1101,7 +1101,7 @@ system Vekuyat
 			period 52.9661
 
 system Vikudazo
-	pos -542 -281
+	pos -783 -409
 	government Shirni
 	habitable 1080
 	link Kikuden
@@ -1146,7 +1146,7 @@ system Vikudazo
 		period 957.087
 
 system Vokutva
-	pos -599.144 -609.092
+	pos -840.144 -717.092
 	government Shirni
 	habitable 486.68
 	link Pakutla
@@ -1213,7 +1213,7 @@ system Vokutva
 			period 59.7625
 
 system Xukudae
-	pos -535.63 -520.02
+	pos -776.63 -628.02
 	government Shirni
 	habitable 210
 	link Dekurex
