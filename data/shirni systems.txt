@@ -882,6 +882,7 @@ system Quku'ar
 
 system Rakudali
 	pos -857.927 -442.833
+	government Shirni
 	habitable 833.28
 	link Kikuden
 	link Vikudazo
@@ -890,6 +891,16 @@ system Rakudali
 	asteroids "large rock" 6 3.456
 	asteroids "small metal" 6 7.128
 	asteroids "large metal" 53 4.914
+	trade Clothing 250
+	trade Electronics 793
+	trade Equipment 554
+	trade Food 363
+	trade "Heavy Metals" 900
+	trade Industrial 767
+	trade "Luxury Goods" 1200
+	trade Medical 714
+	trade Metal 370
+	trade Plastic 390
 	fleet "shirni scout" 2200
 	object
 		sprite star/g0-old
