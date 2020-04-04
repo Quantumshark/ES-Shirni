@@ -1408,7 +1408,7 @@ planet Lizorati
 	attributes shirni arid
 	landscape land/hills1
 	description `Lizorati is a lifeless world, with no atmospheric oxygen and dry, dusty soil that blows away in the wind. The Shirni settlement here serves as a prison for the Alphas captured in their attempted invasion of Shirni space.`
-	spaceport `The spaceport is hundreds of miles away from the prison, with the only transport between the two in small vehicles which can easily be searched to prevent escape.`
+	spaceport `The spaceport is hundreds of miles away from the prison, with the only transport between the two in small vehicles which can easily be searched to prevent the escape of any of the prisoners.`
 	"required reputation" 25
 
 planet Quta'ar
