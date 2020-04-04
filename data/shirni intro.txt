@@ -192,7 +192,31 @@ mission "Shirni Archives B2"
 			`	The Shirni continues speaking with the Quarg for a while, briefly pausing from time to time to type something on their handheld device. Eventually, they stop talking, and the Quarg translates.`
 			`	"The Shirni informed us that they trust that you are telling them the truth. They will offer you jobs on their planets, and will allow you to purchase and sell goods. They have also agreed to allow us to station Quarg interpreters in the spaceports of each of their planets, both to facilitate cultural exchange between the Shirni and the Quarg and to allow you to communicate with them."`
 
-				
+mission "Shirni Particle Cannon delivery"
+	source
+		government "Shirni"
+	to offer
+		has "license: Shirni"
+		random < 30
+	on offer
+		conversation
+			`As you are walking through the spaceport, one of the Quarg stationed on this planet taps your shoulder. You turn around, and see they have a badge marking them as an interpreter. One of the Shirni in the spaceport says something to them quickly, then vanishes into the crowd. The Quarg sighs, then begins speaking to you.`
+			`	"It has been requested that I make a request of you. The Alphas who attacked the Shirni recently posessed a weapon that inflicted upon the Shirni much grief: a sizeable, long-range weapon which inflicted serious damage on their ships. They have requested that you bring one of these weapons, which I hear are called 'Particle Cannons' here, where they will then take it to their labs elsewhere."`
+			choice
+				`	"Yes, I can bring a particle cannon here."`
+				`	"I am unable to do that right now."
+					decline
+			`	The Quarg blinks, then leaves silently.`
+	on complete
+		outfit "Particle Cannon" -1
+		log "Brought a particle cannon to the Shirni, so they could begin attempting to reverse-engineer the weapon that had caused them so much trouble in the Alpha attacks."
+		dialog
+			`The workers in the spaceport unload the Particle Cannon and begin loading it onto one of their freighters. They also give you <payment> "to cover your expenses". You consider telling them that particle cannons are not that expensive, but decide against it.`
+		payment 351000
+	on visit
+		dialog
+			`You have returned to <planet>, but you do not have a Particle Cannon. You should depart, and either purchase or steal one.`
+			
 mission "Shirni Alpha surveillance"
 	source
 		government "Shirni"
@@ -202,7 +226,7 @@ mission "Shirni Alpha surveillance"
 	waypoint Almaaz
 	destination Kutaze
 	to offer
-		has "license: Shirni"
+		has "Shirni Particle Cannon delivery: done"
 		random < 30
 	npc
 		government "Republic"

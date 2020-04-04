@@ -60,6 +60,32 @@ outfit "Energy Burst Turret"
 		"hull damage" 13
 	description "This turret may not be the most damaging, but it is excellent at tracking fast-moving targets."	
 	
+outfit "Particle Blaster"
+	category "Guns"
+	licenses
+		"Shirni Military"
+	cost 351000
+	thumbnail "outfit/particle cannon"
+	"mass" 37
+	"outfit space" -37
+	"weapon capacity" -37
+	"gun ports" -1
+	weapon
+		sprite "projectile/particle beam"
+		sound "particle"
+		"hit effect" "particle impact"
+		"inaccuracy" .1
+		"velocity" 35
+		"lifetime" 35
+		"reload" 30
+		"firing energy" 25
+		"firing force" 5
+		"firing heat" 60
+		"hit force" 60
+		"shield damage" 64
+		"hull damage" 42
+	description "This is the result of Shirni attempts to reverse-engineer and improve on the Particle Cannon. The result is more efficient and longer ranged, but less powerful than the original."
+	
 outfit "Terminator Beam"
 	category "Turrets"
 	licenses
