@@ -193,6 +193,8 @@ mission "Shirni Archives B2"
 			`	"The Shirni informed us that they trust that you are telling them the truth. They will offer you jobs on their planets, and will allow you to purchase and sell goods. They have also agreed to allow us to station Quarg interpreters in the spaceports of each of their planets, both to facilitate cultural exchange between the Shirni and the Quarg and to allow you to communicate with them."`
 
 mission "Shirni Particle Cannon delivery"
+	name "Find a Particle Cannon."
+	description "Either purchase or steal a Particle Cannon, then bring it to the Shirni on <destination>."
 	source
 		government "Shirni"
 	to offer
@@ -206,7 +208,7 @@ mission "Shirni Particle Cannon delivery"
 				`	"Yes, I can bring a particle cannon here."`
 				`	"I am unable to do that right now."
 					decline
-			`	The Quarg blinks, then leaves silently.`
+			`	"Excellent. I will inform the Shirni that they should wait here for you." The Quarg walks away, leaving you alone.`
 	on complete
 		outfit "Particle Cannon" -1
 		log "Brought a particle cannon to the Shirni, so they could begin attempting to reverse-engineer the weapon that had caused them so much trouble in the Alpha attacks."
