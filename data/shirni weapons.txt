@@ -26,10 +26,10 @@ outfit "Energy Burst Cannon"
 		"velocity" 12
 		"lifetime" 53
 		"reload" 16
-		"firing energy" 8
-		"firing heat" 15
-		"shield damage" 23
-		"hull damage" 15
+		"firing energy" 16
+		"firing heat" 25
+		"shield damage" 21
+		"hull damage" 13
 	description "This is the Shirni equivalent of an energy blaster - a small weapon, capable of being equipped on their smallest ships. Until relatively recently, it was the only weapon the Shirni produced in large quantities."
 	
 outfit "Energy Burst Turret"
@@ -54,10 +54,10 @@ outfit "Energy Burst Turret"
 		"velocity" 12
 		"lifetime" 53
 		"reload" 16
-		"firing energy" 8
-		"firing heat" 15
-		"shield damage" 23
-		"hull damage" 15
+		"firing energy" 16
+		"firing heat" 25
+		"shield damage" 21
+		"hull damage" 13
 	description "This turret may not be the most damaging, but it is excellent at tracking fast-moving targets."	
 	
 outfit "Terminator Beam"
