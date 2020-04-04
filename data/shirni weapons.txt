@@ -146,9 +146,9 @@ outfit "Plasma Rocket Launcher"
 		"Shirni Military"
 	cost 530000
 	thumbnail "outfit/meteor launcher"
-	"mass" 20
-	"outfit space" -35
-	"weapon capacity" -35
+	"mass" 11
+	"outfit space" -26
+	"weapon capacity" -26
 	"gun ports" -1
 	"plasma rocket capacity" 30
 	weapon
