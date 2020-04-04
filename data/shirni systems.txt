@@ -188,7 +188,7 @@ system Bokulat
 			period 12.1603
 
 system Dakutlak
-	pos -1073.829 -711.097
+	pos -1073.83 -711.097
 	government Shirni
 	habitable 1715
 	link Vekuyat
@@ -297,7 +297,7 @@ system Dekurex
 			period 26.5922
 
 system Ekubakto
-	pos -1100.829 -636.097
+	pos -1100.83 -636.097
 	government Shirni
 	habitable 625
 	link Vekuyat
@@ -524,6 +524,7 @@ system Kikuden
 	habitable 320
 	link Akutal
 	link Vikudazo
+	link Rakudali
 	asteroids "medium rock" 28 4.284
 	asteroids "large rock" 1 5.208
 	asteroids "small metal" 50 5.628
@@ -808,7 +809,7 @@ system Qekudat
 			period 27.6164
 
 system Quku'ar
-	pos -1037.367 -515.709
+	pos -1037.37 -515.709
 	government Quarg
 	habitable 700
 	link Kakuyal
@@ -879,6 +880,57 @@ system Quku'ar
 		period 360
 		offset 120
 
+system Rakudali
+	pos -857.927 -442.833
+	habitable 233.28
+	link Kikuden
+	link Vikudazo
+	asteroids "small rock" 7 2.862
+	asteroids "medium rock" 6 2.754
+	asteroids "large rock" 6 3.456
+	asteroids "small metal" 6 7.128
+	asteroids "large metal" 53 4.914
+	fleet "shirni scout" 2200
+	object
+		sprite star/m4
+		period 10
+	object
+		sprite planet/titan
+		distance 150.09
+		period 48.1558
+	object
+		sprite planet/gas10
+		distance 816.5
+		period 611.02
+		object
+			sprite planet/rock14
+			distance 229
+			period 18.2411
+		object
+			sprite planet/rhea
+			distance 369
+			period 37.311
+		object
+			sprite planet/dust0
+			distance 526
+			period 63.5003
+	object
+		sprite planet/jupiter
+		distance 2445.19
+		period 3166.58
+		object
+			sprite planet/miranda
+			distance 255
+			period 12.7959
+		object
+			sprite planet/ice8
+			distance 389
+			period 24.1094
+		object
+			sprite planet/luna
+			distance 533
+			period 38.6681
+
 system Takudi
 	pos -668.267 -598.797
 	government Shirni
@@ -931,7 +983,7 @@ system Takudi
 		period 1937.32
 
 system Ukudotok
-	pos -1082.829 -802.097
+	pos -1082.83 -802.097
 	government Shirni
 	habitable 1772.76
 	link Dakutlak
@@ -1034,7 +1086,7 @@ system Vakubo
 		period 1203.14
 
 system Vekuyat
-	pos -1033.829 -657.097
+	pos -1033.83 -657.097
 	government Shirni
 	habitable 1217.76
 	link Bikutaqi
@@ -1105,6 +1157,7 @@ system Vikudazo
 	government Shirni
 	habitable 1080
 	link Kikuden
+	link Rakudali
 	asteroids "small rock" 6 2.72
 	asteroids "medium rock" 1 3.162
 	asteroids "large rock" 1 3.468
@@ -1313,9 +1366,9 @@ planet Kazodari
 	attributes shirni
 	landscape land/city11
 	description `This planet is home to a population of nearly four billion Shirni. With large areas of arable land, frequent heavy rainfall, adequate reserves of metals and major factories on several small islands distant from the major continents, the population of this planet is entirely self-sufficient.`
-	spaceport `The spaceport is disproportionately small for this planet's population, and lacks the facilities for loading and unloading large quantities of cargo. The restaurants here serve a variety of foods, all produced entirely on-world.
+	spaceport `The spaceport is disproportionately small for this planet's population, and lacks the facilities for loading and unloading large quantities of cargo. The restaurants here serve a variety of foods, all produced entirely on-world.`
 	outfitter "Shirni Basics"
-	
+
 planet Kozarna
 	attributes shirni arid farming
 	landscape land/dune0
@@ -1406,7 +1459,7 @@ planet Ziderali
 planet Zokaderi
 	attributes shirni military
 	landscape land/sea5
-	description `Zokaderi is the main base of the Shirni military. There are no major landmasses on the planet, so starships are built and equipped on enormous floating cities the size of an island. `
+	description `Zokaderi is the main base of the Shirni military. There are no major landmasses on the planet, so starships are built and equipped on enormous floating cities the size of an island. Some of these floating cities are covered by thick transparent domes and built to be able to submerge, in case the planet is attacked.`
 	spaceport `The spaceport here is busy, as the crew of the huge number of ships stationed here pick up food in the many restaurants and cafes. The tables are built with a modular design, so that larger tables can be easily assembled to seat the crew of even the largest ships.`
 	shipyard Shirni
 	outfitter "Shirni Advanced"
