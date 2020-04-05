@@ -194,7 +194,7 @@ outfit "Plasma Rocket Launcher"
 		"firing energy" .1
 		"firing heat" 7.3
 		"acceleration" 1.9
-		"drag" .08
+		"drag" .11
 		"turn" 2.0
 		"homing" 3
 		"radar tracking" .5
