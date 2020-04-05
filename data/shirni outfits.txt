@@ -18,7 +18,7 @@ outfit "Storage Cell"
 	"outfit space" -12
 	"energy capacity" 1400
 	"fuel capacity" 100
-	description "The Storage Cell provides a useful backup of both fuel and energy."
+	description "The Storage Cell provides a useful backup of both fuel and energy, and is equipped on almost every ship the Shirni use."
 	
 outfit "Heavy Storage Cell"
 	category "Power"
