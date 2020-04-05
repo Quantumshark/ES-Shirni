@@ -225,6 +225,7 @@ outfit "Anti-missile Beam"
 		"reload" 1
 		"firing energy" 3
 		"firing heat" 4
+	description "Unlike other anti-missile weapons, the Anti-missile beam fires a continuous beam of energy, making it particularly effective against large numbers of missiles. However, the beam is quite weak and thus ineffective against larger missiles."
 
 effect "anti-missile beam"
 	sprite "effect/anti-missile beam"

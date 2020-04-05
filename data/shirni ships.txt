@@ -54,10 +54,10 @@ ship "Azolla"
 	gun 21 -34 
 	gun -21 -34 
 	turret 0 15 "Terminator Beam"
-	engine -25 48 .7
-	engine -20 48 .7
-	engine 20 48 .7
-	engine 25 48 .7
+	engine -25 48 .6
+	engine -20 48 .8
+	engine 20 48 .8
+	engine 25 48 .6
 	explode "tiny explosion" 20
 	explode "small explosion" 15
 	explode "medium explosion" 5
