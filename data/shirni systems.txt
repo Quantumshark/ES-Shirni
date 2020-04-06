@@ -145,7 +145,7 @@ system Bokulat
 	trade Equipment 629
 	trade Food 389
 	trade "Heavy Metals" 874
-	trade Industrial 793
+	trade Industrial 895
 	trade "Luxury Goods" 1322
 	trade Medical 779
 	trade Metal 344
@@ -420,7 +420,7 @@ system Ikulai
 	trade Equipment 642
 	trade Food 402
 	trade "Heavy Metals" 861
-	trade Industrial 793
+	trade Industrial 864
 	trade "Luxury Goods" 1239
 	trade Medical 779
 	trade Metal 344
