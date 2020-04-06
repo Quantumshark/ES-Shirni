@@ -1455,7 +1455,7 @@ planet Shipoderni
 planet Tazarna
 	attributes shirni
 	landscape land/beach2
-	description `The primary industry on Tazarna is the farming of a species of rapidly growing kelp-like algae. Most fabrics in use in Shirni space are made from processed algal fibres farmed on this planet.`
+	description `The primary industry on Tazarna is the farming of a species of rapidly growing kelp-like algae. Most fabrics in use in Shirni space are made from processed algal fibres farmed on this planet, as are some construction materials.`
 	spaceport `The docks for the massive cargo ships ferrying huge loads of kelp are situated as close to the spaceport as possible, to maximise the efficiency of the loading and unloading processes. There are large teams of Shirni whose jobs appear to consist entirely of hosing down the floors with a chemical that serves both as a cleaning fluid and as a form of odour control.`
 
 planet Ubirata
