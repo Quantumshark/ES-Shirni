@@ -467,7 +467,7 @@ system Kakuyal
 	asteroids "medium metal" 11 2.3424
 	asteroids "large metal" 1 1.5168
 	trade Clothing 237
-	trade Electronics 793
+	trade Electronics 743
 	trade Equipment 590
 	trade Food 350
 	trade "Heavy Metals" 900
@@ -1004,7 +1004,7 @@ system Ukudotok
 	link Dakutlak
 	asteroids "large metal" 1 2.366
 	trade Clothing 216
-	trade Electronics 780
+	trade Electronics 860
 	trade Equipment 579
 	trade Food 362
 	trade "Heavy Metals" 900
