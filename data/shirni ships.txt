@@ -10,7 +10,7 @@
 
 ship "Azolla"
 	sprite "ship/azolla"
-	thumbnail "thumbnail/shiptest"
+	thumbnail "thumbnail/azolla"
 	attributes
 		category "Light Warship"
 		licenses
