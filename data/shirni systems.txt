@@ -820,9 +820,9 @@ system Quku'ar
 	trade Equipment 577
 	trade Food 337
 	trade "Heavy Metals" 900
-	trade Industrial 780
+	trade Industrial 733
 	trade "Luxury Goods" 1127
-	trade Medical 740
+	trade Medical 699
 	trade Metal 370
 	trade Plastic 443
 	fleet Quarg 750
