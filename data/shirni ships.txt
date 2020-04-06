@@ -87,3 +87,48 @@ ship "Azolla" "Azolla (Tough)"
 		"Storm-Type Steering"
 		"Gale-Type Thruster"
 		"Hyperdrive"
+		
+ship "Tectaria"
+	sprite ship/tectaria
+	thumbnail thumbnail/tectaria
+	attributes
+		category "Heavy Freighter"
+		licenses
+			"Shirni"
+		"cost" 
+		"shields" 3700
+		"hull" 10700
+		"required crew" 6
+		"bunks" 11
+		"mass" 541
+		"drag" 6.4
+		"heat dissipation" .75
+		"fuel capacity" 600
+		"cargo space" 473
+		"outfit space" 436
+		"weapon capacity" 167
+		"engine capacity" 133
+		weapon
+			"blast radius" 110
+			"shield damage" 1100
+			"hull damage" 550
+			"hit force" 1650
+	outfits
+		"Terminator Beam" 3
+			
+		"F-Type Generator"
+		"Storage Cell" 2
+			
+		"Storm-Type Steering"
+		"Storm-Type Thruster"
+			
+		"Hyperdrive"
+			
+	gun 33.5 -158
+	gun -28 -158	
+	turret 28 31
+	turret -23 31
+	turret 3 95
+	engine 3.5 123 1.1
+	engine 56 141 .7
+	engine -52 141 .7

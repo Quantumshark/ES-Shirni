@@ -67,6 +67,7 @@ outfitter "Shirni Weapons"
 	
 shipyard "Shirni"
 	"Azolla"
+	"Tectaria"
 	
 fleet "shirni scout"
 	government "Shirni"
@@ -78,6 +79,21 @@ fleet "shirni scout"
 		"Azolla (Heavy)"
 	variant
 		"Azolla (Tough)"
+		
+fleet "shirni freight"
+	government "Shirni"
+	names "shirni"
+	personality coward timid appeasing
+	variant 30
+		"Tectaria"
+	variant 8
+		"Tectaria"
+		"Azolla (Heavy)"
+	variant 3
+		"Tectaria"
+		"Azolla (Heavy)" 2
+	variant
+		"Tectaria" 2
 		
 phrase "shirni"
 	word
