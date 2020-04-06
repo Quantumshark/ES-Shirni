@@ -204,6 +204,44 @@ outfit "Plasma Rocket Launcher"
 		"missile strength" 3
 	description "Plasma Rockets are a deadly weapon against any target. Although they are only capable of rudimentary homing, their sheer numbers and burst fire allow them to deal impressive damage even to targets with powerful anti-missile systems."
 
+outfit "Plasma Rocket Turret"
+	category "Secondary Weapons"
+	licenses
+		"Shirni Military"
+	cost 530000
+	thumbnail "outfit/meteor launcher"
+	"mass" 29
+	"outfit space" -59
+	"weapon capacity" -59
+	"gun ports" -1
+	"plasma rocket capacity" 60
+	weapon
+		sprite "projectile/javelin"
+		sound "meteor"
+		ammo "Plasma Rocket"
+		icon "icon/meteor"
+		"fire effect" "meteor fire"
+		"die effect" "missile death"
+		"hit effect" "missile hit"
+		"inaccuracy" 20
+		"velocity" 30
+		"lifetime" 150
+		"burst reload" 3
+		"burst count" 10
+		"reload" 30
+		"firing energy" .1
+		"firing heat" 7.3
+		"acceleration" 1.9
+		"drag" .11
+		"turn" 2.0
+		"homing" 3
+		"radar tracking" .5
+		"shield damage" 117
+		"hull damage" 63
+		"heat damage" 243
+		"missile strength" 3
+	description "By mounting two Plasma Rocket Launchers on a rotating base and improving the missile loading systems, the Shirni have created a deadly weapon capable of destroying almost any target from long range."
+	
 outfit "Anti-missile Beam"
 	category "Turrets"
 	licenses
