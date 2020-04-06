@@ -81,7 +81,7 @@ system Bikutaqi
 	trade Clothing 266
 	trade Electronics 819
 	trade Equipment 616
-	trade Food 366
+	trade Food 289
 	trade "Heavy Metals" 861
 	trade Industrial 767
 	trade "Luxury Goods" 1200
@@ -247,7 +247,7 @@ system Dekurex
 	trade Clothing 221
 	trade Electronics 791
 	trade Equipment 655
-	trade Food 350
+	trade Food 311
 	trade "Heavy Metals" 900
 	trade Industrial 845
 	trade "Luxury Goods" 1174
@@ -352,7 +352,7 @@ system Gikudap
 	trade Clothing 237
 	trade Electronics 819
 	trade Equipment 629
-	trade Food 350
+	trade Food 316
 	trade "Heavy Metals" 926
 	trade Industrial 754
 	trade "Luxury Goods" 1187
@@ -469,7 +469,7 @@ system Kakuyal
 	trade Clothing 237
 	trade Electronics 743
 	trade Equipment 590
-	trade Food 350
+	trade Food 273
 	trade "Heavy Metals" 900
 	trade Industrial 793
 	trade "Luxury Goods" 1160
@@ -763,7 +763,7 @@ system Qekudat
 	trade Clothing 250
 	trade Electronics 806
 	trade Equipment 616
-	trade Food 324
+	trade Food 252
 	trade "Heavy Metals" 874
 	trade Industrial 780
 	trade "Luxury Goods" 1176
@@ -818,7 +818,7 @@ system Quku'ar
 	trade Clothing 237
 	trade Electronics 780
 	trade Equipment 577
-	trade Food 337
+	trade Food 247
 	trade "Heavy Metals" 900
 	trade Industrial 733
 	trade "Luxury Goods" 1127
@@ -1006,7 +1006,7 @@ system Ukudotok
 	trade Clothing 216
 	trade Electronics 860
 	trade Equipment 579
-	trade Food 362
+	trade Food 298
 	trade "Heavy Metals" 900
 	trade Industrial 779
 	trade "Luxury Goods" 1187
@@ -1057,7 +1057,7 @@ system Vakubo
 	trade Clothing 211
 	trade Electronics 780
 	trade Equipment 603
-	trade Food 337
+	trade Food 294
 	trade "Heavy Metals" 900
 	trade Industrial 806
 	trade "Luxury Goods" 1200
@@ -1112,7 +1112,7 @@ system Vekuyat
 	trade Clothing 263
 	trade Electronics 806
 	trade Equipment 603
-	trade Food 376
+	trade Food 226
 	trade "Heavy Metals" 900
 	trade Industrial 793
 	trade "Luxury Goods" 1187
