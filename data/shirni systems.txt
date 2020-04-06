@@ -140,16 +140,16 @@ system Bokulat
 	asteroids "small metal" 9 2.6676
 	asteroids "medium metal" 8 4.275
 	asteroids "large metal" 1 2.1204
-	trade Clothing 276
+	trade Clothing 296
 	trade Electronics 793
 	trade Equipment 629
 	trade Food 389
 	trade "Heavy Metals" 874
 	trade Industrial 793
-	trade "Luxury Goods" 1252
+	trade "Luxury Goods" 1322
 	trade Medical 779
 	trade Metal 344
-	trade Plastic 390
+	trade Plastic 331
 	fleet "shirni scout" 900
 	object
 		sprite star/k0
@@ -245,7 +245,7 @@ system Dekurex
 	asteroids "medium metal" 39 6.7048
 	asteroids "large metal" 16 4.5849
 	trade Clothing 221
-	trade Electronics 826
+	trade Electronics 791
 	trade Equipment 655
 	trade Food 350
 	trade "Heavy Metals" 900
@@ -415,7 +415,7 @@ system Ikulai
 	link Akutal
 	link Bokulat
 	asteroids "large metal" 1 4.77
-	trade Clothing 250
+	trade Clothing 303
 	trade Electronics 795
 	trade Equipment 642
 	trade Food 402
@@ -472,7 +472,7 @@ system Kakuyal
 	trade Food 350
 	trade "Heavy Metals" 900
 	trade Industrial 793
-	trade "Luxury Goods" 1200
+	trade "Luxury Goods" 1160
 	trade Medical 753
 	trade Metal 370
 	trade Plastic 429
@@ -766,7 +766,7 @@ system Qekudat
 	trade Food 324
 	trade "Heavy Metals" 874
 	trade Industrial 780
-	trade "Luxury Goods" 1226
+	trade "Luxury Goods" 1176
 	trade Medical 753
 	trade Metal 370
 	trade Plastic 429
@@ -821,10 +821,10 @@ system Quku'ar
 	trade Food 337
 	trade "Heavy Metals" 900
 	trade Industrial 780
-	trade "Luxury Goods" 1200
+	trade "Luxury Goods" 1127
 	trade Medical 740
 	trade Metal 370
-	trade Plastic 403
+	trade Plastic 443
 	fleet Quarg 750
 	fleet "shirni scout" 1600
 	object
@@ -958,13 +958,13 @@ system Takudi
 	asteroids "large rock" 18 4.3785
 	asteroids "medium metal" 4 4.095
 	asteroids "large metal" 1 2.142
-	trade Clothing 289
+	trade Clothing 299
 	trade Electronics 793
 	trade Equipment 655
 	trade Food 389
 	trade "Heavy Metals" 848
 	trade Industrial 819
-	trade "Luxury Goods" 1239
+	trade "Luxury Goods" 1269
 	trade Medical 792
 	trade Metal 341
 	trade Plastic 390
@@ -1003,16 +1003,16 @@ system Ukudotok
 	habitable 1772.76
 	link Dakutlak
 	asteroids "large metal" 1 2.366
-	trade Clothing 250
+	trade Clothing 216
 	trade Electronics 780
-	trade Equipment 629
+	trade Equipment 579
 	trade Food 362
 	trade "Heavy Metals" 900
-	trade Industrial 819
+	trade Industrial 779
 	trade "Luxury Goods" 1187
 	trade Medical 792
 	trade Metal 370
-	trade Plastic 390
+	trade Plastic 447
 	fleet "shirni scout" 2000
 	object
 		sprite star/k0
@@ -1111,7 +1111,7 @@ system Vekuyat
 	asteroids "large metal" 1 2.0636
 	trade Clothing 263
 	trade Electronics 806
-	trade Equipment 629
+	trade Equipment 603
 	trade Food 376
 	trade "Heavy Metals" 900
 	trade Industrial 793
