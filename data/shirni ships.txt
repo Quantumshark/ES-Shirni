@@ -105,8 +105,8 @@ ship "Tectaria"
 		"heat dissipation" .75
 		"fuel capacity" 600
 		"cargo space" 473
-		"outfit space" 436
-		"weapon capacity" 167
+		"outfit space" 486
+		"weapon capacity" 187
 		"engine capacity" 133
 		weapon
 			"blast radius" 110
@@ -115,6 +115,9 @@ ship "Tectaria"
 			"hit force" 1650
 	outfits
 		"Terminator Beam" 3
+		"Plasma Rocket Launcher" 2
+		"Plasma Rocket" 110
+		"Plasma Rocket Storage"
 			
 		"F-Type Generator"
 		"Storage Cell" 2
@@ -126,9 +129,9 @@ ship "Tectaria"
 			
 	gun 33.5 -158
 	gun -28 -158	
-	turret 28 31
-	turret -23 31
-	turret 3 95
+	turret 28 31 "Terminator Beam"
+	turret -23 31 "Terminator Beam"
+	turret 3 95 "Terminator Beam"
 	engine 3.5 123 1.1
 	engine 56 141 .7
 	engine -52 141 .7
