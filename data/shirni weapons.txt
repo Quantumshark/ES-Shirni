@@ -90,7 +90,7 @@ outfit "Terminator Beam"
 	category "Turrets"
 	licenses
 		"Shirni Military"
-	cost 2943000
+	cost 1943000
 	thumbnail "outfit/heavy laser turret"
 	"mass" 41
 	"outfit space" -41
@@ -120,7 +120,7 @@ outfit "Heavy Terminator Beam"
 	category "Turrets"
 	licenses
 		"Shirni Military"
-	cost 6597000
+	cost 4597000
 	thumbnail "outfit/heavy laser turret"
 	"mass" 96
 	"outfit space" -96
