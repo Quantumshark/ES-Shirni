@@ -95,7 +95,7 @@ ship "Tectaria"
 		category "Heavy Freighter"
 		licenses
 			"Shirni"
-		"cost" 
+		"cost" 7015000
 		"shields" 3700
 		"hull" 10700
 		"required crew" 6
