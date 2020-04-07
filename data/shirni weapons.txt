@@ -12,7 +12,7 @@ outfit "Energy Burst Cannon"
 	category "Guns"
 	licenses
 		"Shirni Military"
-	cost 113000
+	cost 83000
 	thumbnail "outfit/blaster"
 	"mass" 9
 	"outfit space" -9
@@ -36,7 +36,7 @@ outfit "Energy Burst Turret"
 	category "Turrets"
 	licenses
 		"Shirni Military"
-	cost 271000
+	cost 171000
 	thumbnail "outfit/blaster turret"
 	"mass" 12
 	"outfit space" -12
