@@ -30,7 +30,7 @@ outfit "Heavy Storage Cell"
 	"outfit space" -33
 	"energy capacity" 5700
 	"fuel capacity" 300
-	description "The Heavy Storage Cell provides a sizeable backup of both fuel and energy."
+	description "The Heavy Storage Cell is a new development, designed to provide a larger reserve of both fuel and energy in circumstances where this is necessary."
 
 outfit "Thermal Dissipator"
 	category "Systems"
