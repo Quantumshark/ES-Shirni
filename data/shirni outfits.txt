@@ -127,9 +127,9 @@ outfit "Secondary Shielding"
 	"mass" 6
 	"outfit space" -6
 	"shield generation" .5
-	"shield energy" 1.6
-	"shield heat" .6
-	description "This module was built to supplement the shield generation capabilities of Shirni reactors. It is unusually energy inefficient compared to other similar technology, as it is not intended to be in use for long periods of time."
+	"shield energy" .55
+	"shield heat" 2.6
+	description "This module was built to supplement the shield generation capabilities of Shirni reactors. Compared to similar technology, it is less energy efficient and produces a staggering amount of heat."
 	
 outfit "Regenerating Plating"
 	category "Systems"
