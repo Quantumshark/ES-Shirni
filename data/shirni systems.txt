@@ -29,6 +29,7 @@ system Akutal
 	trade Plastic 403
 	fleet "shirni freight" 600
 	fleet "shirni scout" 1600
+	fleet "shirni military" 400
 	object
 		sprite star/f5
 		distance 14.8473
@@ -91,6 +92,7 @@ system Bikutaqi
 	trade Plastic 429
 	fleet "shirni scout" 1600
 	fleet "shirni freight" 600
+	fleet "shirni military" 1100
 	fleet Quarg 1100
 	object
 		sprite star/g0
@@ -154,6 +156,7 @@ system Bokulat
 	trade Plastic 331
 	fleet "shirni scout" 900
 	fleet "shirni freight" 3500
+	fleet "shirni military" 600
 	object
 		sprite star/k0
 		period 10
@@ -211,6 +214,7 @@ system Dakutlak
 	trade Plastic 390
 	fleet "shirni scout" 3000
 	fleet "shirni freight" 2000
+	fleet "shirni military" 3000
 	object
 		sprite star/f5
 		period 10
@@ -260,6 +264,7 @@ system Dekurex
 	trade Plastic 403
 	fleet "shirni scout" 1600
 	fleet "shirni freight" 600
+	fleet "shirni military" 2000
 	fleet Quarg 1500
 	object
 		sprite star/g0
@@ -319,6 +324,7 @@ system Ekubakto
 	trade Metal 370
 	trade Plastic 390
 	fleet "shirni scout" 3100
+	fleet "shirni military" 5000
 	object
 		sprite star/wr
 		period 10
@@ -366,6 +372,7 @@ system Gikudap
 	trade Plastic 390
 	fleet "shirni scout" 1600
 	fleet "shirni freight" 1000
+	fleet "shirni military" 1000
 	fleet Quarg 1500
 	object
 		sprite star/f5
@@ -433,6 +440,7 @@ system Ikulai
 	trade Plastic 390
 	fleet "shirni scout" 1600
 	fleet "shirni freight" 1000
+	fleet "shirni military" 800
 	object
 		sprite star/k0
 		period 10
@@ -486,6 +494,7 @@ system Kakuyal
 	fleet Quarg 800
 	fleet "shirni scout" 1600
 	fleet "shirni freight" 700
+	fleet "shirni military" 1800
 	object
 		sprite star/g5
 		period 10
@@ -550,6 +559,7 @@ system Kikuden
 	trade Plastic 390
 	fleet "shirni scout" 1600
 	fleet "shirni freight" 1500
+	fleet "shirni military" 3400
 	object
 		sprite star/m0
 		period 10
@@ -724,6 +734,7 @@ system Pakutla
 	trade Plastic 377
 	fleet "shirni scout" 2400
 	fleet "shirni freight" 1200
+	fleet "shirni military" 700
 	object
 		sprite star/g5
 		period 10
@@ -782,6 +793,7 @@ system Qekudat
 	trade Plastic 429
 	fleet "shirni scout" 1600
 	fleet "shirni freight" 600
+	fleet "shirni military" 1400
 	fleet Quarg 1100
 	object
 		sprite star/g5
@@ -839,6 +851,7 @@ system Quku'ar
 	fleet Quarg 750
 	fleet "shirni scout" 1600
 	fleet "shirni freight" 1100
+	fleet "shirni military" 3700
 	object
 		sprite star/g5
 		period 10
@@ -915,6 +928,7 @@ system Rakudali
 	trade Plastic 390
 	fleet "shirni scout" 2200
 	fleet "shirni freight" 1000
+	fleet "shirni military" 5000
 	object
 		sprite star/g0-old
 		period 10
@@ -983,6 +997,7 @@ system Takudi
 	trade Plastic 390
 	fleet "shirni scout" 1600
 	fleet "shirni freight" 750
+	fleet "shirni military" 2200
 	object
 		sprite star/k5
 		period 10
@@ -1081,6 +1096,7 @@ system Vakubo
 	trade Plastic 426
 	fleet "shirni scout" 1600
 	fleet "shirni freight" 800
+	fleet "shirni military" 1500
 	fleet Quarg 1300
 	object
 		sprite star/k0
@@ -1137,6 +1153,7 @@ system Vekuyat
 	trade Plastic 416
 	fleet "shirni scout" 1600
 	fleet "shirni freight" 900
+	fleet "shirni military" 3700
 	fleet Quarg 1200
 	object
 		sprite star/g0-old
@@ -1207,6 +1224,7 @@ system Vikudazo
 	trade Plastic 390
 	fleet "shirni scout" 2000
 	fleet "shirni freight" 2200
+	fleet "shirni military" 4000
 	object
 		sprite star/g0
 		period 10
@@ -1254,6 +1272,7 @@ system Vokutva
 	trade Plastic 351
 	fleet "shirni scout" 1600
 	fleet "shirni freight" 600
+	fleet "shirni military" 600
 	fleet Quarg 1600
 	object
 		sprite star/k0
@@ -1323,6 +1342,7 @@ system Xukudae
 	trade Plastic 377
 	fleet "shirni scout" 1600
 	fleet "shirni freight" 1000
+	fleet "shirni military" 1000
 	object
 		sprite star/m8
 		period 10

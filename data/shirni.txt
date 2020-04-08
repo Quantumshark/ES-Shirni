@@ -80,6 +80,17 @@ fleet "shirni scout"
 	variant
 		"Azolla (Tough)"
 		
+fleet "shirni military"
+	government "Shirni"
+	names "shirni"
+	personality heroic disables plunders
+	variant
+		"Azolla" 2
+		"Azolla (Heavy)" 3
+	variant
+		"Azolla (Tough)"
+		"Azolla (Heavy) 4"
+		
 fleet "shirni freight"
 	government "Shirni"
 	names "shirni"
