@@ -198,7 +198,10 @@ mission "Shirni Particle Cannon delivery"
 	source
 		government "Shirni"
 	to offer
-		has "license: Shirni"
+		or
+			has "Shirni Archives A2: done"
+			has "Shirni Archives B2: done"
+			has "Shirni Archives A: declined"
 		random < 30
 	on offer
 		conversation
