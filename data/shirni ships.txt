@@ -99,7 +99,7 @@ ship "Tectaria"
 		"shields" 3700
 		"hull" 10700
 		"required crew" 6
-		"bunks" 11
+		"bunks" 14
 		"mass" 541
 		"drag" 9.8
 		"heat dissipation" .75
