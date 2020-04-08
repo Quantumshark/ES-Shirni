@@ -11,7 +11,7 @@
 outfit "Storage Cell"
 	category "Power"
 	licenses
-		Shirni
+		"Shirni Friend"
 	"cost" 62000
 	thumbnail "outfit/supercapacitor"
 	"mass" 12
@@ -23,7 +23,7 @@ outfit "Storage Cell"
 outfit "Heavy Storage Cell"
 	category "Power"
 	licenses
-		Shirni
+		"Shirni Friend"
 	"cost" 271000
 	thumbnail "outfit/supercapacitor"
 	"mass" 33
@@ -35,7 +35,7 @@ outfit "Heavy Storage Cell"
 outfit "Thermal Dissipator"
 	category "Systems"
 	licenses
-		Shirni
+		"Shirni Friend"
 	cost 239000
 	thumbnail "outfit/cooling ducts"
 	"mass" 14
@@ -47,7 +47,7 @@ outfit "Thermal Dissipator"
 outfit "A-Type Generator"
 	category "Power"
 	licenses
-		Shirni
+		"Shirni Friend"
 	cost 338000
 	thumbnail "outfit/small thermionic"
 	"mass" 26
@@ -62,7 +62,7 @@ outfit "A-Type Generator"
 outfit "C-Type Generator"
 	category "Power"
 	licenses
-		Shirni
+		"Shirni Friend"
 	cost 1237000
 	thumbnail "outfit/small thermionic"
 	"mass" 53
@@ -78,7 +78,7 @@ outfit "C-Type Generator"
 outfit "F-Type Generator"
 	category "Power"
 	licenses
-		Shirni
+		"Shirni Ally"
 	cost 5591100
 	thumbnail "outfit/small thermionic"
 	"mass" 109
@@ -94,7 +94,7 @@ outfit "F-Type Generator"
 outfit "I-Type Generator"
 	category "Power"
 	licenses
-		Shirni
+		"Shirni Ally"
 	cost 14106000
 	thumbnail "outfit/small thermionic"
 	"mass" 173
@@ -109,7 +109,7 @@ outfit "I-Type Generator"
 outfit "Industrial Solar Cell"
 	category "Power"
 	licenses
-		Shirni
+		"Shirni Friend"
 	cost 1014000
 	thumbnail "outfit/small photovoltaic"
 	"mass" 61
@@ -121,7 +121,7 @@ outfit "Industrial Solar Cell"
 outfit "Secondary Shielding"
 	category "Systems"
 	licenses
-		Shirni
+		"Shirni Friend"
 	cost 98000
 	thumbnail "outfit/secondaryshield"
 	"mass" 6
@@ -134,7 +134,7 @@ outfit "Secondary Shielding"
 outfit "Regenerating Plating"
 	category "Systems"
 	licenses
-		Shirni
+		"Shirni Friend"
 	cost 426000
 	thumbnail "outfit/interference plating"
 	"mass" 19
@@ -147,7 +147,7 @@ outfit "Regenerating Plating"
 outfit "Radio Disruptor"
 	category "Systems"
 	licenses
-		Shirni
+		"Shirni Friend"
 	cost 815000
 	thumbnail "outfit/tactical scanner"
 	"mass" 53
@@ -160,7 +160,7 @@ outfit "Radio Disruptor"
 outfit "Breeze-Type Thruster"
 	category "Engines"
 	licenses
-		Shirni
+		"Shirni Friend"
 	"cost" 201000
 	thumbnail "outfit/tiny atomic thruster"
 	"mass" 23
@@ -178,7 +178,7 @@ outfit "Breeze-Type Thruster"
 outfit "Gale-Type Thruster"
 	category "Engines"
 	licenses
-		Shirni
+		"Shirni Friend"
 	"cost" 417000
 	thumbnail "outfit/small atomic thruster"
 	"mass" 38
@@ -196,7 +196,7 @@ outfit "Gale-Type Thruster"
 outfit "Storm-Type Thruster"
 	category "Engines"
 	licenses
-		Shirni
+		"Shirni Friend"
 	"cost" 831000
 	thumbnail "outfit/medium atomic thruster"
 	"mass" 71
@@ -214,7 +214,7 @@ outfit "Storm-Type Thruster"
 outfit "Typhoon-Type Thruster"
 	category "Engines"
 	licenses
-		Shirni
+		"Shirni Ally"
 	"cost" 1711000
 	thumbnail "outfit/large atomic thruster"
 	"mass" 121
@@ -232,7 +232,7 @@ outfit "Typhoon-Type Thruster"
 outfit "Breeze-Type Steering"
 	category "Engines"
 	licenses
-		Shirni
+		"Shirni Friend"
 	"cost" 117000
 	thumbnail "outfit/tiny atomic steering"
 	"mass" 19
@@ -247,7 +247,7 @@ outfit "Breeze-Type Steering"
 outfit "Gale-Type Steering"
 	category "Engines"
 	licenses
-		Shirni
+		"Shirni Friend"
 	"cost" 365000
 	thumbnail "outfit/small atomic steering"
 	"mass" 33
@@ -262,7 +262,7 @@ outfit "Gale-Type Steering"
 outfit "Storm-Type Steering"
 	category "Engines"
 	licenses
-		Shirni
+		"Shirni Friend"
 	"cost" 751000
 	thumbnail "outfit/medium atomic steering"
 	"mass" 55
@@ -277,7 +277,7 @@ outfit "Storm-Type Steering"
 outfit "Typhoon-Type Steering"
 	category "Engines"
 	licenses
-		Shirni
+		"Shirni Ally"
 	"cost" 1437000
 	thumbnail "outfit/large atomic steering"
 	"mass" 93
@@ -292,7 +292,7 @@ outfit "Typhoon-Type Steering"
 outfit "Thunderbolt-Type Thruster"
 	category "Engines"
 	licenses
-		Shirni
+		"Shirni Ally"
 	"cost" 1725000
 	thumbnail "outfit/ionic afterburner"
 	"mass" 32
@@ -309,7 +309,7 @@ outfit "Thunderbolt-Type Thruster"
 outfit "Thunderbolt-Type Afterburner"
 	category "Engines"
 	licenses
-		Shirni
+		"Shirni Ally"
 	"cost" 1125000
 	thumbnail "outfit/ionic afterburner"
 	"mass" 26
@@ -324,7 +324,12 @@ outfit "Thunderbolt-Type Afterburner"
 	description "The Thunderbolt-Type Afterburner is unusual among afterburners in that the vast majority of the thrust it provides comes from a ships' energy reserves, rather than from fuel. While it is almost impossible to concieve of a ship that could sustain its energy requirements for any length of time, the Thunderbolt provides a sudden burst of speed worthy of its namesake to all but the largest ships."
 	description "Unlike other Shirni engines, which are designed to operate in every concievable circumstance, the Thunderbolt-Type is designed to allow for a brief burst of speed, in order to escape from a losing battle that would otherwise prove fatal."
 	
-outfit "Shirni License"
+outfit "Shirni Friend License"
 	category "Special"
 	thumbnail "outfit/navy license"
-	description "This license indicates that the Shirni trust you with their civillian technology, such as their generators and engines, and with unarmed models of some of their smaller ships."
+	description "This license indicates that the Shirni consider you a friend, and thus trust you with their smaller outfits and ships."
+	
+outfit "Shirni Ally License"
+	category "Special"
+	thumbnail "outfit/navy license"
+	description "This license indicates that the Shirni consider you an ally, and thus trust you with their most powerful outfits and their largest ships."
