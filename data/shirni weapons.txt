@@ -170,7 +170,7 @@ outfit "Plasma Rocket Launcher"
 	category "Secondary Weapons"
 	licenses
 		"Shirni Military"
-	cost 530000
+	cost 430000
 	thumbnail "outfit/meteor launcher"
 	"mass" 11
 	"outfit space" -26
@@ -208,7 +208,7 @@ outfit "Plasma Rocket Turret"
 	category "Secondary Weapons"
 	licenses
 		"Shirni Military"
-	cost 530000
+	cost 946000
 	thumbnail "outfit/meteor launcher"
 	"mass" 29
 	"outfit space" -59
