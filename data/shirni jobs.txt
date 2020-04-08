@@ -10,7 +10,7 @@ mission "Quarg Shirni Interpreters Exchange"
 	passengers 3 1 .2
 	to offer
 		random < 40
-		has "license: Shirni"
+		has "shirni: recieved device"
 	on stopover
 		dialog
 			`The interpreters exit your ship, replaced by <bunks> of the previous interpreters returning to <destination>.`
@@ -33,7 +33,7 @@ mission "Emergency software fix"
 	passengers 10 1 .05
 	to offer
 		random > 80
-		has "license: Shirni"
+		has "shirni: recieved device"
 	on complete
 		dialog
 			`The software technicians have been discussing the problem in their language for the whole journey. You have not gathered any of the details, but you suspect it must be a complex issue if it is necessary to send software engineers to another planet to fix it.`
@@ -57,7 +57,7 @@ mission "Shirni Ringworld Escort"
 				"Azolla"
 	to offer
 		random < 20
-		has "license: Shirni"
+		has "shirni: recieved device"
 	on complete
 		dialog
 			`The captain of the <npc> thanks you and pays you <payment>.`
@@ -75,7 +75,7 @@ mission "Shirni Eclipse Preemptive Shipoderni"
 	passengers 12 1 .1
 	to offer
 		random > 90
-		has "license: Shirni"
+		has "shirni: recieved device"
 	on complete
 		dialog
 			`The sightseers, who have been talking excitedly for the whole journey, exit your ship and pay you <payment>.`
@@ -93,7 +93,7 @@ mission "Shirni Eclipse Preemptive Chizoki"
 	passengers 5 1 .2
 	to offer
 		random < 10
-		has "license: Shirni"
+		has "shirni: recieved device"
 	on complete
 		dialog
 			`The sightseers, who have been talking excitedly for the whole journey, exit your ship and pay you <payment>.`
@@ -113,7 +113,6 @@ mission "Shirni Water Resupply"
 	stopover "Rikuzari"
 	to offer
 		random < 20
-		has "license: Shirni"
 		has "shirni: recieved device"
 	cargo "water tanks" 50 7 .2
 	on stopover
@@ -136,7 +135,6 @@ mission "Shirni science important stuff delivery"
 	destination Vuzotarne
 	to offer
 		random < 18
-		has "license: Shirni"
 		has "shirni: recieved device"
 	cargo "unlabeled containers" 5 1 .2
 	on complete
@@ -155,7 +153,6 @@ mission "Shirni industrial supplies A"
 	destination Cipodeku
 	to offer
 		random < 20
-		has "license: Shirni"
 		has "shirni: recieved device"
 	cargo "Industrial" 61 3 .1
 	on complete
@@ -174,7 +171,7 @@ mission "Shirni industrial supplies B"
 	destination "Quzo'ar"
 	to offer
 		random < 20
-		has "license: Shirni"
+		has "shirni: recieved device"
 	cargo "Industrial" 41 2 .1
 	on complete
 		dialog
@@ -194,7 +191,7 @@ mission "Food transport small"
 		attributes urban
 	to offer
 		random < 25
-		has "license: Shirni"
+		has "shirni: recieved device"
 	cargo "Food" 20 1 .1
 	on complete
 		dialog
@@ -214,7 +211,7 @@ mission "Food transport medium"
 		attributes urban
 	to offer
 		random < 25
-		has "license: Shirni"
+		has "shirni: recieved device"
 	cargo "Food" 49 2 .1
 	on complete
 		dialog
@@ -234,7 +231,7 @@ mission "Food transport large"
 		attributes urban
 	to offer
 		random < 20
-		has "license: Shirni"
+		has "shirni: recieved device"
 	cargo "Food" 120 3 .05
 	on complete
 		dialog
