@@ -17,8 +17,7 @@ mission "First Contact: Quta'ar"
 		conversation
 			`This Quarg ringworld is located in a region of space inhabited by an alien species you have not encountered before. When you dock with the ring, you see that a large crowd of Quarg has gathered around your ship, alongside some of what you presume are the aliens that live here - small, mothlike beings with brightly coloured fur.`
 			`	Eventually, one of the Quarg steps forward, prepared to make an effort to speak your language.`
-			`	"Salutations, unanticipated human visitor, to the locality inhabited by the amicable Shirni."`
-			`	"Perchance you may contact them, and they may decide how best to interface with you."`
+			`	"Salutations, unanticipated human visitor, to the locality inhabited by the amicable Shirni. Though we Quarg serve as their supervisors and guardians, we cannot serve as their diplomats; perchance you may contact them, and they may decide how best to interface with you."`
 				decline
 
 mission "First Contact: Shirni"
@@ -192,6 +191,45 @@ mission "Shirni Archives B2"
 			`	The Shirni continues speaking with the Quarg for a while, briefly pausing from time to time to type something on their handheld device. Eventually, they stop talking, and the Quarg translates.`
 			`	"The Shirni informed us that they trust that you are telling them the truth. They will offer you jobs on their planets, and will allow you to purchase and sell goods. They have also agreed to allow us to station Quarg interpreters in the spaceports of each of their planets, both to facilitate cultural exchange between the Shirni and the Quarg and to allow you to communicate with them."`
 
+mission "Shirni Quta'ar followup"
+	source "Quta'ar"
+	to offer
+		or
+			has "Shirni Archives A2: done"
+			has "Shirni Archives B2: done"
+	on offer
+		conversation
+			`As you are walking through the spaceport on <origin>, one of the Quarg on the station stops you and asks if you have a moment to talk.`
+			choice
+				`(See what they have to say.)`
+				`"Not right now, sorry."`
+					defer
+			`	"In consideration of your decision to provide them with the detailed history of your species, the Shirni have deemed it reasonable that they provide you similar information about themselves and their history."`
+			choice
+				`	"Yes, that would be interesting."`
+				`	"I am busy at the moment. Perhaps you could tell me another time?"
+					defer
+			`	"The homeworld of the Shirni was a hostile world, one which they shared with ghastly beasts. For many thousands of years, these beasts left them powerless to develop beyond simple hunter-gatherers, until eventually they assembled weaponry with which they could fight back. Their society quickly advanced, and they discovered the Hyperdrive around 2500 years before your species did. They settled nearby systems, and had expanded south of here when they were attacked by ships of another race and were forced to retreat to their current holdings."`
+			choice
+				`	"What were these 'ghastly beasts' like?"`
+					goto beasts
+				`	"What alien species attacked them?"`
+			`	"We did not encounter these attackers personally, but from the descriptions we recieved from the Shirni we believe them to have been the Pug."`
+				branch pug
+					has "main plot completed"
+				goto end
+			label pug
+			`	"You have encountered the Pug, have you not? I am informed that they attacked your species a short while ago. You know then that they are able to manipulate hyperspace links, which I suspect is why the regions they withdrew from are now part of your species' territory."
+				goto end
+			label beasts
+			`	The Quarg clicks its teeth together. "They would not be quite so threatening to yourself as to these diminutive Shirni or to us frail Quarg. They were larger than anything living on your home planet, but not massively so, and they flew through the air on leathery wings."
+				goto end
+			label end
+			`	You thank the Quarg for its time, and it leaves.`
+				decline
+	on decline
+		log "Factions" "Shirni" "The Shirni evolved on a planet with many deadly predators, and as a result are naturally timid. They invented the Hyperdrive about two and a half thousand years before humanity, and used to hold systems in the northern half of the Deep from which they were forced to withdraw to the region of space they currently inhabit after being attacked by another alien species called the Pug."
+			
 mission "Shirni Particle Cannon delivery"
 	name "Find a Particle Cannon."
 	description "Either purchase or steal a Particle Cannon, then bring it to the Shirni on <destination>."
