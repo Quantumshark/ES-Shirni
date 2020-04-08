@@ -15,7 +15,7 @@ ship "Azolla"
 		category "Light Warship"
 		licenses
 			"Shirni Military"
-		"cost" 3323000
+		"cost" 2523000
 		"shields" 5100
 		"hull" 3700
 		"required crew" 3
@@ -95,7 +95,7 @@ ship "Tectaria"
 		category "Heavy Freighter"
 		licenses
 			"Shirni"
-		"cost" 7015000
+		"cost" 6015000
 		"shields" 3700
 		"hull" 10700
 		"required crew" 6

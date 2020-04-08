@@ -12,7 +12,7 @@ outfit "Storage Cell"
 	category "Power"
 	licenses
 		Shirni
-	"cost" 92000
+	"cost" 62000
 	thumbnail "outfit/supercapacitor"
 	"mass" 12
 	"outfit space" -12
@@ -24,7 +24,7 @@ outfit "Heavy Storage Cell"
 	category "Power"
 	licenses
 		Shirni
-	"cost" 341000
+	"cost" 271000
 	thumbnail "outfit/supercapacitor"
 	"mass" 33
 	"outfit space" -33
@@ -48,7 +48,7 @@ outfit "A-Type Generator"
 	category "Power"
 	licenses
 		Shirni
-	cost 438000
+	cost 338000
 	thumbnail "outfit/small thermionic"
 	"mass" 26
 	"outfit space" -26
@@ -63,7 +63,7 @@ outfit "C-Type Generator"
 	category "Power"
 	licenses
 		Shirni
-	cost 1637000
+	cost 1237000
 	thumbnail "outfit/small thermionic"
 	"mass" 53
 	"outfit space" -53
@@ -79,7 +79,7 @@ outfit "F-Type Generator"
 	category "Power"
 	licenses
 		Shirni
-	cost 6091100
+	cost 5591100
 	thumbnail "outfit/small thermionic"
 	"mass" 109
 	"outfit space" -109
@@ -95,7 +95,7 @@ outfit "I-Type Generator"
 	category "Power"
 	licenses
 		Shirni
-	cost 17106000
+	cost 14106000
 	thumbnail "outfit/small thermionic"
 	"mass" 173
 	"outfit space" -173
@@ -110,7 +110,7 @@ outfit "Industrial Solar Cell"
 	category "Power"
 	licenses
 		Shirni
-	cost 1314000
+	cost 1014000
 	thumbnail "outfit/small photovoltaic"
 	"mass" 61
 	"outfit space" -47
@@ -122,7 +122,7 @@ outfit "Secondary Shielding"
 	category "Systems"
 	licenses
 		Shirni
-	cost 198000
+	cost 98000
 	thumbnail "outfit/secondaryshield"
 	"mass" 6
 	"outfit space" -6
@@ -135,7 +135,7 @@ outfit "Regenerating Plating"
 	category "Systems"
 	licenses
 		Shirni
-	cost 826000
+	cost 426000
 	thumbnail "outfit/interference plating"
 	"mass" 19
 	"outfit space" -19
@@ -148,7 +148,7 @@ outfit "Radio Disruptor"
 	category "Systems"
 	licenses
 		Shirni
-	cost 1310000
+	cost 815000
 	thumbnail "outfit/tactical scanner"
 	"mass" 53
 	"outfit space" -53
@@ -161,7 +161,7 @@ outfit "Breeze-Type Thruster"
 	category "Engines"
 	licenses
 		Shirni
-	"cost" 301000
+	"cost" 201000
 	thumbnail "outfit/tiny atomic thruster"
 	"mass" 23
 	"outfit space" -23
@@ -179,7 +179,7 @@ outfit "Gale-Type Thruster"
 	category "Engines"
 	licenses
 		Shirni
-	"cost" 517000
+	"cost" 417000
 	thumbnail "outfit/small atomic thruster"
 	"mass" 38
 	"outfit space" -38
@@ -197,7 +197,7 @@ outfit "Storm-Type Thruster"
 	category "Engines"
 	licenses
 		Shirni
-	"cost" 1031000
+	"cost" 831000
 	thumbnail "outfit/medium atomic thruster"
 	"mass" 71
 	"outfit space" -71
@@ -215,7 +215,7 @@ outfit "Typhoon-Type Thruster"
 	category "Engines"
 	licenses
 		Shirni
-	"cost" 2211000
+	"cost" 1711000
 	thumbnail "outfit/large atomic thruster"
 	"mass" 121
 	"outfit space" -121
@@ -233,7 +233,7 @@ outfit "Breeze-Type Steering"
 	category "Engines"
 	licenses
 		Shirni
-	"cost" 197000
+	"cost" 117000
 	thumbnail "outfit/tiny atomic steering"
 	"mass" 19
 	"outfit space" -19
@@ -248,7 +248,7 @@ outfit "Gale-Type Steering"
 	category "Engines"
 	licenses
 		Shirni
-	"cost" 433000
+	"cost" 365000
 	thumbnail "outfit/small atomic steering"
 	"mass" 33
 	"outfit space" -33
@@ -263,7 +263,7 @@ outfit "Storm-Type Steering"
 	category "Engines"
 	licenses
 		Shirni
-	"cost" 971000
+	"cost" 751000
 	thumbnail "outfit/medium atomic steering"
 	"mass" 55
 	"outfit space" -55
@@ -278,7 +278,7 @@ outfit "Typhoon-Type Steering"
 	category "Engines"
 	licenses
 		Shirni
-	"cost" 2037000
+	"cost" 1437000
 	thumbnail "outfit/large atomic steering"
 	"mass" 93
 	"outfit space" -93
@@ -310,7 +310,7 @@ outfit "Thunderbolt-Type Afterburner"
 	category "Engines"
 	licenses
 		Shirni
-	"cost" 1725000
+	"cost" 1125000
 	thumbnail "outfit/ionic afterburner"
 	"mass" 26
 	"outfit space" -26
