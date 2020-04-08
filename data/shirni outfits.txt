@@ -215,7 +215,7 @@ outfit "Typhoon-Type Thruster"
 	category "Engines"
 	licenses
 		Shirni
-	"cost" 2611000
+	"cost" 2211000
 	thumbnail "outfit/large atomic thruster"
 	"mass" 121
 	"outfit space" -121
