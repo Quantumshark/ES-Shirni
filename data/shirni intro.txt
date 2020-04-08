@@ -299,7 +299,7 @@ mission "Shirni Alpha surveillance"
 				`	"Yes, I can do that."`
 				`	"I'm not able to do that right now."`
 					defer
-			`	"Excellent." The Quarg translates quickly, and Votari nods in agreement, then says something to the Quarg. "You should meet with Votari on <destination> once you are finished."`
+			`	"Excellent." The Quarg translates quickly, and Votari nods in agreement, then replies. "You should meet with Votari on <destination> once you are finished."`
 				accept
 	on complete
 		"reputation: Shirni" >?= 10
