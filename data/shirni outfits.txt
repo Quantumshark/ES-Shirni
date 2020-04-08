@@ -36,7 +36,7 @@ outfit "Thermal Dissipator"
 	category "Systems"
 	licenses
 		Shirni
-	cost 539000
+	cost 239000
 	thumbnail "outfit/cooling ducts"
 	"mass" 14
 	"outfit space" -14
