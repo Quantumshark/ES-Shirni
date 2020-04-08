@@ -48,7 +48,7 @@ outfit "A-Type Generator"
 	category "Power"
 	licenses
 		Shirni
-	cost 738000
+	cost 438000
 	thumbnail "outfit/small thermionic"
 	"mass" 26
 	"outfit space" -26
@@ -57,13 +57,13 @@ outfit "A-Type Generator"
 	"shield generation" .45
 	"shield heat" 1.25
 	"disruption resistance" .02
-	description "This generator combines some energy generation with a small amount of shield generation, all in a much smaller space than most other races could fit both. This compact and versatile outfit also provides a tiny amount of protection against weapons that disrupt a ship's shield matrix."
+	description "This generator combines some energy generation with a small amount of shield generation, all in a much smaller space than most other designs could fit both. This compact and versatile outfit also provides a tiny amount of protection against weapons that disrupt a ship's shield matrix."
 	
 outfit "C-Type Generator"
 	category "Power"
 	licenses
 		Shirni
-	cost 2037000
+	cost 1637000
 	thumbnail "outfit/small thermionic"
 	"mass" 53
 	"outfit space" -53
@@ -79,7 +79,7 @@ outfit "F-Type Generator"
 	category "Power"
 	licenses
 		Shirni
-	cost 6291100
+	cost 6091100
 	thumbnail "outfit/small thermionic"
 	"mass" 109
 	"outfit space" -109
