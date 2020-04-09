@@ -14,7 +14,7 @@ ship "Azolla"
 	attributes
 		category "Light Warship"
 		licenses
-			"Shirni Ally"
+			"Shirni Brethren"
 		"cost" 2523000
 		"shields" 5100
 		"hull" 3700
@@ -94,7 +94,7 @@ ship "Tectaria"
 	attributes
 		category "Heavy Freighter"
 		licenses
-			"Shirni Ally"
+			"Shirni Brethren"
 		"cost" 3015000
 		"shields" 3700
 		"hull" 10700

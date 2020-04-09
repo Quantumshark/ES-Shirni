@@ -78,7 +78,7 @@ outfit "C-Type Generator"
 outfit "F-Type Generator"
 	category "Power"
 	licenses
-		"Shirni Ally"
+		"Shirni Brethren"
 	cost 5591100
 	thumbnail "outfit/small thermionic"
 	"mass" 109
@@ -94,7 +94,7 @@ outfit "F-Type Generator"
 outfit "I-Type Generator"
 	category "Power"
 	licenses
-		"Shirni Ally"
+		"Shirni Brethren"
 	cost 14106000
 	thumbnail "outfit/small thermionic"
 	"mass" 173
@@ -214,7 +214,7 @@ outfit "Storm-Type Thruster"
 outfit "Typhoon-Type Thruster"
 	category "Engines"
 	licenses
-		"Shirni Ally"
+		"Shirni Brethren"
 	"cost" 1711000
 	thumbnail "outfit/large atomic thruster"
 	"mass" 121
@@ -277,7 +277,7 @@ outfit "Storm-Type Steering"
 outfit "Typhoon-Type Steering"
 	category "Engines"
 	licenses
-		"Shirni Ally"
+		"Shirni Brethren"
 	"cost" 1437000
 	thumbnail "outfit/large atomic steering"
 	"mass" 93
@@ -292,7 +292,7 @@ outfit "Typhoon-Type Steering"
 outfit "Thunderbolt-Type Thruster"
 	category "Engines"
 	licenses
-		"Shirni Ally"
+		"Shirni Brethren"
 	"cost" 1725000
 	thumbnail "outfit/ionic afterburner"
 	"mass" 32
@@ -309,7 +309,7 @@ outfit "Thunderbolt-Type Thruster"
 outfit "Thunderbolt-Type Afterburner"
 	category "Engines"
 	licenses
-		"Shirni Ally"
+		"Shirni Brethren"
 	"cost" 1125000
 	thumbnail "outfit/ionic afterburner"
 	"mass" 26
@@ -327,9 +327,9 @@ outfit "Thunderbolt-Type Afterburner"
 outfit "Shirni Friend License"
 	category "Special"
 	thumbnail "outfit/navy license"
-	description "This license indicates that the Shirni consider you a friend, and thus trust you with their smaller outfits and ships."
+	description "This license indicates that the Shirni consider you a trusted friend, and thus are willing to sell you their smaller outfits and ships."
 	
-outfit "Shirni Ally License"
+outfit "Shirni Brethren License"
 	category "Special"
 	thumbnail "outfit/navy license"
-	description "This license indicates that the Shirni consider you an ally, and thus trust you with their most powerful outfits and their largest ships."
+	description "This license indicates that the Shirni consider you as one of their own, and will sell you their largest and most powerful outfits and their largest ships."
