@@ -106,6 +106,15 @@ fleet "shirni freight"
 	variant
 		"Tectaria" 2
 		
+fleet "shirni defense"
+	government "Shirni"
+	names "shirni automaton"
+	personality 
+		coward timid appeasing mute
+		confusion 5
+	variant
+		"Azolla (Automaton)" 15
+	
 phrase "shirni"
 	word
 		"A"
@@ -225,3 +234,68 @@ phrase "shirni"
 		"bi"
 		"to"
 		"pa"
+
+phrase "shirni automaton"
+	word
+		"A"
+		"E"
+		"I"
+		"O"
+		"U"
+		"Ka"
+		"Du"
+		"Bo"
+		"Vi"
+		"Ki"
+		"Da"
+		"Va"
+		"Vo"
+		"Zi"
+		"Za"
+		"Ku"
+		"Ko"
+		"Tu"
+		"Ci"
+		"Ci"
+		"Vu"
+		"Vu"
+		"Vu"
+	word
+		""
+		"bi"
+		"ta"
+		"zo"
+		"ku"
+		"de"
+		""
+		"bi"
+		"ta"
+		"zo"
+		"ku"
+		"de"
+		"toka"
+		"pode"
+	word
+		"ka"
+		"du"
+		"bo"
+		"vi"
+		"ki"
+		"da"
+		"va"
+		"vo"
+		"zi"
+		"za"
+		"ku"
+		"ko"
+		"tu"
+		"de"
+		"bi"
+		"to"
+		"pa"
+	word
+		" "
+	phrase
+		"digit"
+	phrase
+		"digit"

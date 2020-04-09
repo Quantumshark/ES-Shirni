@@ -1370,6 +1370,9 @@ planet Atokiza
 	description `	A massive station, located on what would be a small island if the ocean were not frozen over, pumps up material from the planet's core and filters out fissile isotopes.`
 	spaceport `With the exception of the landing pads, the entire spaceport here is built underneath the ice. Huge windows provide a view of the clear, empty ocean as it stretches endlessly in every direction.`
 	outfitter "Shirni Basics"
+	tribute 600
+		threshold 6500
+		fleet "shirni defense" 6
 
 planet Bakudara
 	attributes shirni
@@ -1380,6 +1383,9 @@ planet Bakudara
 	outfitter "Shirni Weapons"
 	outfitter "Shirni Basics"
 	"required reputation" 5
+	tribute 400
+		threshold 6500
+		fleet "shirni defense" 6
 
 planet Chizoki
 	attributes shirni arid
@@ -1387,6 +1393,9 @@ planet Chizoki
 	description `Chizoki is home to the oldest remaining Shirni colony outside their homeworld. When the Shirni first reached this planet, they were amazed to find that life was already present here and a full-scale colonisation effort began.`
 	spaceport `Sections of the architecture of the spaceport resemble some of the older buildings on the Shirni's nearby homeworld. The spaceport, as with most Shirni spaceports, has far fewer shops than the majority of human spaceports and a huge variety of restaurants.`
 	outfitter "Shirni Minimal"
+	tribute 200
+		threshold 6500
+		fleet "shirni defense" 2
 
 planet Cipodeku
 	attributes shirni factory urban arid
@@ -1397,6 +1406,9 @@ planet Cipodeku
 	spaceport ` The spaceport itself is brightly coloured and full of vibrant plant life, in stark contrast with the rest of this planet.`
 	outfitter "Shirni Minimal"
 	"required reputation" 5
+	tribute 1300
+		threshold 6500
+		fleet "shirni defense" 10
 
 planet "Citoka Shibizi"
 	attributes shirni
@@ -1404,6 +1416,9 @@ planet "Citoka Shibizi"
 	description `This frozen moon, orbiting a gas giant in a dead-end system distant from any other civilisation, is home to a vast underground complex of cryogenic preservation cells. The cells are configured to release a contingent of twenty thousand Shirni every fourty years, as a measure to prevent the extinction of their species. The Shirni in the cells are all volunteers, chosen to ensure that each contingent has enough of a variety of skills to rebuild their entire society.`
 	spaceport `The workers here refuel your ship, but it is clear you are not permitted to leave it. There are galleries of carefully maintained ships here, specially prepared for the Shirni in cryogenic storage.`
 	"required reputation" 1000
+	tribute 100
+		threshold 10500
+		fleet "shirni defense" 50
 
 planet Docitari
 	attributes shirni urban arid
@@ -1411,6 +1426,9 @@ planet Docitari
 	description `This planet is the most populous in all of Shirni space, home to more than twice earth's population. The planet has huge underground caverns, which have been converted into additional urban areas complete with artificial sky on the ceilings to prevent claustrophobia. The primary industries on this planet are mining and software development.`
 	spaceport `There are two spaceports on this planet. One of them is huge, established as a cargo port for transporting metals around Shirni space. The other, the spaceport you are permitted to visit, is almost empty, with robots and digital displays performing the roles of most of the staff.`
 	outfitter "Shirni Basics"
+	tribute 2300
+		threshold 6500
+		fleet "shirni defense" 19
 
 planet Evoyrati
 	attributes uninhabited
@@ -1423,6 +1441,9 @@ planet Izorika
 	description `The main settlement on Izorika is home to several massive laboratories specialising in biotechnology and genetic editing, and to major plants manufacturing the technology designed there. The advanced medical equipment produced here is mostly shipped out to the hospitals on Ubirata, though plenty is sent to other planets.`
 	spaceport `The spaceport here has large amounts of complex equipment for disinfecting ships, but it does not appear to be in use currently. Most of the people here are researchers of some kind.`
 	"required reputation" 5
+	tribute 700
+		threshold 6500
+		fleet "shirni defense" 6
 	
 planet Kazodari
 	attributes shirni
@@ -1430,6 +1451,9 @@ planet Kazodari
 	description `This planet is home to a population of nearly four billion Shirni. With large areas of arable land, frequent heavy rainfall, adequate reserves of metals and major factories on several small islands distant from the major continents, the population of this planet is entirely self-sufficient.`
 	spaceport `The spaceport is disproportionately small for this planet's population, and lacks the facilities for loading and unloading large quantities of cargo. The restaurants here serve a variety of foods, all produced entirely on-world.`
 	outfitter "Shirni Basics"
+	tribute 1200
+		threshold 7000
+		fleet "shirni defense" 8
 
 planet Kozarna
 	attributes shirni arid farming
@@ -1437,19 +1461,28 @@ planet Kozarna
 	description `Despite the slightly arid climate, Kozarna is a heavily populated planet. When the Shirni first arrived here they found huge reserves of oil, which are now exhausted. Instead of leaving the planet, the Shirni converted it into a farming planet for various exotic foods.`
 	spaceport `The spaceports here are busier than any you have seen elsewhere in Shirni space. Upon closer inspection, you realise that the whole spaceport is serving as an enormous food market with a vast variety of exotic foodstuffs. Despite the alien nature of most of the food, you are eventually able to find something to your liking.`
 	outfitter "Shirni Basics"
+	tribute 600
+		threshold 6000
+		fleet "shirni defense" 5
 
 planet Kutaze
 	attributes shirni
 	landscape land/dmottl4
 	description `Kutaze is an idyllic resort world. All workers, regardless of their position, on the nearby factory world of Cipodeku are entitled to one month each year of free vacation on Kutaze to make up for the factory world's oppressive environment.`
 	spaceport ` The spaceport seems to have been intentionally built much larger than necessary, in order to provide a more pleasant atmosphere. A variety of art adorns sections of the walls, and calming music plays quietly in the background.`
-
+	tribute 900
+		threshold 6000
+		fleet "shirni defense" 4
+		
 planet Lizorati
 	attributes shirni arid
 	landscape land/hills1
 	description `Lizorati is a lifeless world, with no atmospheric oxygen and dry, dusty soil that blows away in the wind. The Shirni settlement here serves as a prison for the Alphas captured in their attempted invasion of Shirni space.`
 	spaceport `The spaceport is hundreds of miles away from the prison, with the only transport between the two in small vehicles which can easily be searched to prevent the escape of any of the prisoners.`
 	"required reputation" 25
+	tribute 100
+		threshold 6000
+		fleet "shirni defense" 5
 
 planet Quta'ar
 	attributes quarg station
@@ -1459,6 +1492,9 @@ planet Quta'ar
 	spaceport `The spaceport is unusually busy for a Quarg spaceport, with large crowds of Shirni gathering to meet with the Quarg. The gravity is weaker and the air thinner than you are used to, but this does not seem to be causing the Shirni any issues.`
 	bribe 0
 	security 1
+	tribute 5000
+		threshold 12000
+		fleet "Large Quarg" 20
 
 planet Quzo'ar
 	attributes shirni arid
@@ -1467,6 +1503,9 @@ planet Quzo'ar
 	description `	The industries here specialise in technology based off the Quarg, similar to the Tarazed corporation in human space.`
 	spaceport `The architecture here is an odd mixture of Quarg and Shirni. The hallways, unlike those in most other buildings in Shirni space, are tall enough that a Quarg can stand fully upright and painted to resemble the interior of a Quarg ringworld. There are many Quarg here, some of whom you suspect are monitoring the industries on the planet.`
 	outfitter "Shirni Basics"
+	tribute 1000
+		threshold 6000
+		fleet "shirni defense" 9
 
 planet Rikuzari
 	attributes shirni
@@ -1475,6 +1514,9 @@ planet Rikuzari
 	spaceport `Your ship is extensively decontaminated in midair over the polar icecap before you are allowed to land. Once you land, your cargo and outfits are put through a similar procedure, as are you the moment you step off your ship. It seems the Shirni want to minimise the chance of alien pathogens entering their water supply.`
 	spaceport ` The spaceport facilities are fairly rudimentary apart from the massive pumps for loading water onto ships. Evidently this moon is not expected to recieve many visitors.`
 	"required reputation" 5
+	tribute 500
+		threshold 6000
+		fleet "shirni defense" 4
 
 planet Shibirni
 	attributes shirni urban
@@ -1482,6 +1524,9 @@ planet Shibirni
 	description `Shibirni was the first planet the Shirni reached outside their home system. The urban areas are all planned, with large skyscrapers abruptly giving way to idyllic countryside and streets forming a triangular grid.`
 	spaceport `There are two spaceports on this planet. The first is relatively small for the planet's population, having been designed when the planet was originally settled. The second is huge, easily as large as some cities in human space.`
 	outfitter "Shirni Advanced"
+	tribute 1000
+		threshold 6500
+		fleet "shirni defense" 7
 
 planet Shipoderni
 	attributes shirni urban
@@ -1491,19 +1536,28 @@ planet Shipoderni
 	shipyard Shirni
 	outfitter "Shirni Advanced"
 	outfitter "Shirni Weapons"
+	tribute 1500
+		threshold 7000
+		fleet "shirni defense" 15
 
 planet Tazarna
 	attributes shirni
 	landscape land/beach2
 	description `The primary industry on Tazarna is the farming of a species of rapidly growing kelp-like algae. Most fabrics in use in Shirni space are made from processed algal fibres farmed on this planet, as are some construction materials.`
 	spaceport `The docks for the massive cargo ships ferrying huge loads of kelp are situated as close to the spaceport as possible, to maximise the efficiency of the loading and unloading processes. There are large teams of Shirni whose jobs appear to consist entirely of hosing down the floors with a chemical that serves both as a cleaning fluid and as a form of odour control.`
-
+	tribute 500
+		threshold 6000
+		fleet "shirni defense" 2
+		
 planet Ubirata
 	attributes shirni
 	landscape land/bwerner7
 	description `The settlements on this moon include a large number of hospitals, serving as a medical centre for all of Shirni space. While each planet has enough medical facilities for its own population, this planet would be used in the event of a major outbreak of disease.` 
 	spaceport `The spaceport is huge and almost entirely empty, having been designed to be able to accommodate huge numbers of Shirni.`
 	"required reputation" 5
+	tribute 600
+		threshold 6500
+		fleet "shirni defense" 3
 	
 planet Vuzotarne
 	attributes shirni
@@ -1511,6 +1565,9 @@ planet Vuzotarne
 	description `Vuzotarne is the centre of the research efforts of the Shirni. It is here that new technology is developed to further the Shirni's civilisation. Vuzotarne is also home to much of the best higher education in all of Shirni space.`
 	spaceport `The spaceport is sleek and modern, with smooth, reflective walls illuminated by blueish light. There is a second spaceport on the other side of the planet which is restricted to only those involved directly with cutting-edge research projects.`
 	"required reputation" 5
+	tribute 900
+		threshold 6500
+		fleet "shirni defense" 5
 
 planet Xidera
 	attributes shirni farming
@@ -1518,6 +1575,9 @@ planet Xidera
 	description `Xidera is a cold, wet farming world where the Shirni grow a species of edible fungus that forms the basis of much of their diet. The sun is perpetually obscured by clouds, and days without precipitation are almost unheard of.`
 	spaceport `The spaceport dwarfs every other urban region on this planet - this city easily holds more than two thirds of the planet's entire population. The spaceport has an extensive drainage system, to prevent the heavy rainfall from causing flooding.`
 	outfitter "Shirni Minimal"
+	tribute 500
+		threshold 6000
+		fleet "shirni defense" 2
 
 planet Ziderali
 	attributes uninhabited
@@ -1534,4 +1594,7 @@ planet Zokaderi
 	outfitter "Shirni Advanced"
 	outfitter "Shirni Weapons"
 	"required reputation" 25
+	tribute 1200
+		threshold 7000
+		fleet "shirni defense" 11
 
