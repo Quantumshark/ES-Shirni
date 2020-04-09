@@ -11,7 +11,7 @@
 outfit "Energy Burst Cannon"
 	category "Guns"
 	licenses
-		"Shirni Military"
+		"Shirni Friend"
 	cost 83000
 	thumbnail "outfit/blaster"
 	"mass" 9
@@ -35,7 +35,7 @@ outfit "Energy Burst Cannon"
 outfit "Energy Burst Turret"
 	category "Turrets"
 	licenses
-		"Shirni Military"
+		"Shirni Friend"
 	cost 171000
 	thumbnail "outfit/blaster turret"
 	"mass" 12
@@ -63,7 +63,7 @@ outfit "Energy Burst Turret"
 outfit "Particle Blaster"
 	category "Guns"
 	licenses
-		"Shirni Military"
+		"Shirni Brethren"
 	cost 351000
 	thumbnail "outfit/particle cannon"
 	"mass" 37
@@ -89,7 +89,7 @@ outfit "Particle Blaster"
 outfit "Terminator Beam"
 	category "Turrets"
 	licenses
-		"Shirni Military"
+		"Shirni Brethren"
 	cost 1943000
 	thumbnail "outfit/heavy laser turret"
 	"mass" 41
@@ -119,7 +119,7 @@ outfit "Terminator Beam"
 outfit "Heavy Terminator Beam"
 	category "Turrets"
 	licenses
-		"Shirni Military"
+		"Shirni Brethren"
 	cost 4597000
 	thumbnail "outfit/heavy laser turret"
 	"mass" 96
@@ -146,8 +146,6 @@ outfit "Heavy Terminator Beam"
 	
 outfit "Plasma Rocket"
 	category "Ammunition"
-	licenses
-		"Shirni Military"
 	cost 250
 	thumbnail "outfit/meteor"
 	"mass" .5
@@ -157,7 +155,7 @@ outfit "Plasma Rocket"
 outfit "Plasma Rocket Storage"
 	category "Ammunition"
 	licenses
-		"Shirni Military"
+		"Shirni Friend"
 	cost 29000
 	thumbnail "outfit/meteor storage"
 	"mass" 3
@@ -169,7 +167,7 @@ outfit "Plasma Rocket Storage"
 outfit "Plasma Rocket Launcher"
 	category "Secondary Weapons"
 	licenses
-		"Shirni Military"
+		"Shirni Brethren"
 	cost 430000
 	thumbnail "outfit/meteor launcher"
 	"mass" 11
@@ -207,7 +205,7 @@ outfit "Plasma Rocket Launcher"
 outfit "Plasma Rocket Turret"
 	category "Secondary Weapons"
 	licenses
-		"Shirni Military"
+		"Shirni Brethren"
 	cost 946000
 	thumbnail "outfit/meteor launcher"
 	"mass" 29
@@ -245,7 +243,7 @@ outfit "Plasma Rocket Turret"
 outfit "Anti-missile Beam"
 	category "Turrets"
 	licenses
-		"Shirni Military"
+		"Shirni Brethren"
 	cost 403000
 	thumbnail "outfit/laser turret"
 	"mass" 23
