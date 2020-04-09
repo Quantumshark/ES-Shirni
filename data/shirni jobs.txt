@@ -273,7 +273,7 @@ mission "Rogue Automaton"
 	source
 		government "Shirni"
 	to offer
-		random < 35
+		random < 25
 		has "shirni: recieved device"
 	npc kill
 		government "Rogue Automaton"
@@ -291,5 +291,36 @@ mission "Rogue Automaton"
 		dialog
 			`The authorities on <planet> thank you for your help and pay you <payment>.`
 		payment 200000
+		
+mission "Rogue Automata"
+	repeat
+	job
+	name "Rogue automata near <system>"
+	description "A group of autonomous Shirni warships have gone rogue and are attacking ships near <system>. Destroy them and return to <planet> for <payment>."
+	source
+		government "Shirni"
+	to offer
+		random < 10
+		has "shirni: recieved device"
+	npc kill
+		government "Rogue Automaton"
+		personality
+			heroic vindictive target mute marked
+			confusion 30
+		system
+			distance 1 2
+		dialog "The rogue warships have all been destroyed. Return to <planet> for <payment>."
+		fleet
+			names "shirni automaton"
+			variant
+				"Azolla (Automaton)" 5
+			variant
+				"Azolla (Automaton)" 4
+			variant
+				"Azolla (Automaton)" 3
+	on complete
+		dialog
+			`The authorities on <planet> thank you for your help and pay you <payment>.`
+		payment 400000
 	
 		
