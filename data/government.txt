@@ -31,3 +31,7 @@ government "Pug (Shirni)"
 	"friendly disabled hail" "friendly disabled pug"
 	"hostile hail" "hostile pug"
 	"hostile disabled hail" "hostile pug"
+	
+government "Rogue Automaton"
+	swizzle 3
+	"player reputation" -1000

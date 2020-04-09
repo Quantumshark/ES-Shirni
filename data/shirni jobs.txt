@@ -264,3 +264,29 @@ mission "Food transport large"
 		dialog
 			`The workers unload the <commodity> and pay you <payment>.`
 		payment 2000 120
+		
+mission "Rogue Automaton"
+	repeat
+	job
+	name "Rogue automaton near <system>"
+	description "An autonomous Shirni warship has gone rogue and is attacking ships near <system>. Destroy it and return to <planet> for <payment>."
+	source
+		government "Shirni"
+	to offer
+		random < 35
+		has "shirni: recieved device"
+	npc kill
+		government "Rogue Automaton"
+	personality
+		heroic vindictive target mute marked
+		confusion 30
+	system
+		distance 1 2
+	dialog "The <npc> has been destroyed. Return to <planet> for <payment>."
+	fleet
+			names "shirni automaton"
+			variant
+				"Azolla (Automaton)"
+		
+	
+		
