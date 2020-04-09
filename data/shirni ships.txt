@@ -88,6 +88,24 @@ ship "Azolla" "Azolla (Tough)"
 		"Gale-Type Thruster"
 		"Hyperdrive"
 		
+ship "Azolla" "Azolla (Automaton)"
+	add attributes
+		"self destruct" 1
+		"automaton" 1
+		"hull" 700
+		"mass" 25
+		"bunks" -7
+	outfits
+		"Energy Burst Cannon" 4
+		"Terminator Beam"
+		"C-Type Generator"
+		"Thermal Dissipator"
+		"Regenerating Plating"
+		"Storage Cell"
+		"Storm-Type Steering"
+		"Gale-Type Thruster"
+		"Hyperdrive"
+		
 ship "Tectaria"
 	sprite ship/tectaria
 	thumbnail thumbnail/tectaria
