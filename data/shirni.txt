@@ -110,7 +110,7 @@ fleet "shirni defense"
 	government "Shirni"
 	names "shirni automaton"
 	personality 
-		coward timid appeasing mute
+		heroic mute
 		confusion 5
 	variant
 		"Azolla (Automaton)" 15
