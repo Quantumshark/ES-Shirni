@@ -290,6 +290,6 @@ mission "Rogue Automaton"
 	on complete
 		dialog
 			`The authorities on <planet> thank you for your help and pay you <payment>.`
-			payment 200000
+		payment 200000
 	
 		
