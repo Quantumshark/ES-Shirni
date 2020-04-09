@@ -1013,7 +1013,7 @@ system Takudi
 		sprite planet/desert7
 		distance 653.01
 		period 323.427
-	object
+	object Roturika
 		sprite planet/gas1
 		distance 1131.9
 		period 738.088
@@ -1518,6 +1518,12 @@ planet Rikuzari
 		threshold 6000
 		fleet "shirni defense" 4
 
+planet Roturika
+	attributes "requires: gaslining"
+	landscape land/nasa20
+	description `Roturika's atmosphere is wracked by constant hurricane-force winds and lightning storms. Occasionally, the Shirni send probes to attempt to determine the nature of the core, but even after over a milennium of technological progress not one of their probes has survived long enough to reach it.`
+	government Uninhabited
+		
 planet Shibirni
 	attributes shirni urban
 	landscape land/city1
