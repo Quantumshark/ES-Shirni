@@ -88,7 +88,7 @@ outfit "F-Type Generator"
 	"shield generation" 3.2
 	"shield heat" 9.9
 	"disruption resistance" .2
-	description "This generator produces almost as much power as any generator of similar size available in human space, and is far more heat efficient, while also serving as a shield generator far beyond anything humanity has ever produced."
+	description "This generator produces almost as much power as any generator of similar size available in human space, and is slightly more heat efficient, while also serving as a shield generator far beyond anything humanity has ever produced."
 	
 outfit "I-Type Generator"
 	category "Power"
