@@ -321,7 +321,7 @@ mission "Rogue Automata"
 	on complete
 		dialog
 			`The authorities on <planet> thank you for your help and pay you <payment>.`
-		payment 400000
+		payment 500000
 	
 mission "Equipment Transport"
 	repeat
