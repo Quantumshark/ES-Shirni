@@ -282,7 +282,7 @@ mission "Rogue Automaton"
 			confusion 30
 		system
 			distance 1 2
-		dialog "The <npc> has been destroyed. Return to <planet> for <payment>."
+		dialog "The <npc> has been destroyed. Return to <planet> for payment."
 		fleet
 			names "shirni automaton"
 			variant
@@ -309,7 +309,7 @@ mission "Rogue Automata"
 			confusion 30
 		system
 			distance 1 2
-		dialog "The rogue warships have all been destroyed. Return to <planet> for <payment>."
+		dialog "The rogue warships have all been destroyed. Return to <planet> for payment."
 		fleet
 			names "shirni automaton"
 			variant
