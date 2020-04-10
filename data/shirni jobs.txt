@@ -323,4 +323,27 @@ mission "Rogue Automata"
 			`The authorities on <planet> thank you for your help and pay you <payment>.`
 		payment 400000
 	
-		
+mission "Equipment Transport"
+	repeat
+	job
+	name "Delivery to <planet>"
+	description "Deliver <cargo> to <destination>. Payment will be <payment>."
+		source
+		government "Shirni"
+		attributes factory
+	destination
+		government "Shirni"
+		or
+			attributes urban
+			attributes farming
+	to offer
+		random < 25
+		or
+			has "Shirni Archives A2: done"
+			has "Shirni Archives B2: done"
+			has "Shirni Archives A: declined"
+	cargo "Equipment" 41 2 .1
+	on complete
+		dialog
+			`The workers unload the <commodity> and pay you <payment>.`
+		payment 1800 120
