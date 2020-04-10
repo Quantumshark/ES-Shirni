@@ -1433,7 +1433,7 @@ planet Docitari
 planet Evoyrati
 	attributes uninhabited
 	landscape land/beach9-sfiera
-	description `This planet is uninhabited currently, but evidently once was not. Huge buildings built with standard Shirni tetrahedral shapes are scattered across the land, yet there is no record of the Shirni ever having visited this system and it is not included on any of their maps.`
+	description `This moon is uninhabited currently, but evidently once was not. Huge buildings built with standard Shirni tetrahedral shapes are scattered across the land, yet there is no record of the Shirni ever having visited this system and it is not included on any of their maps.`
 
 planet Izorika
 	attributes shirni
