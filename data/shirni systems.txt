@@ -180,7 +180,7 @@ system Bokulat
 			sprite planet/dust4
 			distance 344
 			period 33.5842
-	object
+	object Tladeriza
 		sprite planet/rock14
 		distance 1375.5
 		period 924.973
@@ -1554,6 +1554,12 @@ planet Tazarna
 	tribute 500
 		threshold 6000
 		fleet "shirni defense" 2
+		
+planet Tladeriza
+	attributes shirni
+	landscape land/lava5
+	description `Tladeriza was the first attempt the Shirni made at terraforming. Normally, a planet this far from its sun would be frozen and uninhabitable. The Shirni decided to rectify this by stripping off the upper sections of the planet's crust, bringing the surface closer to the molten mantle. While the planet's surface is now at a pleasant temperature, it is also wracked by near-constant earthquakes and frequent volcanic eruptions.`
+	description `	The only permanent settlements here are small research stations working on developing earthquake warning systems to be used elsewhere. They are all built in flattened pyramidal shapes and from flexible, rubbery materials.`
 		
 planet Ubirata
 	attributes shirni
