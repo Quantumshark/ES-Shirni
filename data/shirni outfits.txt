@@ -139,10 +139,10 @@ outfit "Regenerating Plating"
 	thumbnail "outfit/interference plating"
 	"mass" 19
 	"outfit space" -19
-	"hull repair rate" .25
+	"hull repair rate" .35
 	"hull energy" 0
-	"hull heat" .05
-	description "This strange organic plating is able to slowly repair any damage caused to it, producing a small amount of heat but not using any significant amount of energy."
+	"heat generation" .5
+	description "This strange organic plating is able to slowly repair any damage caused to it without using any energy, but it produces some heat even when not repairing itself."
 	
 outfit "Radio Disruptor"
 	category "Systems"
