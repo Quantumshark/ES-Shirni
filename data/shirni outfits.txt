@@ -88,8 +88,7 @@ outfit "F-Type Generator"
 	"shield generation" 3.2
 	"shield heat" 9.9
 	"disruption resistance" .2
-	description "The Shirni build shield regeneration into their generators, so that when they are recharging their shields the extra power can be drawn by adjusting the generator settings rather than risking running out of energy in the middle of a battle."
-	description "Because these systems primarily serve as generators, weapons designed to disrupt shields are less effective against them."
+	description "This generator produces almost as much power as any generator of similar size available in human space, and is far more heat efficient, while also serving as a shield generator far beyond anything humanity has ever produced."
 	
 outfit "I-Type Generator"
 	category "Power"
