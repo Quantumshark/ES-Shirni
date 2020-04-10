@@ -1469,7 +1469,7 @@ planet Kutaze
 	attributes shirni
 	landscape land/dmottl4
 	description `Kutaze is an idyllic resort world. All workers, regardless of their position, on the nearby factory world of Cipodeku are entitled to one month each year of free vacation on Kutaze to make up for the factory world's oppressive environment.`
-	spaceport ` The spaceport seems to have been intentionally built much larger than necessary, in order to provide a more spacious feel. A variety of art adorns sections of the walls, and calming music plays quietly in the background.`
+	spaceport `The spaceport seems to have been intentionally built much larger than necessary, in order to provide a more spacious feel. A variety of art adorns sections of the walls, and calming music plays quietly in the background.`
 	tribute 900
 		threshold 6000
 		fleet "shirni defense" 4
