@@ -140,10 +140,8 @@ system Bokulat
 	habitable 436.68
 	link Takudi
 	link Ikulai
-	asteroids "large rock" 2 3.078
 	asteroids "small metal" 9 2.6676
 	asteroids "medium metal" 8 4.275
-	asteroids "large metal" 1 2.1204
 	trade Clothing 296
 	trade Electronics 793
 	trade Equipment 629
