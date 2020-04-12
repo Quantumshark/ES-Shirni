@@ -306,7 +306,7 @@ mission "Shirni Alpha surveillance"
 		log "People" "Votari" "Votari was the leader of the Shirni military when they were attacked by the Alphas. Votari was also responsible for requesting the aid of the Quarg in defending the Shirni from the Alphas."
 		log "Was asked to survey systems near Shirni space in search of Alpha activity. Found nothing out of the ordinary."
 		conversation
-			`	Votari is waiting for you with another Quarg interpreter when your ship lands. You hand over copies of your scanner logs, and he reviews them with interest. Votari begins speaking with the Quarg, who translates for him.`
+			`Votari is waiting for you with another Quarg interpreter when your ship lands. You hand over copies of your scanner logs, and he reviews them with interest. Votari begins speaking with the Quarg, who translates for him.`
 			`	"Votari has a few questions about this footage. Firstly, could you identify this vessel?." The Quarg is pointing at a Navy carrier.`
 			choice
 				`	"That's a Carrier, one of the largest and most powerful vessels in Human space."`
@@ -325,3 +325,107 @@ mission "Shirni Alpha surveillance"
 		set "shirni: recieved device"
 		set "license: Shirni Friend"
 
+mission "shirni: large escort message"
+	landing
+	source
+		government "Shirni"
+		near Bokulat 3 20
+	destination "Lizorati"
+	clearance
+	to offer
+		has "shirni: recieved device"
+		random < 30
+	on offer
+		conversation
+			`As soon as you land on <origin>, you recieve a message from Votari. Most of the message has not been translated out of the Shirni language, but you are able to gather that you need to meet with some freighters in the spaceport and bring them to <destination>, and that you will be paid 320000 credits.`
+				decline
+				
+mission "shirni: large escort"
+	source
+		government "Shirni"
+		near Bokulat 3 20
+	destination "Lizorati"
+	clearance
+	npc accompany save
+		government "Shirni"
+		personality escort timid
+		fleet
+			names "shirni"
+			variant
+				"Tectaria" 3
+				"Azolla (Heavy)" 6
+	to offer
+		has "shirni: large escort message: declined"
+	on offer
+		dialog
+			`You meet with the freighters in the spaceport and prepare for the journey to <destination>.`
+	on complete
+		payment 320000
+		dialog
+			`The captain of one of the freighters says something in their language and pays you <payment>. You recieve another message from Votari asking you to meet him in the spaceport.`
+			
+ship "Leviathan" "Leviathan (Alpha)"
+	outfits
+		"Jump Drive"
+		"Boulder Reactor"
+		"Hai Chasm Batteries"
+		"Liquid Helium Cooler"
+		`"Bondir" Atomic Thruster`
+		"Ion Cannon" 2
+		"Hai Tracker" 112
+		"Hai Tracker Pod" 2
+		"Geode Reactor"
+		`"Bondir" Atomic Steering`
+		"Korath Warder" 2
+		"Korath Banisher"
+		"Systems Core (Medium)"
+		"Nerve Gas" 64
+		"Pulse Rifle" 64
+			
+mission "shirni: alpha defense"
+	source "Lizorati"
+	to offer
+		has "shirni: large escort: done"
+	on offer
+		conversation
+			`Votari is waiting for you in the spaceport. He begins speaking to a Quarg interpreter, but is cut off by the sound of an explosion from outside. A few seconds later, a group of Shirni enter the room, talking quicky and loudly in their language. Votari is silent for a while, then says something to the interpreter.`
+			`	"<planet> is under attack by the Alphas. Votari has requested that you launch at once, seeing as your ship is almost certainly the most powerful warship here. There should be a few of their autonomous warships in orbit to help you, and more are launching now."`
+			`	You quickly get in your ship, run through the pre-launch checklist, and launch to join the ships in orbit.`
+				launch
+	npc evade
+		government "Alpha"
+		system "Bokulat"
+		personality heroic staying vindictive target
+		ship "Leviathan (Alpha)" "Phobos"
+	npc evade
+		government "Alpha"
+		system "Bokulat"
+		personality heroic staying vindictive target
+		ship "Leviathan (Alpha)" "Deimos"
+	npc
+		government "Shirni"
+		names "shirni automaton"
+		system "Bokulat"
+		personality heroic staying derelict
+		fleet
+			"Azolla (Automaton)" 8
+	npc
+		government "Shirni"
+		names "shirni automaton"
+		system "Bokulat"
+		personality heroic staying
+		fleet
+			"Azolla (Automaton)" 3
+	npc
+		government "Shirni"
+		names "shirni automaton"
+		system "Bokulat"
+		personality heroic staying launching
+		fleet
+			"Azolla (Automaton)" 2
+	on complete
+		payment 750000
+		conversation
+			`Votari is waiting for you when you land, and quickly walks over to you accompanied by an interpreter. The interpreter begins speaking the moment you exit your ship to meet them, and Votari begins typing on his device.`
+			`	"The Shirni would like to thank you for your assistance, and provide you with a payment of <payment>. Without you, those Alpha ships would have been able to land and could have attempted to capture this planet or stolen Shirni technology to use against them in future. It is imperative that this be discussed with the Shirni government, and the best cause of action be determined. Votari is making preliminary discussion with them now, so you should meet with him in the spaceport in about half an hour."`
+			
