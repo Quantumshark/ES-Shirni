@@ -27,9 +27,9 @@ system Akutal
 	trade Medical 805
 	trade Metal 344
 	trade Plastic 403
-	fleet "shirni freight" 600
-	fleet "shirni scout" 1600
-	fleet "shirni military" 400
+	fleet "Shirni Freight" 600
+	fleet "Shirni Scout" 1600
+	fleet "Shirni Military" 400
 	object
 		sprite star/f5
 		distance 14.8473
@@ -90,9 +90,9 @@ system Bikutaqi
 	trade Medical 779
 	trade Metal 383
 	trade Plastic 429
-	fleet "shirni scout" 1600
-	fleet "shirni freight" 600
-	fleet "shirni military" 1100
+	fleet "Shirni Scout" 1600
+	fleet "Shirni Freight" 600
+	fleet "Shirni Military" 1100
 	fleet Quarg 1100
 	object
 		sprite star/g0
@@ -154,9 +154,9 @@ system Bokulat
 	trade Medical 779
 	trade Metal 344
 	trade Plastic 331
-	fleet "shirni scout" 900
-	fleet "shirni freight" 3500
-	fleet "shirni military" 600
+	fleet "Shirni Scout" 900
+	fleet "Shirni Freight" 3500
+	fleet "Shirni Military" 600
 	object
 		sprite star/k0
 		period 10
@@ -212,9 +212,9 @@ system Dakutlak
 	trade Medical 740
 	trade Metal 370
 	trade Plastic 390
-	fleet "shirni scout" 3000
-	fleet "shirni freight" 2000
-	fleet "shirni military" 3000
+	fleet "Shirni Scout" 3000
+	fleet "Shirni Freight" 2000
+	fleet "Shirni Military" 3000
 	object
 		sprite star/f5
 		period 10
@@ -262,9 +262,9 @@ system Dekurex
 	trade Medical 753
 	trade Metal 396
 	trade Plastic 403
-	fleet "shirni scout" 1600
-	fleet "shirni freight" 600
-	fleet "shirni military" 2000
+	fleet "Shirni Scout" 1600
+	fleet "Shirni Freight" 600
+	fleet "Shirni Military" 2000
 	fleet Quarg 1500
 	object
 		sprite star/g0
@@ -323,8 +323,8 @@ system Ekubakto
 	trade Medical 740
 	trade Metal 370
 	trade Plastic 390
-	fleet "shirni scout" 3100
-	fleet "shirni military" 5000
+	fleet "Shirni Scout" 3100
+	fleet "Shirni Military" 5000
 	object
 		sprite star/wr
 		period 10
@@ -370,9 +370,9 @@ system Gikudap
 	trade Medical 792
 	trade Metal 370
 	trade Plastic 390
-	fleet "shirni scout" 1600
-	fleet "shirni freight" 1000
-	fleet "shirni military" 1000
+	fleet "Shirni Scout" 1600
+	fleet "Shirni Freight" 1000
+	fleet "Shirni Military" 1000
 	fleet Quarg 1500
 	object
 		sprite star/f5
@@ -438,9 +438,9 @@ system Ikulai
 	trade Medical 779
 	trade Metal 344
 	trade Plastic 390
-	fleet "shirni scout" 1600
-	fleet "shirni freight" 1000
-	fleet "shirni military" 800
+	fleet "Shirni Scout" 1600
+	fleet "Shirni Freight" 1000
+	fleet "Shirni Military" 800
 	object
 		sprite star/k0
 		period 10
@@ -492,9 +492,9 @@ system Kakuyal
 	trade Metal 370
 	trade Plastic 429
 	fleet Quarg 800
-	fleet "shirni scout" 1600
-	fleet "shirni freight" 700
-	fleet "shirni military" 1800
+	fleet "Shirni Scout" 1600
+	fleet "Shirni Freight" 700
+	fleet "Shirni Military" 1800
 	object
 		sprite star/g5
 		period 10
@@ -557,9 +557,9 @@ system Kikuden
 	trade Medical 740
 	trade Metal 370
 	trade Plastic 390
-	fleet "shirni scout" 1600
-	fleet "shirni freight" 1500
-	fleet "shirni military" 3400
+	fleet "Shirni Scout" 1600
+	fleet "Shirni Freight" 1500
+	fleet "Shirni Military" 3400
 	object
 		sprite star/m0
 		period 10
@@ -616,7 +616,7 @@ system Kukutob
 	trade Medical 740
 	trade Metal 370
 	trade Plastic 390
-	fleet "shirni scout" 6000
+	fleet "Shirni Scout" 6000
 	minables silver 19 6.4
 	minables titanium 16 5.9
 	minables gold 8 2.7
@@ -732,9 +732,9 @@ system Pakutla
 	trade Medical 792
 	trade Metal 396
 	trade Plastic 377
-	fleet "shirni scout" 2400
-	fleet "shirni freight" 1200
-	fleet "shirni military" 700
+	fleet "Shirni Scout" 2400
+	fleet "Shirni Freight" 1200
+	fleet "Shirni Military" 700
 	object
 		sprite star/g5
 		period 10
@@ -791,9 +791,9 @@ system Qekudat
 	trade Medical 753
 	trade Metal 370
 	trade Plastic 429
-	fleet "shirni scout" 1600
-	fleet "shirni freight" 600
-	fleet "shirni military" 1400
+	fleet "Shirni Scout" 1600
+	fleet "Shirni Freight" 600
+	fleet "Shirni Military" 1400
 	fleet Quarg 1100
 	object
 		sprite star/g5
@@ -849,9 +849,9 @@ system Quku'ar
 	trade Metal 370
 	trade Plastic 443
 	fleet Quarg 750
-	fleet "shirni scout" 1600
-	fleet "shirni freight" 1100
-	fleet "shirni military" 3700
+	fleet "Shirni Scout" 1600
+	fleet "Shirni Freight" 1100
+	fleet "Shirni Military" 3700
 	object
 		sprite star/g5
 		period 10
@@ -926,9 +926,9 @@ system Rakudali
 	trade Medical 714
 	trade Metal 370
 	trade Plastic 390
-	fleet "shirni scout" 2200
-	fleet "shirni freight" 1000
-	fleet "shirni military" 5000
+	fleet "Shirni Scout" 2200
+	fleet "Shirni Freight" 1000
+	fleet "Shirni Military" 5000
 	object
 		sprite star/g0-old
 		period 10
@@ -995,9 +995,9 @@ system Takudi
 	trade Medical 792
 	trade Metal 341
 	trade Plastic 390
-	fleet "shirni scout" 1600
-	fleet "shirni freight" 750
-	fleet "shirni military" 2200
+	fleet "Shirni Scout" 1600
+	fleet "Shirni Freight" 750
+	fleet "Shirni Military" 2200
 	object
 		sprite star/k5
 		period 10
@@ -1042,8 +1042,8 @@ system Ukudotok
 	trade Medical 792
 	trade Metal 370
 	trade Plastic 447
-	fleet "shirni scout" 2000
-	fleet "shirni freight" 2600
+	fleet "Shirni Scout" 2000
+	fleet "Shirni Freight" 2600
 	object
 		sprite star/k0
 		period 10
@@ -1094,9 +1094,9 @@ system Vakubo
 	trade Medical 740
 	trade Metal 370
 	trade Plastic 426
-	fleet "shirni scout" 1600
-	fleet "shirni freight" 800
-	fleet "shirni military" 1500
+	fleet "Shirni Scout" 1600
+	fleet "Shirni Freight" 800
+	fleet "Shirni Military" 1500
 	fleet Quarg 1300
 	object
 		sprite star/k0
@@ -1151,9 +1151,9 @@ system Vekuyat
 	trade Medical 805
 	trade Metal 370
 	trade Plastic 416
-	fleet "shirni scout" 1600
-	fleet "shirni freight" 900
-	fleet "shirni military" 3700
+	fleet "Shirni Scout" 1600
+	fleet "Shirni Freight" 900
+	fleet "Shirni Military" 3700
 	fleet Quarg 1200
 	object
 		sprite star/g0-old
@@ -1222,9 +1222,9 @@ system Vikudazo
 	trade Medical 737
 	trade Metal 370
 	trade Plastic 390
-	fleet "shirni scout" 2000
-	fleet "shirni freight" 2200
-	fleet "shirni military" 4000
+	fleet "Shirni Scout" 2000
+	fleet "Shirni Freight" 2200
+	fleet "Shirni Military" 4000
 	object
 		sprite star/g0
 		period 10
@@ -1270,9 +1270,9 @@ system Vokutva
 	trade Medical 753
 	trade Metal 409
 	trade Plastic 351
-	fleet "shirni scout" 1600
-	fleet "shirni freight" 600
-	fleet "shirni military" 600
+	fleet "Shirni Scout" 1600
+	fleet "Shirni Freight" 600
+	fleet "Shirni Military" 600
 	fleet Quarg 1600
 	object
 		sprite star/k0
@@ -1340,9 +1340,9 @@ system Xukudae
 	trade Medical 792
 	trade Metal 370
 	trade Plastic 377
-	fleet "shirni scout" 1600
-	fleet "shirni freight" 1000
-	fleet "shirni military" 1000
+	fleet "Shirni Scout" 1600
+	fleet "Shirni Freight" 1000
+	fleet "Shirni Military" 1000
 	object
 		sprite star/m8
 		period 10
@@ -1372,7 +1372,7 @@ planet Atokiza
 	outfitter "Shirni Basics"
 	tribute 600
 		threshold 6500
-		fleet "shirni defense" 6
+		fleet "Shirni Defense" 6
 
 planet Bakudara
 	attributes shirni
@@ -1385,7 +1385,7 @@ planet Bakudara
 	"required reputation" 5
 	tribute 400
 		threshold 6500
-		fleet "shirni defense" 6
+		fleet "Shirni Defense" 6
 
 planet Chizoki
 	attributes shirni arid
@@ -1395,7 +1395,7 @@ planet Chizoki
 	outfitter "Shirni Minimal"
 	tribute 200
 		threshold 6500
-		fleet "shirni defense" 2
+		fleet "Shirni Defense" 2
 
 planet Cipodeku
 	attributes shirni factory urban arid
@@ -1408,7 +1408,7 @@ planet Cipodeku
 	"required reputation" 5
 	tribute 1300
 		threshold 6500
-		fleet "shirni defense" 10
+		fleet "Shirni Defense" 10
 
 planet "Citoka Shibizi"
 	attributes shirni
@@ -1418,7 +1418,7 @@ planet "Citoka Shibizi"
 	"required reputation" 1000
 	tribute 100
 		threshold 10500
-		fleet "shirni defense" 50
+		fleet "Shirni Defense" 50
 
 planet Docitari
 	attributes shirni urban arid
@@ -1428,7 +1428,7 @@ planet Docitari
 	outfitter "Shirni Basics"
 	tribute 2300
 		threshold 6500
-		fleet "shirni defense" 19
+		fleet "Shirni Defense" 19
 
 planet Evoyrati
 	attributes uninhabited
@@ -1443,7 +1443,7 @@ planet Izorika
 	"required reputation" 5
 	tribute 700
 		threshold 6500
-		fleet "shirni defense" 6
+		fleet "Shirni Defense" 6
 	
 planet Kazodari
 	attributes shirni
@@ -1453,7 +1453,7 @@ planet Kazodari
 	outfitter "Shirni Basics"
 	tribute 1200
 		threshold 7000
-		fleet "shirni defense" 8
+		fleet "Shirni Defense" 8
 
 planet Kozarna
 	attributes shirni arid farming
@@ -1463,7 +1463,7 @@ planet Kozarna
 	outfitter "Shirni Basics"
 	tribute 600
 		threshold 6000
-		fleet "shirni defense" 5
+		fleet "Shirni Defense" 5
 
 planet Kutaze
 	attributes shirni
@@ -1472,7 +1472,7 @@ planet Kutaze
 	spaceport `The spaceport seems to have been intentionally built much larger than necessary, in order to provide a more spacious feel. A variety of art adorns sections of the walls, and calming music plays quietly in the background.`
 	tribute 900
 		threshold 6000
-		fleet "shirni defense" 4
+		fleet "Shirni Defense" 4
 		
 planet Lizorati
 	attributes shirni arid
@@ -1482,7 +1482,7 @@ planet Lizorati
 	"required reputation" 25
 	tribute 100
 		threshold 6000
-		fleet "shirni defense" 5
+		fleet "Shirni Defense" 5
 
 planet Quta'ar
 	attributes quarg station
@@ -1505,7 +1505,7 @@ planet Quzo'ar
 	outfitter "Shirni Basics"
 	tribute 1000
 		threshold 6000
-		fleet "shirni defense" 9
+		fleet "Shirni Defense" 9
 
 planet Rikuzari
 	attributes shirni
@@ -1516,7 +1516,7 @@ planet Rikuzari
 	"required reputation" 5
 	tribute 500
 		threshold 6000
-		fleet "shirni defense" 4
+		fleet "Shirni Defense" 4
 
 planet Roturika
 	attributes "requires: gaslining"
@@ -1532,7 +1532,7 @@ planet Shibirni
 	outfitter "Shirni Advanced"
 	tribute 1000
 		threshold 6500
-		fleet "shirni defense" 7
+		fleet "Shirni Defense" 7
 
 planet Shipoderni
 	attributes shirni urban
@@ -1544,7 +1544,7 @@ planet Shipoderni
 	outfitter "Shirni Weapons"
 	tribute 1500
 		threshold 7000
-		fleet "shirni defense" 15
+		fleet "Shirni Defense" 15
 
 planet Tazarna
 	attributes shirni
@@ -1553,7 +1553,7 @@ planet Tazarna
 	spaceport `The docks for the massive cargo ships ferrying huge loads of kelp are situated as close to the spaceport as possible, to maximise the efficiency of the loading and unloading processes. There are large teams of Shirni whose jobs appear to consist entirely of hosing down the floors with a chemical that serves both as a cleaning fluid and as a form of odour control.`
 	tribute 500
 		threshold 6000
-		fleet "shirni defense" 2
+		fleet "Shirni Defense" 2
 		
 planet Tladeriza
 	attributes shirni
@@ -1569,7 +1569,7 @@ planet Ubirata
 	"required reputation" 5
 	tribute 600
 		threshold 6500
-		fleet "shirni defense" 3
+		fleet "Shirni Defense" 3
 	
 planet Vuzotarne
 	attributes shirni
@@ -1579,7 +1579,7 @@ planet Vuzotarne
 	"required reputation" 5
 	tribute 900
 		threshold 6500
-		fleet "shirni defense" 5
+		fleet "Shirni Defense" 5
 
 planet Xidera
 	attributes shirni farming
@@ -1589,7 +1589,7 @@ planet Xidera
 	outfitter "Shirni Minimal"
 	tribute 500
 		threshold 6000
-		fleet "shirni defense" 2
+		fleet "Shirni Defense" 2
 
 planet Ziderali
 	attributes uninhabited
@@ -1608,5 +1608,5 @@ planet Zokaderi
 	"required reputation" 25
 	tribute 1200
 		threshold 7000
-		fleet "shirni defense" 11
+		fleet "Shirni Defense" 11
 

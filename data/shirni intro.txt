@@ -440,10 +440,10 @@ mission "shirni: alpha defense"
 			
 event "battle in bokulat"
 	system "Bokulat"
-		fleet "shirni scout" 10000
+		fleet "Shirni Scout" 10000
 	
 event "normal in bokulat"
 	system "Bokulat"
-		fleet "shirni scout" 900
-		fleet "shirni freight" 3500
-		fleet "shirni military" 600
+		fleet "Shirni Scout" 900
+		fleet "Shirni Freight" 3500
+		fleet "Shirni Military" 600

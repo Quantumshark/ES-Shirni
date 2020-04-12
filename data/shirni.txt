@@ -69,7 +69,7 @@ shipyard "Shirni"
 	"Azolla"
 	"Tectaria"
 	
-fleet "shirni scout"
+fleet "Shirni Scout"
 	government "Shirni"
 	names "shirni"
 	personality coward plunders
@@ -80,7 +80,7 @@ fleet "shirni scout"
 	variant
 		"Azolla (Tough)"
 		
-fleet "shirni military"
+fleet "Shirni Military"
 	government "Shirni"
 	names "shirni"
 	personality heroic disables plunders
@@ -91,7 +91,7 @@ fleet "shirni military"
 		"Azolla (Tough)"
 		"Azolla (Heavy) 4"
 		
-fleet "shirni freight"
+fleet "Shirni Freight"
 	government "Shirni"
 	names "shirni"
 	personality coward timid appeasing
@@ -106,7 +106,7 @@ fleet "shirni freight"
 	variant
 		"Tectaria" 2
 		
-fleet "shirni defense"
+fleet "Shirni Defense"
 	government "Shirni"
 	names "shirni automaton"
 	personality 
