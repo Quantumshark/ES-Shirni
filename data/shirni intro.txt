@@ -409,21 +409,24 @@ mission "shirni: alpha defense"
 		system "Bokulat"
 		personality heroic staying derelict
 		fleet
-			"Azolla (Automaton)" 8
+			variant
+				"Azolla (Automaton)" 8
 	npc
 		government "Shirni"
 		names "shirni automaton"
 		system "Bokulat"
 		personality heroic staying
 		fleet
-			"Azolla (Automaton)" 3
+			variant
+				"Azolla (Automaton)" 3
 	npc
 		government "Shirni"
 		names "shirni automaton"
 		system "Bokulat"
 		personality heroic staying launching
 		fleet
-			"Azolla (Automaton)" 2
+			variant
+				"Azolla (Automaton)" 2
 	on complete
 		payment 750000
 		conversation
