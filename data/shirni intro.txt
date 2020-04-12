@@ -452,3 +452,51 @@ event "normal in bokulat"
 		fleet "Shirni Scout" 900
 		fleet "Shirni Freight" 3500
 		fleet "Shirni Military" 600
+		
+mission "shirni: to shipoderni"
+	source "Lizorati"
+	destination "Shipoderni"
+	passengers 1
+	to offer
+		has "shirni: alpha defense: done"
+	on offer
+		conversation
+			`Votari is waiting for you in the spaceport. The Quarg interpreter with him informs you that the Shirni government would like to meet with you in person, in their parliament on <planet>. Votari will also need transport on your ship, as will the interpreter.`
+				accept
+				accept
+	on complete
+		conversation
+			`You exit your ship, accompanied by Votari and your interpreter. A group of Shirni are waiting for you, and escort you to a towering building which seems to be built entirely from stone, unlike the concrete and plastic construction of the surrounding buildings. You enter, noticing that unlike some other Shirni buildings the hallways are sufficiently wide and tall that both you and the Quarg with you can walk upright.`
+			`	After a couple minutes of walking, you enter a huge chamber. Rows of seats along both sides are full of Shirni in what you presume must be their equivalent to fine suits; long blue-green fleeces that cover their arms and legs. There are also two Quarg here, one of whom is marked as an interpreter. The interpreter with you gestures for you to sit down, then leaves.`
+			`	You take your seat, and one of the Shirni begins speaking to Votari. The Quarg interpreter looks down and begins typing on another of the Shirni messaging devices, and after a few seconds you recieve a message entirely in your language explaining that Votari is being questioned on the capabilities of the ships that attacked you. This goes on for several minute, with Votari looking increasingly impatient at the string of questions he is being asked, before you recieve another message.`
+			`	"How powerful were those adversaries, compared with your current ship? Were they trivial for you to eliminate, or was the battle almost your last?"`
+			choice
+				`	"They were no match for me. It would take more than a couple Leviathans to put a dent in the <ship>."`
+					goto easy
+				`	"I almost died. Those Leviathans were deadly opponents."`
+			`	The interpreter translates, and the Shirni talk to each other for a while. After a short period of intense discussion you recieve another message, this time asking how these Leviathans compare to the toughest ships in Human space.`
+			choice
+				`	"There are much stronger ships in our region of space."`
+				`	"Those ships were equipped with alien weapons and equipment. They were far more powerful than any human ship."`
+			`	"The Shirni seem concerned by this news, and the interpreter informs you that they are worried that the Alphas may be able to access far more dangerous ships than the ones they used. Votari suggests that the Shirni should build their own warships to combat the Alphas, which earns a disapproving stare from both of the Quarg. The Quarg not marked as an interpreter, who you are informed is representing Quta'ar, warns the Shirni that developing weapons of war can only lead to their destruction, to which Votari replies that being unable to defend themselves from the Alphas would also lead to their destruction."`
+				goto end
+			label easy
+			`	The Shirni seem to be divided in their opinions on this news. You are quickly informed that some of them are content with the idea that you can protect them, while others are worried that the Alphas may be able to access the same technology you are using.`
+			`	You recieve another message, this time asking you where your ship and its outfits came from.`
+			choice
+				`	"It's a mix-match job, made of parts from all over the galaxy."`
+				`	"It's all human tech, nothing fancy."`
+					goto human
+				`	"I bought this from another species."`
+					goto others
+				`	"This is all stolen from raiders and pirates."`
+			`	The Shirni discuss for a while, and you are informed that they are worried that the Alphas may be able to replicate your strength by similarly gathering powerful technology. Votari suggests that the Shirni should build their own warships to combat the Alphas, which earns a disapproving stare from both of the Quarg. The Quarg not marked as an interpreter, who you are informed is representing Quta'ar, warns the Shirni that developing weapons of war can only lead to their destruction, to which Votari replies that being unable to defend themselves from the Alphas would also lead to their destruction."`
+				goto end
+			label human
+			`	The Shirni seem concerned by this news, and the interpreter informs you that they are worried that if humans have such powerful warships then the Alphas may be able to access them as well. Votari suggests that the Shirni should build their own warships to combat the Alphas, which earns a disapproving stare from both of the Quarg. The Quarg not marked as an interpreter, who you are informed is representing Quta'ar, warns the Shirni that developing weapons of war can only lead to their destruction, to which Votari replies that being unable to defend themselves from the Alphas would also lead to their destruction."`
+				goto end
+			label others
+			`	The Shirni seem pleased by this news. The interpreter informs you that they hope the Alphas are not allies of whatever species you obtained your ship from, and you reply that to the best of your knowledge they are not. Votari suggests trying to make diplomatic missions to whatever this species may be, but is quickly reminded that such is impossible as the Shirni are not able to leave their current region of space.`
+				goto end
+			label end
+			`	The discussions go on for almost two hours, and you are asked several more questions. Eventually, you are told that the Shirni have no more questions for you, and that you may leave. After you leave, you recieve a message telling you that you can go back to your usual business elsewhere in the galaxy, and that you will be notified when you need to return.`
