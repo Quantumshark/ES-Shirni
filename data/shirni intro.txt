@@ -354,7 +354,7 @@ mission "shirni: large escort"
 			names "shirni"
 			variant
 				"Tectaria" 3
-				"Azolla (Heavy)" 6
+				"Azolla (Heavy)" 2
 	to offer
 		has "shirni: large escort message: declined"
 	on offer
