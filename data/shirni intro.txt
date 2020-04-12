@@ -434,7 +434,7 @@ mission "shirni: alpha defense"
 				"Azolla (Automaton)" 2
 	on visit
 		dialog
-			`There are still Alpha ships overhead. While the Shirni defenses are all automata, so technically nobody is in any danger, it would still probably be best to take off and help them.`
+			`There are still Alpha ships overhead. While the Shirni defenders are all automata, so technically nobody is in any danger, it would still probably be best to take off and help them.`
 	on complete
 		event "normal in bokulat"
 		payment 750000
