@@ -392,6 +392,7 @@ mission "shirni: alpha defense"
 	to offer
 		has "shirni: large escort: done"
 	on offer
+		event "battle in bokulat"
 		conversation
 			`Votari is waiting for you in the spaceport. He begins speaking to a Quarg interpreter, but is cut off by the sound of an explosion from outside. A few seconds later, a group of Shirni enter the room, talking quicky and loudly in their language. Votari is silent for a while, then says something to the interpreter.`
 			`	"<planet> is under attack by the Alphas. Votari has requested that you launch at once, seeing as your ship is almost certainly the most powerful warship here. There should be a few of their autonomous warships in orbit to help you, and more are launching now."`
@@ -435,6 +436,7 @@ mission "shirni: alpha defense"
 		dialog
 			`There are still Alpha ships overhead. While the Shirni defenses are all automata, so technically nobody is in any danger, it would still probably be best to take off and help them.`
 	on complete
+		event "normal in bokulat"
 		payment 750000
 		log "Defended the Shirni planet of Lizorati from an attack by the Alphas"
 		conversation
