@@ -336,7 +336,7 @@ mission "shirni: large escort message"
 		has "shirni: recieved device"
 		random < 30
 	on offer
-		conversation
+		dialog
 			`As soon as you land on <origin>, you recieve a message from Votari. Most of the message has not been translated out of the Shirni language, but you are able to gather that you need to meet with some freighters in the spaceport and bring them to <destination>, and that you will be paid 320,000 credits.`
 				decline
 				
