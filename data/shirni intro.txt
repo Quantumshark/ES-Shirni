@@ -358,8 +358,8 @@ mission "shirni: large escort"
 	to offer
 		has "shirni: large escort message: declined"
 	on offer
-		dialog
-			`You meet with the freighters in the spaceport and prepare for the journey to <planet>.`
+		conversation
+			`In the spaceport, you meet with the crew of the freighters you have been asked to escort. In addition to the three Tectaria freighters you are escorting, there are a pair of Azolla light warships which will be accompanying you. After meeting with you, the crew leave to prepare for the journey to <planet>.`
 				accept
 	on complete
 		payment 320000
