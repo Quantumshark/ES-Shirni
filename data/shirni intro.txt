@@ -334,6 +334,7 @@ mission "shirni: large escort message"
 	clearance
 	to offer
 		has "shirni: recieved device"
+		has "main plot completed"
 		random < 30
 	on offer
 		dialog
