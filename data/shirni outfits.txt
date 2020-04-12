@@ -134,7 +134,7 @@ outfit "Regenerating Plating"
 	category "Systems"
 	licenses
 		"Shirni Friend"
-	cost 426000
+	cost 126000
 	thumbnail "outfit/interference plating"
 	"mass" 19
 	"outfit space" -19
