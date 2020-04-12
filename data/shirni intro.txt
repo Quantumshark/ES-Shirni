@@ -465,6 +465,7 @@ mission "shirni: to shipoderni"
 				accept
 				accept
 	on complete
+		event "shirni discussion timer" 20
 		conversation
 			`You exit your ship, accompanied by Votari and your interpreter. A group of Shirni are waiting for you, and escort you to a towering building which seems to be built entirely from stone, unlike the concrete and plastic construction of the surrounding buildings. You enter, noticing that unlike some other Shirni buildings the hallways are sufficiently wide and tall that both you and the Quarg with you can walk upright.`
 			`	After a couple minutes of walking, you enter a huge chamber. Rows of seats along both sides are full of Shirni in what you presume must be their equivalent to fine suits; long blue-green fleeces that cover their arms and legs. There are also two Quarg here, one of whom is marked as an interpreter. The interpreter with you gestures for you to sit down, then leaves.`
@@ -500,3 +501,6 @@ mission "shirni: to shipoderni"
 				goto end
 			label end
 			`	The discussions go on for almost two hours, and you are asked several more questions. Eventually, you are told that the Shirni have no more questions for you, and that you may leave. After you leave, you recieve a message telling you that you can go back to your usual business elsewhere in the galaxy, and that you will be notified when you need to return.`
+			
+event "shirni discussion timer"
+
