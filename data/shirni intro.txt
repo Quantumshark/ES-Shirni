@@ -362,6 +362,7 @@ mission "shirni: large escort"
 				accept
 	on complete
 		payment 320000
+		log "Escorted some Shirni freighters to the planet of Lizorati."
 		dialog
 			`The captain of one of the freighters says something in their language and pays you <payment>. You recieve another message from Votari asking you to meet him in the spaceport.`
 			
@@ -434,6 +435,7 @@ mission "shirni: alpha defense"
 			`There are still Alpha ships overhead. While the Shirni defenses are all automata, so technically nobody is in any danger, it would still probably be best to take off and help them.`
 	on complete
 		payment 750000
+		log "Defended the Shirni planet of Lizorati from an attack by the Alphas"
 		conversation
 			`Votari is waiting for you when you land, and quickly walks over to you accompanied by an interpreter. The interpreter begins speaking the moment you exit your ship to meet them, and Votari begins typing on his device.`
 			`	"The Shirni would like to thank you for your assistance, and provide you with a payment of <payment>. Without you, those Alpha ships would have been able to land and could have attempted to capture this planet or stolen Shirni technology to use against them in future. It is imperative that this be discussed with the Shirni government, and the best cause of action be determined. Votari is making preliminary discussion with them now, so you should meet with him in the spaceport in about half an hour."`
