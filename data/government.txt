@@ -18,6 +18,7 @@ government "Shirni"
 	"attitude toward"
 		"Alpha" -.01
 		"Pirate" -.01
+	"fine" 0
 		
 government "Pug (Shirni)"
 	"display name" "Pug"
