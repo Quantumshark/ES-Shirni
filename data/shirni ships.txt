@@ -94,6 +94,7 @@ ship "Azolla" "Azolla (Tough)"
 		
 ship "Azolla" "Azolla (Automaton)"
 	add attributes
+		"cost" 5000000
 		"self destruct" 1
 		"automaton" 1
 		"hull" 700
