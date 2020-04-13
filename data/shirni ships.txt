@@ -97,7 +97,7 @@ ship "Azolla" "Azolla (Automaton)"
 		"self destruct" 1
 		"automaton" 1
 		"hull" 700
-		"mass" 25
+		"mass" 55
 		"bunks" -7
 	outfits
 		"Energy Burst Cannon" 4
