@@ -390,6 +390,7 @@ ship "Leviathan" "Leviathan (Alpha)"
 		"Nerve Gas" 64
 		"Pulse Rifle" 64
 		
+# This ship exists so that the other ships in whatever fleet it is in are not considered to be the flagship, and thus will flee when damaged if they have the coward personality
 ship "Alpha Fleet Flagship"
 	attributes
 		"cost" 1
