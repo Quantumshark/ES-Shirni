@@ -192,7 +192,7 @@ mission "Shirni Archives B2"
 			`	The Shirni continues speaking with the Quarg for a while, briefly pausing from time to time to type something on their handheld device. Eventually, they stop talking, and the Quarg translates.`
 			`	"The Shirni informed us that they trust that you are telling them the truth. They will offer you jobs on their planets, and will allow you to purchase and sell goods. They have also agreed to allow us to station Quarg interpreters in the spaceports of each of their planets, both to facilitate cultural exchange between the Shirni and the Quarg and to allow you to communicate with them."`
 
-mission "Shirni Quta'ar followup"
+mission "Shirni Quta'ar Followup"
 	source "Quta'ar"
 	to offer
 		or
@@ -231,7 +231,7 @@ mission "Shirni Quta'ar followup"
 	on decline
 		log "Factions" "Shirni" "The Shirni evolved on a planet with many deadly predators, and as a result are naturally timid. They invented the Hyperdrive about two and a half thousand years before humanity, and used to hold systems in the northern half of the Deep from which they were forced to withdraw to the region of space they currently inhabit after being attacked by another alien species called the Pug."
 			
-mission "Shirni Particle Cannon delivery"
+mission "Shirni Particle Cannon Delivery"
 	name "Find a Particle Cannon."
 	description "Either purchase or steal a Particle Cannon, then bring it to the Shirni on <destination>."
 	source
@@ -262,7 +262,7 @@ mission "Shirni Particle Cannon delivery"
 		dialog
 			`You have returned to <planet>, but you do not have a Particle Cannon. You should depart, and either purchase or steal one.`
 			
-mission "Shirni Alpha surveillance"
+mission "Shirni Alpha Surveillance"
 	name "Alpha Surveillance"
 	description "Survey <stopovers> for any signs of Alpha activity, then return to <planet>."
 	source
@@ -273,7 +273,7 @@ mission "Shirni Alpha surveillance"
 	waypoint Almaaz
 	destination Kutaze
 	to offer
-		has "Shirni Particle Cannon delivery: done"
+		has "Shirni Particle Cannon Delivery: done"
 		random < 30
 	npc
 		government "Republic"
@@ -328,7 +328,7 @@ mission "Shirni Alpha surveillance"
 		set "shirni: recieved device"
 		set "license: Shirni Friend"
 
-mission "shirni: large escort message"
+mission "Shirni: Large Escort Message"
 	landing
 	source
 		government "Shirni"
@@ -344,7 +344,7 @@ mission "shirni: large escort message"
 			`As soon as you land on <origin>, you recieve a message from Votari. Most of the message has not been translated out of the Shirni language, but you are able to gather that you need to meet with some freighters in the spaceport and bring them to <destination>, and that you will be paid 320,000 credits.`
 				decline
 				
-mission "shirni: large escort"
+mission "Shirni: Large Escort"
 	name "Escort to <planet>"
 	description "Escort this fleet of freighters to <planet>. Payment will probably be <payment>."
 	source
@@ -390,7 +390,7 @@ ship "Leviathan" "Leviathan (Alpha)"
 		"Nerve Gas" 64
 		"Pulse Rifle" 64
 			
-mission "shirni: alpha defense"
+mission "Shirni: Alpha Defense"
 	name "Defend <planet>"
 	description "Defend <planet> from an Alpha raid."
 	source "Lizorati"
@@ -460,7 +460,7 @@ event "normal in bokulat"
 		fleet "Shirni Freight" 3500
 		fleet "Shirni Military" 600
 		
-mission "shirni: to shipoderni"
+mission "Shirni: To Shipoderni"
 	name "Diplomatic Meeting"
 	description "Bring Votari and an interpreter to meet with the Shirni government on <destination>."
 	source "Lizorati"
