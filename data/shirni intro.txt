@@ -389,7 +389,40 @@ ship "Leviathan" "Leviathan (Alpha)"
 		"Systems Core (Medium)"
 		"Nerve Gas" 64
 		"Pulse Rifle" 64
-			
+		
+ship "Alpha Fleet Flagship"
+	attributes
+		"cost" 1
+		"hull" 1
+		"mass" 100
+		"drag" 5
+		"automaton" 1
+		"thrust" 10
+		"turn" 600
+	outfits
+		"Alpha Fleet Flagship Weapon"
+	gun 0 0	
+	
+outfit "Alpha Fleet Flagship Weapon"
+	category "Guns"
+	thumbnail "outfit/unknown"
+	"gun ports" -1
+	weapon
+		"velocity" 10
+		"lifetime" 2
+		"reload" 50
+		"blast radius" 10
+		"split range" 2000
+		"submunition" "Alpha Fleet Flagship Submunition"
+	
+outfit "Alpha Fleet Flagship Submunition"
+	weapon
+		"lifetime" 20
+		"trigger radius" 2000
+		"blast radius" 200
+		"hull damage" 2
+		"no damage scaling"
+		
 mission "Shirni: Alpha Defense"
 	name "Defend <planet>"
 	description "Defend <planet> from an Alpha raid."
@@ -409,12 +442,9 @@ mission "Shirni: Alpha Defense"
 		government "Alpha"
 		system "Bokulat"
 		personality coward vindictive
-		ship "Leviathan (Alpha)" "Phobos"
-	npc evade
-		government "Alpha"
-		system "Bokulat"
-		personality coward vindictive
+		ship "Alpha Fleet Flagship" "Alpha Fleet Flagship"
 		ship "Leviathan (Alpha)" "Deimos"
+		ship "Leviathan (Alpha)" "Phobos"
 	npc
 		government "Shirni"
 		system "Bokulat"
