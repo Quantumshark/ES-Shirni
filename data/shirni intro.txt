@@ -441,7 +441,7 @@ mission "Shirni: Alpha Defense"
 	npc evade
 		government "Alpha"
 		system "Bokulat"
-		personality coward vindictive
+		personality coward
 		ship "Alpha Fleet Flagship" "Alpha Fleet Flagship"
 		ship "Leviathan (Alpha)" "Deimos"
 		ship "Leviathan (Alpha)" "Phobos"
