@@ -323,6 +323,17 @@ outfit "Thunderbolt-Type Afterburner"
 	description "The Thunderbolt-Type Afterburner is unusual among afterburners in that the vast majority of the thrust it provides comes from a ships' energy reserves, rather than from fuel. While it is almost impossible to concieve of a ship that could sustain its energy requirements for any length of time, the Thunderbolt provides a sudden burst of speed worthy of its namesake to all but the largest ships."
 	description "Unlike other Shirni engines, which are designed to operate in every concievable circumstance, the Thunderbolt-Type is designed to allow for a brief burst of speed, in order to escape from a losing battle that would otherwise prove fatal."
 	
+outfit "Energy Burst Rifle"
+	category "Hand to Hand"
+	licenses
+		"Shirni Friend"
+	"cost" 41000
+	thumbnail "outfit/laser rifle"
+	"capture attack" 1.5
+	"capture defense" .6
+	"unplunderable" 1
+	description "The Energy Burst Rifle operates surprisingly similarly to a particle cannon, albeit on a much smaller scale. The bursts of incredibly high-energy particles it produces are highly effective, and can even blast straight through some weaker barriers. The extra care required to avoid causing massive collateral damage makes it far less effective as a defensive weapon, however."
+	
 outfit "Shirni Friend License"
 	category "Special"
 	thumbnail "outfit/navy license"
