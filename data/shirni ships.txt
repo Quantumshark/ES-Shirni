@@ -109,6 +109,32 @@ ship "Azolla" "Azolla (Automaton)"
 		"Storm-Type Steering"
 		"Gale-Type Thruster"
 		"Hyperdrive"
+
+ship "Azolla" "Azolla (Antique)"
+	add attributes
+		"shields" -2000
+		"hull" -1700
+		"mass" -100
+		"bunks" 2
+		"outfit space" -50
+		"weapon capacity" -60
+		"required crew" -1
+	outfits
+		"Energy Burst Cannon" 2
+	
+		"C-Type Generator"
+		"Storage Cell"
+		"Thermal Dissipator"
+		"Regenerating Plating"
+		
+		"Storm-Type Steering"
+		"Gale-Type Thruster"
+		
+		"Hyperdrive"
+		
+	gun 14 -46 "Energy Burst Cannon"
+	gun -14 -46 "Energy Burst Cannon"
+	turret 0 15
 		
 ship "Tectaria"
 	sprite ship/tectaria

@@ -75,12 +75,14 @@ fleet "Shirni Scout"
 	government "Shirni"
 	names "shirni"
 	personality coward plunders
-	variant
+	variant 20
 		"Azolla"
-	variant
+	variant 20
 		"Azolla (Heavy)"
-	variant
+	variant 20
 		"Azolla (Tough)"
+	variant 1
+		"Azolla (Antique)"
 		
 fleet "Shirni Military"
 	government "Shirni"
