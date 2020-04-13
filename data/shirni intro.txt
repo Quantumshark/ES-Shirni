@@ -18,7 +18,8 @@ mission "First Contact: Quta'ar"
 			`This Quarg ringworld is located in a region of space inhabited by an alien species you have not encountered before. When you dock with the ring, you see that a large crowd of Quarg has gathered around your ship, alongside some of what you presume are the aliens that live here - small, mothlike beings with brightly coloured fur.`
 			`	Eventually, one of the Quarg steps forward, prepared to make an effort to speak your language.`
 			`	"Salutations, unanticipated human visitor, to the locality inhabited by the amicable Shirni. Though we Quarg serve as their supervisors and guardians, we cannot serve as their diplomats; perchance you may contact them, and they may decide how best to interface with you."`
-				decline
+			`	The Quarg walks away, and the crowd around your ship gradually disperses. Perhaps you should follow their suggestion, and visit the Shirni on one of their nearby planets.`
+			decline
 
 mission "First Contact: Shirni"
 	landing
