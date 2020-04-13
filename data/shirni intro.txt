@@ -408,12 +408,12 @@ mission "Shirni: Alpha Defense"
 	npc evade
 		government "Alpha"
 		system "Bokulat"
-		personality heroic coward vindictive target
+		personality coward vindictive
 		ship "Leviathan (Alpha)" "Phobos"
 	npc evade
 		government "Alpha"
 		system "Bokulat"
-		personality heroic coward vindictive target
+		personality coward vindictive
 		ship "Leviathan (Alpha)" "Deimos"
 	npc
 		government "Shirni"
