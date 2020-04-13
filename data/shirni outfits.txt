@@ -332,7 +332,7 @@ outfit "Energy Burst Rifle"
 	"capture attack" 1.5
 	"capture defense" .6
 	"unplunderable" 1
-	description "The Energy Burst Rifle operates surprisingly similarly to a particle cannon, albeit on a much smaller scale. The bursts of incredibly high-energy particles it produces are highly effective, and can even blast straight through some weaker barriers. The extra care required to avoid causing massive collateral damage makes it far less effective as a defensive weapon, however."
+	description "The Energy Burst Rifle operates. The bursts of incredibly high-energy particles it produces are highly effective, and can even blast straight through some weaker barriers. The extra care required to avoid causing massive collateral damage makes it far less effective as a defensive weapon, however."
 	
 outfit "Shirni Friend License"
 	category "Special"

@@ -44,6 +44,8 @@ ship "Azolla"
 		"Regenerating Plating"
 		"Secondary Shielding" 2
 		
+		"Energy Burst Rifle" 2
+		
 		"Storm-Type Steering"
 		"Gale-Type Thruster"
 		
@@ -75,6 +77,7 @@ ship "Azolla" "Azolla (Heavy)"
 		"Storm-Type Steering"
 		"Gale-Type Thruster"
 		"Hyperdrive"
+		"Energy Burst Rifle" 4
 
 ship "Azolla" "Azolla (Tough)"
 	outfits
@@ -87,6 +90,7 @@ ship "Azolla" "Azolla (Tough)"
 		"Storm-Type Steering"
 		"Gale-Type Thruster"
 		"Hyperdrive"
+		"Energy Burst Rifle" 2
 		
 ship "Azolla" "Azolla (Automaton)"
 	add attributes
