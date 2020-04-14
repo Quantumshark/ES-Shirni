@@ -196,9 +196,9 @@ outfit "Plasma Rocket Launcher"
 		"turn" 2.0
 		"homing" 3
 		"radar tracking" .5
-		"shield damage" 117
-		"hull damage" 63
-		"heat damage" 243
+		"shield damage" 187
+		"hull damage" 113
+		"heat damage" 367
 		"missile strength" 3
 	description "Plasma Rockets are a deadly weapon against any target. Although they are only capable of rudimentary homing, their sheer numbers and burst fire allow them to deal impressive damage even to targets with powerful anti-missile systems, and few other missiles can compete with their incredible range and speed."
 
@@ -235,9 +235,9 @@ outfit "Plasma Rocket Turret"
 		"turn" 1.4
 		"homing" 3
 		"radar tracking" .5
-		"shield damage" 117
-		"hull damage" 63
-		"heat damage" 243
+		"shield damage" 187
+		"hull damage" 113
+		"heat damage" 367
 		"missile strength" 3
 	description "By mounting two Plasma Rocket Launchers on a rotating base and overclocking the missile loading systems, the Shirni have created a deadly weapon capable of destroying almost any target from long range. Only a ship which has devoted most of its weapon space to anti-missile systems could survive an attack from multiple ships armed with Plasma Rocket Turrets, and such a ship would be easily defeated by ships armed with less powerful weapons."
 	
