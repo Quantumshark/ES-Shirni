@@ -361,7 +361,7 @@ mission "Shirni: Large Escort"
 				"Tectaria" 3
 				"Azolla (Heavy)" 2
 	to offer
-		has "shirni: large escort message: declined"
+		has "shirni: Large Escort Message: declined"
 	on offer
 		conversation
 			`In the spaceport, you meet with the crew of the freighters you have been asked to escort. In addition to the three Tectaria freighters you are escorting, there are a pair of Azolla light warships which will be accompanying you. After meeting with you, the crew leave to prepare for the journey to <planet>.`
@@ -431,7 +431,7 @@ mission "Shirni: Alpha Defense"
 	destination "Lizorati"
 	clearance
 	to offer
-		has "shirni: large escort: done"
+		has "Shirni: Large Escort: done"
 	on offer
 		event "battle in bokulat"
 		conversation
@@ -498,7 +498,7 @@ mission "Shirni: To Shipoderni"
 	destination "Shipoderni"
 	passengers 2
 	to offer
-		has "shirni: alpha defense: done"
+		has "Shirni: Alpha Defense: done"
 	on offer
 		conversation
 			`Votari is waiting for you in the spaceport. The Quarg interpreter with him informs you that the Shirni government would like to meet with you in person, in their parliament on <planet>. Votari will also need transport on your ship, as will the interpreter.`
