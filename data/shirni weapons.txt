@@ -150,7 +150,7 @@ outfit "Plasma Rocket"
 	thumbnail "outfit/meteor"
 	"mass" .5
 	"plasma rocket capacity" -1
-	description "A Plasma Rocket serves as ammunition for the Plasma Rocket Launcher. Each missile launcher has the capacity for 30 missiles; you cannot install missiles if you have not first purchased a launcher to store them in."
+	description "A Plasma Rocket serves as ammunition for the Plasma Rocket Launcher. Each plasma rocket launcher has the capacity for 30 plasma rockets; you cannot install plasma rockets if you have not first purchased a launcher to store them in."
 
 outfit "Plasma Rocket Storage"
 	category "Ammunition"
@@ -200,7 +200,7 @@ outfit "Plasma Rocket Launcher"
 		"hull damage" 63
 		"heat damage" 243
 		"missile strength" 3
-	description "Plasma Rockets are a deadly weapon against any target. Although they are only capable of rudimentary homing, their sheer numbers and burst fire allow them to deal impressive damage even to targets with powerful anti-missile systems."
+	description "Plasma Rockets are a deadly weapon against any target. Although they are only capable of rudimentary homing, their sheer numbers and burst fire allow them to deal impressive damage even to targets with powerful anti-missile systems, and few other missiles can compete with their incredible range and speed."
 
 outfit "Plasma Rocket Turret"
 	category "Secondary Weapons"
