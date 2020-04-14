@@ -453,7 +453,7 @@ mission "Shirni: Alpha Defense"
 		fleet
 			names "shirni automaton"
 			variant
-				"Azolla (Automaton)" 8
+				"Azolla (Automaton)" 6
 	npc
 		government "Shirni"
 		system "Bokulat"
