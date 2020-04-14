@@ -1490,9 +1490,6 @@ planet Quta'ar
 	spaceport `The spaceport is unusually busy for a Quarg spaceport, with large crowds of Shirni gathering to meet with the Quarg. The gravity is weaker and the air thinner than you are used to, but this does not seem to be causing the Shirni any issues.`
 	bribe 0
 	security 1
-	tribute 5000
-		threshold 12000
-		fleet "Large Quarg" 20
 
 planet Quzo'ar
 	attributes shirni arid
