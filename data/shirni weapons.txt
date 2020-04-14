@@ -228,8 +228,8 @@ outfit "Plasma Rocket Turret"
 		"burst reload" 3
 		"burst count" 10
 		"reload" 30
-		"firing energy" 1.2
-		"firing heat" 8.1
+		"firing energy" 3.1
+		"firing heat" 11.7
 		"acceleration" 1.9
 		"drag" .11
 		"turn" 1.4
