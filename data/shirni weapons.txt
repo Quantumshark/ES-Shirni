@@ -208,10 +208,11 @@ outfit "Plasma Rocket Turret"
 		"Shirni Brethren"
 	cost 946000
 	thumbnail "outfit/meteor launcher"
-	"mass" 29
-	"outfit space" -59
-	"weapon capacity" -59
-	"gun ports" -1
+	"mass" 34
+	"outfit space" -64
+	"weapon capacity" -64
+	"required crew" 1
+	"turret mounts" -1
 	"plasma rocket capacity" 60
 	weapon
 		sprite "projectile/javelin"
