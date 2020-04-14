@@ -232,7 +232,7 @@ outfit "Plasma Rocket Turret"
 		"firing heat" 8.1
 		"acceleration" 1.9
 		"drag" .11
-		"turn" 2.0
+		"turn" 1.4
 		"homing" 3
 		"radar tracking" .5
 		"shield damage" 117
