@@ -115,7 +115,7 @@ outfit "Industrial Solar Cell"
 	"outfit space" -47
 	"solar collection" 11.3
 	"solar heat" 25.2
-	description "This massive bundle of solar cells is repurposed from designs used in some Shirni factories. While it produces plenty of power, it is designed to operate with the cooling effects of an atmosphere and thus can easily cause the ship using it to overheat."
+	description "This massive bundle of solar cells is repurposed from designs commonly used in Shirni factories. While it produces plenty of power, it is designed to operate with the cooling effects of an atmosphere and thus can easily cause the ship using it to overheat."
 	
 outfit "Secondary Shielding"
 	category "Systems"
