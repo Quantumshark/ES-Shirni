@@ -44,7 +44,7 @@ outfit "Thermal Dissipator"
 	"cooling inefficiency" 2
 	description "Thermal Dissipators are incredibly space-efficient, but adding more than a few of them to the same ship will cause them to start interfering with each other and with other cooling systems."
 
-outfit "A-Type Generator"
+outfit "Weasel-Type Generator"
 	category "Power"
 	licenses
 		"Shirni Friend"
@@ -59,7 +59,7 @@ outfit "A-Type Generator"
 	"disruption resistance" .02
 	description "This generator combines some energy generation with a small amount of shield generation, all in a much smaller space than most other designs could fit both. This compact and versatile outfit also provides a tiny amount of protection against weapons that disrupt a ship's shield matrix."
 	
-outfit "C-Type Generator"
+outfit "Fox-Type Generator"
 	category "Power"
 	licenses
 		"Shirni Friend"
@@ -75,7 +75,7 @@ outfit "C-Type Generator"
 	description "The Shirni build shield regeneration into their generators, so that when they are recharging their shields the extra power can be drawn by adjusting the generator settings rather than risking running out of energy in the middle of a battle."
 	description "Because these systems primarily serve as generators, weapons designed to disrupt shields are less effective against them."
 	
-outfit "F-Type Generator"
+outfit "Wolf-Type Generator"
 	category "Power"
 	licenses
 		"Shirni Brethren"
@@ -90,7 +90,7 @@ outfit "F-Type Generator"
 	"disruption resistance" .2
 	description "This generator produces almost as much power as any generator of similar size available in human space, and is slightly more heat efficient, while also serving as a shield generator far beyond anything humanity has ever produced."
 	
-outfit "I-Type Generator"
+outfit "Bear-Type Generator"
 	category "Power"
 	licenses
 		"Shirni Brethren"

@@ -38,7 +38,7 @@ ship "Azolla"
 		"Energy Burst Cannon" 2
 		"Terminator Beam"
 	
-		"C-Type Generator"
+		"Fox-Type Generator"
 		"Storage Cell"
 		"Thermal Dissipator"
 		"Regenerating Plating"
@@ -70,7 +70,7 @@ ship "Azolla" "Azolla (Heavy)"
 	outfits
 		"Energy Burst Cannon" 4
 		"Terminator Beam"
-		"C-Type Generator"
+		"Fox-Type Generator"
 		"Thermal Dissipator"
 		"Regenerating Plating"
 		"Storage Cell"
@@ -82,7 +82,7 @@ ship "Azolla" "Azolla (Heavy)"
 ship "Azolla" "Azolla (Tough)"
 	outfits
 		"Terminator Beam"
-		"F-Type Generator"
+		"Wolf-Type Generator"
 		"Thermal Dissipator"
 		"Regenerating Plating"
 		"Secondary Shielding" 2
@@ -103,7 +103,7 @@ ship "Azolla" "Azolla (Automaton)"
 	outfits
 		"Energy Burst Cannon" 4
 		"Terminator Beam"
-		"C-Type Generator"
+		"Fox-Type Generator"
 		"Thermal Dissipator"
 		"Regenerating Plating"
 		"Storage Cell"
@@ -123,7 +123,7 @@ ship "Azolla" "Azolla (Antique)"
 	outfits
 		"Energy Burst Cannon" 2
 	
-		"C-Type Generator"
+		"Fox-Type Generator"
 		"Storage Cell"
 		"Thermal Dissipator"
 		"Regenerating Plating"
@@ -168,7 +168,7 @@ ship "Tectaria"
 		"Plasma Rocket" 110
 		"Plasma Rocket Storage"
 			
-		"F-Type Generator"
+		"Wolf-Type Generator"
 		"Storage Cell" 2
 			
 		"Storm-Type Steering"
