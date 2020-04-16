@@ -483,7 +483,7 @@ mission "Shirni: Alpha Defense"
 			
 event "battle in bokulat"
 	system "Bokulat"
-		fleet "Shirni Scout" 10000
+		fleet "Shirni Scout" 25000
 	
 event "normal in bokulat"
 	system "Bokulat"
