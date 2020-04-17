@@ -542,5 +542,5 @@ mission "Shirni: To Shipoderni"
 			label end
 			`	The discussions go on for almost two hours, and you are asked several more questions. Eventually, you are told that the Shirni have no more questions for you, and that you may leave. After you leave, you recieve a message telling you that you can go back to your usual business elsewhere in the galaxy, and that you will be notified when you need to return.`
 			
-event "shirni discussion timer"
+event "shirni: discussion timer"
 
