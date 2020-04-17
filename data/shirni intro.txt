@@ -297,7 +297,7 @@ mission "Shirni Alpha Surveillance"
 	on offer
 		conversation
 			`When you leave your ship, a Shirni wearing what you presume is a military outfit complete with medals is waiting for you along with a Quarg interpreter. The Shirni looks up and begins speaking with the Quarg, and the Quarg gestures for you to sit down. You notice that you have been given a larger chair, possibly specially made. As you approach them, you see that one of the Shirni's antennae is missing`
-			`	Eventually, the Shirni stops talking and the Quarg translates. "This is Votari, the leader of the Shirni military response against the recent Alpha attacks on their space and the first Shirni to contact us on our ring. He has requested that, seeing as you have a jump drive, you survey any nearby systems in which you suspect there may be Alpha activity."`
+			`	Eventually, the Shirni stops talking and the Quarg translates. "This is Votari, the leader of the Shirni military response against the recent Alpha attacks on their space and the first Shirni to directly request our aid. He has requested that, seeing as you have a jump drive, you survey any nearby systems in which you suspect there may be Alpha activity."`
 			choice
 				`	"Yes, I can do that."`
 				`	"I'm not able to do that right now."`
@@ -306,7 +306,7 @@ mission "Shirni Alpha Surveillance"
 				accept
 	on complete
 		"reputation: Shirni" >?= 10
-		log "People" "Votari" "Votari was the leader of the Shirni military when they were attacked by the Alphas. Votari was also responsible for requesting the aid of the Quarg in defending the Shirni from the Alphas."
+		log "People" "Votari" "Votari was the leader of the Shirni military during the Alpha attacks, but has since retired. Votari was responsible for requesting the aid of the Quarg in defending the Shirni."
 		log "Was asked to survey systems near Shirni space in search of Alpha activity. Found nothing out of the ordinary."
 		conversation
 			`Votari is waiting for you with another Quarg interpreter when your ship lands. You hand over copies of your scanner logs, and he reviews them with interest. Votari begins speaking with the Quarg, who translates for him.`
