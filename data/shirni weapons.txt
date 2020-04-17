@@ -188,7 +188,7 @@ outfit "Plasma Rocket Launcher"
 		"lifetime" 380
 		"burst reload" 3
 		"burst count" 5
-		"reload" 60
+		"reload" 50
 		"firing energy" .1
 		"firing heat" 7.3
 		"acceleration" 1.9
@@ -228,8 +228,8 @@ outfit "Plasma Rocket Turret"
 		"burst reload" 3
 		"burst count" 10
 		"reload" 20
-		"firing energy" 9.1
-		"firing heat" 21.7
+		"firing energy" 27.3
+		"firing heat" 65.1
 		"acceleration" 1.9
 		"drag" .11
 		"turn" 1.4
