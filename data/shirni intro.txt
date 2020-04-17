@@ -544,3 +544,20 @@ mission "Shirni: To Shipoderni"
 			
 event "shirni: discussion timer"
 
+mission "Shirni: Meeting Request"
+	landing
+	name "Meeting on <planet>"
+	description "You have been asked to travel to <planet> to meet with Votari."
+	source
+		government "Shirni" "Quarg"
+		near Bikutaqi 1 20
+	destination Chizoki
+	to offer
+		has "event: shirni: discussion timer"
+	on offer
+		conversation
+			`As soon as you land on <origin>, you recieve a message from Votari, asking you to meet him on <destination>.`
+				accept
+	on complete
+		conversation
+			`When you land on <planet>, you recieve another message from Votari informing you that he is waiting in the spaceport.`
