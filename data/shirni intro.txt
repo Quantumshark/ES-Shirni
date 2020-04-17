@@ -556,7 +556,7 @@ mission "Shirni: Meeting Request"
 		has "event: shirni: discussion timer"
 	on offer
 		conversation
-			`As soon as you land on <origin>, you recieve a message from Votari, asking you to meet him on <destination>.`
+			`As soon as you land on <origin>, you recieve a message from Votari asking you to meet him on <destination>.`
 				accept
 	on complete
 		conversation
