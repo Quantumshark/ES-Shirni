@@ -328,21 +328,6 @@ mission "Shirni Pirate Surveillance"
 		set "shirni: recieved device"
 		set "license: Shirni Friend"
 
-mission "Shirni: Large Escort Message"
-	landing
-	source
-		government "Shirni"
-		near Bokulat 3 20
-	destination "Lizorati"
-	clearance
-	to offer
-		has "shirni: recieved device"
-		has "main plot completed"
-		random < 30
-	on offer
-		conversation
-			`As soon as you land on <origin>, you recieve a message from Votari. Most of the message has not been translated out of the Shirni language, but you are able to gather that you need to meet with some freighters in the spaceport and bring them to <destination>, and that you will be paid 320,000 credits.`
-				decline
 				
 mission "Shirni: Lizorati Escort"
 	name "Escort to <planet>"
@@ -361,11 +346,16 @@ mission "Shirni: Lizorati Escort"
 				"Tectaria" 3
 				"Azolla (Heavy)" 2
 	to offer
-		has "shirni: Large Escort Message: declined"
+		has "shirni: recieved device"
+		random < 30
 	on offer
 		conversation
-			`In the spaceport, you meet with the crew of the freighters you have been asked to escort. In addition to the three Tectaria freighters you are escorting, there are a pair of Azolla light warships which will be accompanying you. After meeting with you, the crew leave to prepare for the journey to <planet>.`
-				accept
+			`As you are walking through the spaceport, you recieve a message from Votari. "It is excellent that you are on <origin> now. There is a convoy here carrying supplies that need to be delivered to <destination>, and there are no Quarg ships available to escort them. Would you escort them for us? We will pay you <payment>."`
+			choice
+				`	(Accept the mission.)
+					accept
+				`	(Not right now.)`
+					defer
 	on complete
 		payment 320000
 		log "Escorted some Shirni freighters to the planet of Lizorati."
