@@ -262,7 +262,7 @@ mission "Shirni Particle Cannon Delivery"
 		dialog
 			`You have returned to <planet>, but you do not have a Particle Cannon. You should depart, and either purchase or steal one.`
 			
-mission "Shirni Alpha Surveillance"
+mission "Shirni Pirate Surveillance"
 	name "Alpha Surveillance"
 	description "Survey <stopovers> for any signs of Alpha activity, then return to <planet>."
 	source
@@ -344,7 +344,7 @@ mission "Shirni: Large Escort Message"
 			`As soon as you land on <origin>, you recieve a message from Votari. Most of the message has not been translated out of the Shirni language, but you are able to gather that you need to meet with some freighters in the spaceport and bring them to <destination>, and that you will be paid 320,000 credits.`
 				decline
 				
-mission "Shirni: Large Escort"
+mission "Shirni: Lizorati Escort"
 	name "Escort to <planet>"
 	description "Escort this fleet of freighters to <planet>. Payment will probably be <payment>."
 	source
@@ -424,14 +424,14 @@ outfit "Alpha Fleet Flagship Submunition"
 		"hull damage" 2
 		"no damage scaling"
 		
-mission "Shirni: Alpha Defense"
+mission "Shirni: Alpha Defense 1"
 	name "Defend <planet>"
 	description "Defend <planet> from an Alpha raid."
 	source "Lizorati"
 	destination "Lizorati"
 	clearance
 	to offer
-		has "Shirni: Large Escort: done"
+		has "Shirni: Lizorati Escort: done"
 	on offer
 		event "battle in bokulat"
 		conversation
@@ -498,7 +498,7 @@ mission "Shirni: To Shipoderni"
 	destination "Shipoderni"
 	passengers 2
 	to offer
-		has "Shirni: Alpha Defense: done"
+		has "Shirni: Alpha Defense 1: done"
 	on offer
 		conversation
 			`Votari is waiting for you in the spaceport. The Quarg interpreter with him informs you that the Shirni government would like to meet with you in person, in their parliament on <planet>. Votari will also need transport on your ship, as will the interpreter.`
