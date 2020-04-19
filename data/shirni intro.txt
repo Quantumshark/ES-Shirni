@@ -218,11 +218,25 @@ mission "Shirni Quta'ar Followup"
 			`	"We did not encounter these attackers personally, but from the descriptions we recieved from the Shirni we believe them to have been the Pug."`
 				branch pug
 					has "main plot completed"
-				goto end
+			choice
+				`	"What were these 'ghastly beasts' like?"`
+				goto beasts2
 			label pug
-			`	"You have encountered the Pug, have you not? I am informed that they attacked your species a short while ago. You know then that they are able to manipulate hyperspace links, which I suspect is why the regions they withdrew from are now part of your species' territory."
+			`	"You have encountered the Pug, have you not? I am informed that they attacked your species a short while ago. You know then that they are able to manipulate hyperspace links, which we suspect is why the regions they withdrew from are now part of your species' territory."
+			choice
+				`	"What were these 'ghastly beasts' like?"`
+				goto beasts2
+				label beasts
+			`	The Quarg clicks its teeth together. "They would not be quite so threatening to yourself as to these diminutive Shirni or to us frail Quarg. They were larger than anything living on your home planet, but not massively so, and they flew through the air on leathery wings."
+			choice
+				`	"What alien species attacked them?"`
+			`	"We did not encounter these attackers personally, but from the descriptions we recieved from the Shirni we believe them to have been the Pug."`
+				branch pug2
+					has "main plot completed"
+			label pug2
+			`	"You have encountered the Pug, have you not? I am informed that they attacked your species a short while ago. You know then that they are able to manipulate hyperspace links, which we suspect is why the regions they withdrew from are now part of your species' territory."
 				goto end
-			label beasts
+			label beasts2
 			`	The Quarg clicks its teeth together. "They would not be quite so threatening to yourself as to these diminutive Shirni or to us frail Quarg. They were larger than anything living on your home planet, but not massively so, and they flew through the air on leathery wings."
 				goto end
 			label end
