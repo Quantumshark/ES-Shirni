@@ -724,7 +724,6 @@ mission "Shirni: Surveillance 2 (Haven)"
 	source Haven
 	destination Vuzotarne
 	to offer
-		has "Shirni: Jump Drive Research Reconciliation: active"
 		or
 			has "Shirni: Jump Drive Research Reconciliation: active"
 			has "Shirni: Jump Drive Research Checkmate: active"
