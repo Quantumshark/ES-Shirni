@@ -564,4 +564,119 @@ mission "Shirni: Meeting Request"
 				accept
 	on complete
 		conversation
-			`When you land on <planet>, you recieve another message from Votari informing you that he is waiting in the spaceport.`
+			`When you land on <planet>, you recieve another message from Votari informing you that he is waiting in the spaceport.`mission "Shirni: Jump Drive Research Reconciliation"
+	landing
+	name "Alpha Surveillance"
+	description "Using these sensors the Shirni have designed, search the northern pirate planets for any sign of Alpha activity."
+	source Vuzotarne
+	stopover Freedom
+	stopover Zenith
+	stopover Haven
+	to offer
+		has "Shirni: Meeting Request: done"
+		has "free worlds reconciliation"
+	blocked "You have reached <origin>, but you will need <capacity> to complete this mission."
+	cargo "scanner" 3
+	on offer
+		log "People" "Itarika" "Itarika is the lead researcher in charge of the Shirni's Jump Drive research program. She has learned the human language from the Alphas imprisoned on Lizorati."
+		conversation
+			`Votari is waiting with you in the spaceport with a Quarg interpreter and another Shirni who the interpreter introduces as Itarika, the leader of the Shirni research group working on attempting to reverse-engineer the Jump Drive. To your surprise, Itarika begins speaking not to the interpreter, but to you directly.`
+			`	"We grabbed a jump drive from the Alphas a while back, and we're trying to find where they got it from. If you've got any idea where they found it, that'd be nice."`
+		choice
+			`	"The Alphas' jump drives were given to them by the Syndicate, who stole them from the Korath."`
+				goto jumpdrives
+			`	"Wait, how can you speak my language?"`
+		`	Itarika laughs. "I learned it from the Alphas. We've captured a few of them and imprisoned them on Lizorati, and we've been interrogating them for a few years. Me and a few others have managed to learn bits of the language from them. I would've met you sooner, but I've been busy the last few months. Anyways, any ideas where the Alphas' drives are from?"`
+		choice
+			`	"The Alphas' jump drives were given to them by the Syndicate, who stole them from the Korath."`
+		`	Itarika is silent while the interpreter translates your response for Votari, then replies "Well, on the bright side, we know exactly where their drives are from." Itarika then asks you a lengthy series of questions about the Syndicate and the Korath, and you do your best to answer.`
+		`	Votari remains silent, trying to subtly get the interpreter's attention, until Itarika's string of questions is complete. You sit awkwardly for a few minutes as the interpreter translates the conversation, then Votari responds.`
+		`	"If the Alphas' supply of jump drives cannot easily be taken away, then we will have to attack them directly. We have designed some sensors with which we can scan planets for underground activity, and would like you to take them to the planets in the nearby systems you surveyed previously."`
+		choice
+			`	"Yes, I can do that."`
+				accept
+			`	"I cannot do that right now."`
+				defer
+	on visit
+		dialog
+			`You have returned to <origin>, but you have not visited all the planets you were asked to. Depart and visit <stopovers>, then return here.`
+	
+mission "Shirni: Surveillance 2 (Freedom)"
+	landing
+	source Freedom
+	to offer
+		or
+			has "Shirni: Jump Drive Research Reconciliation: active"
+			has "Shirni: Surveillance 2 (Haven): active"
+	on offer
+		conversation
+			`The scanner fires up, but does not appear to find any signs of Alpha bases on this planet.`
+				decline
+		
+mission "Shirni: Surveillance 2 (Zenith) (Pre-Bombing)"
+	landing
+	source Zenith
+	to offer
+		or
+			has "Shirni: Jump Drive Research Reconciliation: active"
+			has "Shirni: Surveillance 2 (Haven): active"
+		not "Wanderers: Sestor: Bomb Zenith 2: done"
+		not "Wanderers: Sestor Alt: Alnilam 3: offered"
+	on offer
+		conversation
+			`The scanner fires up, but does not appear to find any signs of Alpha bases on this planet.`
+				decline
+
+mission "Shirni: Surveillance 2 (Zenith) (Bombed)"
+	landing
+	source Zenith
+	to offer
+		or
+			has "Shirni: Jump Drive Research Reconciliation: active"
+			has "Shirni: Surveillance 2 (Haven): active"
+		has "Wanderers: Sestor: Bomb Zenith 2: done"
+	on offer
+		conversation
+			`The scanner fires up and runs for a while, but is unable to pick up anything over the cataclysmic effects of the bomb you dropped. Certainly, there are no Alpha bases anywhere on that continent, and you suspect any other Alphas on <origin> will likely have fled.`
+				decline
+				
+mission "Shirni: Surveillance 2 (Zenith) (Alt)"
+	landing
+	source Zenith
+	to offer
+		or
+			has "Shirni: Jump Drive Research Reconciliation: active"
+			has "Shirni: Surveillance 2 (Haven): active"
+		has "Wanderers: Sestor Alt: Alnilam 3: offered"
+	on offer
+		conversation
+			`The scanner fires up, and informs you that it has found an underground base. You review the data, and find that it has found the remains of the base that the Navy destroyed recently. You know that none of the Alphas there survived, and doubt any others would attempt to reuse that base.`
+				decline
+
+mission "Shirni: Surveillance 2 (Haven)"
+	landing
+	name "Return to <planet>"
+	description "There seems to be a large underground base on <origin>. Return to <destination> to discuss this with Votari."
+	source Haven
+	destination Vuzotarne
+	to offer
+		has "Shirni: Jump Drive Research Reconciliation: active"
+	cargo "scanner" 3
+	on offer
+		log "Brought a Shirni scanner to Haven. Found a massive underground base, presumably owned by the Alphas."
+		fail "Shirni: Jump Drive Research Reconciliation"
+		conversation
+			`The scanner fires up, and informs you that it has located a massive underground base. Situated under a particularly harsh desert region even for <origin>, the base appears to be located in a large natural cave system just over half a kilometer below the surface. Votari will almost certainly be eager to hear about this.`
+				accept
+	on complete
+		conversation
+			`Votari and Itarika are waiting for you in the spaceport. You hand over the scanner, and Votari begins silently reviewing the data it has gathered. Itarika glances at the data, and begins talking with you.`
+			`	"That base is far too large, and that system far too well defended, for us to be able to do anything about it. We'd need much larger warships and stronger weapons both for our ships and for our soldiers before we could even consider attacking it. Which leaves us in rather a tricky situation. Any ideas?"
+			choice
+				`	"I can stay here and defend you from the Alphas until you develop stronger ships."`
+				`	"Perhaps you could negotiate with the Alphas? They must have some goal, they can't just want to destroy an entire species."`
+					goto negotiate
+			`	"Perhaps, but we should not rely on the protection of another species. The Quarg refused to attack the Alphas outside our space, and you cannot be in two places at once. I will see if we can get our new warship projects pushed forward."`
+			label negotiate
+			`	Itarika speaks with Votari for a moment. "It seems our only option is to try negotiating with the Alphas. From what we've seen, they'll probably go back on any promises they make the moment it suits them, but it will still buy us time."`
+			`	Meet with us in the spaceport, and we will see if anything can be done.`
