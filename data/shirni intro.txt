@@ -760,9 +760,10 @@ mission "Shirni: Alphas Branch: Negotiate"
 			`	"So we're giving you the choice. Either bring us to <planet> to negotiate with the Alphas, or rally whatever forces you can find to attack their base there."`
 				accept
 	on complete
+		fail "Shirni: Alphas Branch: Destroy"
 			
 mission "Shirni: Alphas Branch: Destroy"
-	name "Alpha Negotiations"
+	name "Destroy the Alpha base"
 	description "Visit the navy base on <planet>, tell them about the Alpha base on Haven, and see if they are willing to help you attack it."
 	source Vuzotarne
 	destination Farpoint
@@ -771,12 +772,40 @@ mission "Shirni: Alphas Branch: Destroy"
 	on complete
 		fail "Shirni: Alphas Branch: Negotiate"
 		
-mission "Shirni: Alphas Branch: Destroy 1"
+mission "Shirni: Alphas Branch: Destroy 1: Wanderers Not Bomb"
 	landing
 	source Farpoint
 	waypoint Haven
 	to offer
 		has "Shirni: Alphas Branch: Destroy: offered"
+		has "Wanderers: Sestor Alt: Alnilam 3: offered"
 	on offer
 		conversation
-			`You arrive on <origin>, and find `
+			`Admiral Danforth is pleased to see you again, until you explain why you are here. When you mention the Alphas, he silently points in the direction of the spaceport. "Let's not speak of that, out here in the open. Meet me in my office at the spaceport."`
+				decline
+		
+mission "Shirni: Alphas Branch: Destroy 1: Wanderers Bomb"
+	landing
+	source Farpoint
+	waypoint Haven
+	to offer
+		has "Shirni: Alphas Branch: Destroy: offered"
+		has "Wanderers: Sestor: Bomb Zenith 2: done"
+	on offer
+		conversation
+			`Admiral Danforth does not seem pleased to see you again, and only seems less so when you explain why you are here. When you mention the Alphas, he silently points in the direction of the spaceport. "Let's not speak of that, out here in the open. Meet me in my office at the spaceport."`	
+				decline
+	
+mission "Shirni: Alphas Branch: Destroy 1: Not Wanderers"
+	landing
+	source Farpoint
+	waypoint Haven
+	to offer
+		has "Shirni: Alphas Branch: Destroy: offered"
+		not "Wanderers: Alpha Surveillance F: offered"
+	on offer
+		conversation
+			`Admiral Danforth is very pleased to see you, but his expression turns grim when you explain why you have come. When you mention the Alphas, he hushes you. "Let's not speak of that, out here in the open," he says. "Not that I do not trust my people, but it is best to be safe. I will gather troops who I know are able to operate discreetly and have them be ready to join us on an expedition. Meet me in my private office at the spaceport when you're ready."`
+				decline
+			
+mission "Shirni: Alphas Branch: Destroy 2: Wanderers Not Bomb"
