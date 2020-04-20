@@ -642,21 +642,18 @@ mission "Shirni: Jump Drive Research Reconciliation"
 		conversation
 			`Votari is waiting with you in the spaceport with a Quarg interpreter and another Shirni who the interpreter introduces as Itarika, the leader of the Shirni research group working on attempting to reverse-engineer the Jump Drive. To your surprise, Itarika begins speaking not to the interpreter, but to you directly.`
 			`	"We grabbed a jump drive from the Alphas a while back, and we're trying to find where they got it from. If you've got any idea where they found it, that'd be nice."`
-		choice
-			`	"The Alphas' jump drives were given to them by the Syndicate, who stole them from the Korath."`
-				goto jumpdrives
-			`	"Wait, how can you speak my language?"`
-		`	Itarika laughs. "I learned it from the Alphas. We've captured a few of them and imprisoned them on Lizorati, and we've been interrogating them for a few years. Me and a few others have managed to learn bits of the language from them. I would've met you sooner, but I've been busy the last few months. Anyways, any ideas where the Alphas' drives are from?"`
-		choice
-			`	"The Alphas' jump drives were given to them by the Syndicate, who stole them from the Korath."`
-		`	Itarika is silent while the interpreter translates your response for Votari, then replies "Well, on the bright side, we know exactly where their drives are from." Itarika then asks you a lengthy series of questions about the Syndicate and the Korath, and you do your best to answer.`
-		`	Votari remains silent, trying to subtly get the interpreter's attention, until Itarika's string of questions is complete. You sit awkwardly for a few minutes as the interpreter translates the conversation, then Votari responds.`
-		`	"If the Alphas' supply of jump drives cannot easily be taken away, then we will have to attack them directly. We have designed some sensors with which we can scan planets for underground activity, and would like you to take them to the planets in the nearby systems you surveyed previously."`
-		choice
-			`	"Yes, I can do that."`
-				accept
-			`	"I cannot do that right now."`
-				defer
+			choice
+				`	"The Alphas' jump drives were given to them by the Syndicate, who stole them from the Korath."`
+					goto jumpdrives
+				`	"Wait, how can you speak my language?"`
+			`	Itarika laughs. "I learned it from the Alphas. We've captured a few of them and imprisoned them on Lizorati, and we've been interrogating them for a few years. Me and a few others have managed to learn bits of the language from them. I would've met you sooner, but I've been busy the last few months. Anyways, any ideas where the Alphas' drives are from?"`
+			choice
+				`	"The Alphas' jump drives were given to them by the Syndicate, who stole them from the Korath."`
+			`	Itarika is silent while the interpreter translates your response for Votari, then replies "Well, on the bright side, we know exactly where their drives are from." Itarika then asks you a lengthy series of questions about the Syndicate and the Korath, and you do your best to answer.`
+			`	Votari remains silent, trying to subtly get the interpreter's attention, until Itarika's string of questions is complete. You sit awkwardly for a few minutes as the interpreter translates the conversation, then Votari responds.`
+			`	"If the Alphas' supply of jump drives cannot easily be taken away, then we will have to attack them directly. We have some sensors with which we can scan planets for underground activity, and would like you to take them to the planets in the nearby systems you surveyed previously. Hopefully, we will be able to locate their base."`
+			choice
+				`	"Yes, I can do that."`
 					accept
 				`	"I cannot do that right now."`
 					defer
