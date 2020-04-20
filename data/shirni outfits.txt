@@ -48,7 +48,7 @@ outfit "Weasel-Type Generator"
 	category "Power"
 	licenses
 		"Shirni Friend"
-	cost 338000
+	cost 218000
 	thumbnail "outfit/small thermionic"
 	"mass" 26
 	"outfit space" -26
@@ -63,7 +63,7 @@ outfit "Fox-Type Generator"
 	category "Power"
 	licenses
 		"Shirni Friend"
-	cost 1237000
+	cost 937000
 	thumbnail "outfit/small thermionic"
 	"mass" 53
 	"outfit space" -53
@@ -79,7 +79,7 @@ outfit "Wolf-Type Generator"
 	category "Power"
 	licenses
 		"Shirni Brethren"
-	cost 5591100
+	cost 4591100
 	thumbnail "outfit/small thermionic"
 	"mass" 109
 	"outfit space" -109
@@ -94,7 +94,7 @@ outfit "Bear-Type Generator"
 	category "Power"
 	licenses
 		"Shirni Brethren"
-	cost 14106000
+	cost 10106000
 	thumbnail "outfit/small thermionic"
 	"mass" 173
 	"outfit space" -173
@@ -109,7 +109,7 @@ outfit "Industrial Solar Cell"
 	category "Power"
 	licenses
 		"Shirni Friend"
-	cost 1014000
+	cost 814000
 	thumbnail "outfit/small photovoltaic"
 	"mass" 61
 	"outfit space" -47
@@ -160,7 +160,7 @@ outfit "Breeze-Type Thruster"
 	category "Engines"
 	licenses
 		"Shirni Friend"
-	"cost" 201000
+	"cost" 100500
 	thumbnail "outfit/tiny atomic thruster"
 	"mass" 23
 	"outfit space" -23
@@ -178,7 +178,7 @@ outfit "Gale-Type Thruster"
 	category "Engines"
 	licenses
 		"Shirni Friend"
-	"cost" 417000
+	"cost" 208500
 	thumbnail "outfit/small atomic thruster"
 	"mass" 38
 	"outfit space" -38
@@ -196,7 +196,7 @@ outfit "Storm-Type Thruster"
 	category "Engines"
 	licenses
 		"Shirni Friend"
-	"cost" 831000
+	"cost" 415500
 	thumbnail "outfit/medium atomic thruster"
 	"mass" 71
 	"outfit space" -71
@@ -214,7 +214,7 @@ outfit "Typhoon-Type Thruster"
 	category "Engines"
 	licenses
 		"Shirni Brethren"
-	"cost" 1711000
+	"cost" 855500
 	thumbnail "outfit/large atomic thruster"
 	"mass" 121
 	"outfit space" -121
@@ -232,7 +232,7 @@ outfit "Breeze-Type Steering"
 	category "Engines"
 	licenses
 		"Shirni Friend"
-	"cost" 117000
+	"cost" 68500
 	thumbnail "outfit/tiny atomic steering"
 	"mass" 19
 	"outfit space" -19
@@ -247,7 +247,7 @@ outfit "Gale-Type Steering"
 	category "Engines"
 	licenses
 		"Shirni Friend"
-	"cost" 365000
+	"cost" 182500
 	thumbnail "outfit/small atomic steering"
 	"mass" 33
 	"outfit space" -33
@@ -262,7 +262,7 @@ outfit "Storm-Type Steering"
 	category "Engines"
 	licenses
 		"Shirni Friend"
-	"cost" 751000
+	"cost" 375500
 	thumbnail "outfit/medium atomic steering"
 	"mass" 55
 	"outfit space" -55
@@ -277,7 +277,7 @@ outfit "Typhoon-Type Steering"
 	category "Engines"
 	licenses
 		"Shirni Brethren"
-	"cost" 1437000
+	"cost" 718500
 	thumbnail "outfit/large atomic steering"
 	"mass" 93
 	"outfit space" -93
