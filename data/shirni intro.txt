@@ -564,7 +564,7 @@ mission "Shirni: Meeting Request"
 				accept
 	on complete
 		conversation
-			`When you land on <planet>, you recieve another message from Votari informing you that he is waiting in the spaceport.`mission "Shirni: Jump Drive Research Reconciliation"
+			`When you land on <planet>, you recieve another message from Votari informing you that he is waiting in the spaceport.`
 mission "Shirni: Jump Drive Research Reconciliation"
 	landing
 	name "Alpha Surveillance"
