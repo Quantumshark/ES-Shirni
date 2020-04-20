@@ -565,6 +565,7 @@ mission "Shirni: Meeting Request"
 	on complete
 		conversation
 			`When you land on <planet>, you recieve another message from Votari informing you that he is waiting in the spaceport.`mission "Shirni: Jump Drive Research Reconciliation"
+mission "Shirni: Jump Drive Research Reconciliation"
 	landing
 	name "Alpha Surveillance"
 	description "Using these sensors the Shirni have designed, search the northern pirate planets for any sign of Alpha activity."
