@@ -8,6 +8,44 @@
 # WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A
 # PARTICULAR PURPOSE.  See the GNU General Public License for more details.
 
+
+#ship "Salvinia"
+#	sprite ship/salvinia
+#	thumbnail thumbnail/salvinia
+#	attributes
+#		category "Transport"
+#		licenses
+#			"Shirni Friend"
+#		"cost" 530000
+#		"shields" 3300
+#		"hull" 3100
+#		"required crew" 2
+#		"bunks" 11
+#		"mass" 157
+#		"drag" 1.8
+#		"heat dissipation" 1
+#		"fuel capacity" 700
+#		"ramsoop" 3
+#		"cargo space" 37
+#		"outfit space" 161
+#		"weapon capacity" 33
+#		"engine capacity" 77
+#	outfits
+#		"Energy Burst Cannon" 2
+#
+#		"Fox-Type Generator"
+#		"Storage Cell"
+#
+#		"Gale-Type Steering"
+#		"Gale-Type Thruster"
+#
+#		"Hyperdrive"
+#
+#	gun "Energy Burst Cannon"
+#	gun "Energy Burst Cannon"
+#	gun
+
+
 ship "Azolla"
 	sprite "ship/azolla"
 	thumbnail "thumbnail/azolla"
