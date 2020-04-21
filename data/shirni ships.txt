@@ -137,6 +137,43 @@ ship "Azolla" "Azolla (Antique)"
 	gun -14 -46 "Energy Burst Cannon"
 	turret 0 15
 		
+#ship "Pellaea"
+#	sprite ship/pellaea
+#	thumbnail thumbnail/pellaea
+#	attributes
+#		category "Light Freighter"
+#		licenses
+#			"Shirni Friend"
+#		"cost" 930000
+#		"shields" 2500
+#		"hull" 5300
+#		"required crew" 2
+#		"bunks" 5
+#		"mass" 264
+#		"drag" 2.7
+#		"heat dissipation" .9
+#		"fuel capacity" 600
+#		"ramsoop" 2
+#		"cargo space" 143
+#		"outfit space" 206
+#		"weapon capacity" 58
+#		"engine capacity" 89
+#	outfits
+#		"Energy Burst Cannon"
+#
+#		"Fox-Type Generator"
+#		"Regenerating Plating" 3
+#		"Storage Cell"
+#
+#		"Gale-Type Steering"
+#		"Gale-Type Thruster"
+#
+#		"Hyperdrive"
+#
+#	gun "Energy Burst Cannon"
+#	turret
+#	turret
+		
 ship "Tectaria"
 	sprite ship/tectaria
 	thumbnail thumbnail/tectaria
