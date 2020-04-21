@@ -361,6 +361,7 @@ mission "Shirni: Lizorati Escort"
 				"Tectaria" 3
 				"Azolla (Heavy)" 2
 	to offer
+		has "main plot completed"
 		has "shirni: recieved device"
 		random < 30
 	on offer
