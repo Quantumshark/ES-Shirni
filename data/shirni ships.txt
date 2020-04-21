@@ -342,3 +342,40 @@ ship "Tectaria"
 #	gun "Plasma Rocket Launcher"
 #	gun "Plasma Rocket Launcher"
 #	turret
+
+#ship "Pyrrosia"
+#	sprite ship/pyrrosia
+#	thumbnail thumbnail/pyrrosia
+#	attributes
+#		category "Transport"
+#		licenses
+#			"Shirni Brethren"
+#		"cost" 13530000
+#		"shields" 9300
+#		"hull" 6200
+#		"required crew" 33
+#		"bunks" 173
+#		"mass" 257
+#		"drag" 13.8
+#		"heat dissipation" .75
+#		"fuel capacity" 600
+#		"ramsoop" .25
+#		"cargo space" 113
+#		"outfit space" 518
+#		"weapon capacity" 131
+#		"engine capacity" 217
+#	outfits
+#		"Plasma Rocket Turret" 2
+#
+#		"Wolf-Type Generator"
+#		"Storage Cell"
+#
+#		"Storm-Type Steering"
+#		"Storm-Type Thruster"
+#
+#		"Hyperdrive"
+#
+#	gun
+#	turret
+#	turret "Plasma Rocket Turret"
+#	turret "Plasma Rocket Turret"
