@@ -18,11 +18,12 @@ mission "Quarg Shirni Interpreters Exchange"
 		dialog
 			`The interpreters exit your ship, replaced by <bunks> of the previous interpreters returning to <destination>.`
 	on complete
+		"shirni jobs" ++
 		dialog
 			`The interpreters exit your ship onto the ringworld, paying you <payment>.`
 		payment 90000
 		
-mission "Emergency software fix"
+mission "Shirni Emergency software fix"
 	repeat
 	job
 	name "Software engineers to <planet>"
@@ -41,6 +42,7 @@ mission "Emergency software fix"
 			has "Shirni Archives B2: done"
 			has "Shirni Archives A: declined"
 	on complete
+		"shirni jobs" ++
 		dialog
 			`The software technicians have been discussing the problem in their language for the whole journey. You have not gathered any of the details, but you suspect it must be a complex issue if it is necessary to send software engineers to another planet to fix it.`
 		payment 7000 160
@@ -68,6 +70,7 @@ mission "Shirni Ringworld Escort"
 			has "Shirni Archives B2: done"
 			has "Shirni Archives A: declined"
 	on complete
+		"shirni jobs" ++
 		dialog
 			`The captain of the <npc> thanks you and pays you <payment>.`
 		payment 50000
@@ -89,6 +92,7 @@ mission "Shirni Eclipse Preemptive Shipoderni"
 			has "Shirni Archives B2: done"
 			has "Shirni Archives A: declined"
 	on complete
+		"shirni jobs" ++
 		dialog
 			`The sightseers, who have been talking excitedly for the whole journey, exit your ship and pay you <payment>.`
 		payment 2000 70		
@@ -110,6 +114,7 @@ mission "Shirni Eclipse Preemptive Chizoki"
 			has "Shirni Archives B2: done"
 			has "Shirni Archives A: declined"
 	on complete
+		"shirni jobs" ++
 		dialog
 			`The sightseers, who have been talking excitedly for the whole journey, exit your ship and pay you <payment>.`
 		payment 1000 60
@@ -134,6 +139,7 @@ mission "Shirni Water Resupply"
 		dialog
 			`The workers unload the tanks, fill them with water, then load them back onto your ship.`
 	on complete
+		"shirni jobs" ++
 		dialog
 			`The workers unload the tanks and pay you <payment>.`
 		payment 3500 150
@@ -153,6 +159,7 @@ mission "Shirni science important stuff delivery"
 		has "shirni: recieved device"
 	cargo "unlabeled containers" 5 1 .2
 	on complete
+		"shirni jobs" ++
 		dialog
 			`The workers unload the cargo in silence after paying you <payment>. Given that you do not know their language, it seems like an unnecessary precaution.`
 		payment 7500 230
@@ -171,6 +178,7 @@ mission "Shirni industrial supplies A"
 		has "shirni: recieved device"
 	cargo "Industrial" 61 3 .1
 	on complete
+		"shirni jobs" ++
 		dialog
 			`The workers unload the <commodity> and pay you <payment>.`
 		payment 1500 100
@@ -192,11 +200,12 @@ mission "Shirni industrial supplies B"
 			has "Shirni Archives A: declined"
 	cargo "Industrial" 41 2 .1
 	on complete
+		"shirni jobs" ++
 		dialog
 			`The workers unload the <commodity> and pay you <payment>.`
 		payment 1100 90
 		
-mission "Food transport small"
+mission "Shirni Food transport small"
 	repeat
 	job
 	name "Delivery to <planet>"
@@ -215,11 +224,12 @@ mission "Food transport small"
 			has "Shirni Archives A: declined"
 	cargo "Food" 20 1 .1
 	on complete
+		"shirni jobs" ++
 		dialog
 			`The workers unload the <commodity> and pay you <payment>.`
 		payment 1000 100	
 		
-mission "Food transport medium"
+mission "Shirni Food transport medium"
 	repeat
 	job
 	name "Delivery to <planet>"
@@ -238,11 +248,12 @@ mission "Food transport medium"
 			has "Shirni Archives A: declined"
 	cargo "Food" 49 2 .1
 	on complete
+		"shirni jobs" ++
 		dialog
 			`The workers unload the <commodity> and pay you <payment>.`
 		payment 1500 110
 
-mission "Food transport large"
+mission "Shirni Food transport large"
 	repeat
 	job
 	name "Delivery to <planet>"
@@ -261,6 +272,7 @@ mission "Food transport large"
 			has "Shirni Archives A: declined"
 	cargo "Food" 120 3 .05
 	on complete
+		"shirni jobs" ++
 		dialog
 			`The workers unload the <commodity> and pay you <payment>.`
 		payment 2000 120
@@ -288,6 +300,7 @@ mission "Rogue Automaton"
 			variant
 				"Azolla (Automaton)"
 	on complete
+		"shirni jobs" ++
 		dialog
 			`The authorities on <planet> thank you for your help and pay you <payment>.`
 		payment 200000
@@ -319,11 +332,12 @@ mission "Rogue Automata"
 			variant
 				"Azolla (Automaton)" 3
 	on complete
+		"shirni jobs" ++
 		dialog
 			`The authorities on <planet> thank you for your help and pay you <payment>.`
 		payment 500000
 	
-mission "Equipment Transport"
+mission "Shirni Equipment Transport"
 	repeat
 	job
 	name "Delivery to <planet>"
@@ -344,6 +358,7 @@ mission "Equipment Transport"
 			has "Shirni Archives A: declined"
 	cargo "Equipment" 41 2 .1
 	on complete
+		"shirni jobs" ++
 		dialog
 			`The workers unload the <commodity> and pay you <payment>.`
 		payment 1800 120

@@ -288,6 +288,7 @@ mission "Shirni Pirate Surveillance"
 	destination Kutaze
 	to offer
 		has "Shirni Particle Cannon Delivery: done"
+		"shirni jobs" > 15
 		random < 30
 	npc
 		government "Republic"
