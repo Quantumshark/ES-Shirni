@@ -266,3 +266,44 @@ ship "Tectaria"
 	explode "huge explosion" 15
 	"final explode" "final explosion large"
 	description `The Tectaria is one of the most common Shirni ships, a large freighter used to supply many of their worlds with food, water and industrial equipment. As with all their freighters, the Shirni opted to give the Tectaria only minimal shielding in order to make it cheaper and easier to produce.`
+
+		
+#ship "Eupodium"
+#	sprite ship/eupodium
+#	thumbnail thumbnail/eupodium
+#	attributes
+#		category "Medium Warship"
+#		licenses
+#			"Shirni Brethren"
+#		"cost" 83230000
+#		"shields" 11300
+#		"hull" 4400
+#		"required crew" 7
+#		"bunks" 16
+#		"mass" 301
+#		"drag" 3.3
+#		"heat dissipation" 1.05
+#		"fuel capacity" 500
+#		"ramsoop" 1
+#		"cargo space" 51
+#		"outfit space" 417
+#		"weapon capacity" 203
+#		"engine capacity" 171
+#	outfits
+#		"Plasma Rocket Launcher" 7
+#
+#		"Fox-Type Generator"
+#		"Storage Cell"
+#
+#		"Typhoon-Type Steering"
+#		"Storm-Type Thruster"
+#
+#		"Hyperdrive"
+#
+#	gun "Plasma Rocket Launcher"
+#	gun "Plasma Rocket Launcher"
+#	gun "Plasma Rocket Launcher"
+#	gun "Plasma Rocket Launcher"
+#	gun "Plasma Rocket Launcher"
+#	gun "Plasma Rocket Launcher"
+#	gun "Plasma Rocket Launcher"
