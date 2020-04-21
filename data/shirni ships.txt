@@ -8,7 +8,6 @@
 # WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A
 # PARTICULAR PURPOSE.  See the GNU General Public License for more details.
 
-
 #ship "Salvinia"
 #	sprite ship/salvinia
 #	thumbnail thumbnail/salvinia
@@ -44,7 +43,6 @@
 #	gun "Energy Burst Cannon"
 #	gun "Energy Burst Cannon"
 #	gun
-
 
 ship "Azolla"
 	sprite "ship/azolla"
