@@ -189,7 +189,7 @@ ship "Azolla" "Azolla (Antique)"
 #		"drag" 2.7
 #		"heat dissipation" .9
 #		"fuel capacity" 600
-#		"ramsoop" 2
+#		"ramscoop" 2
 #		"cargo space" 143
 #		"outfit space" 206
 #		"weapon capacity" 58
@@ -283,7 +283,7 @@ ship "Tectaria"
 #		"drag" 3.3
 #		"heat dissipation" 1.05
 #		"fuel capacity" 500
-#		"ramsoop" 1
+#		"ramscoop" 1
 #		"cargo space" 51
 #		"outfit space" 417
 #		"weapon capacity" 203
@@ -323,7 +323,7 @@ ship "Tectaria"
 #		"drag" 3.8
 #		"heat dissipation" .95
 #		"fuel capacity" 1200
-#		"ramsoop" 12
+#		"ramscoop" 12
 #		"cargo space" 44
 #		"outfit space" 288
 #		"weapon capacity" 78
@@ -359,7 +359,7 @@ ship "Tectaria"
 #		"drag" 13.8
 #		"heat dissipation" .75
 #		"fuel capacity" 600
-#		"ramsoop" .25
+#		"ramscoop" .25
 #		"cargo space" 113
 #		"outfit space" 518
 #		"weapon capacity" 131
@@ -425,7 +425,7 @@ ship "Tectaria"
 #		"drag" .95
 #		"heat dissipation" 1.4
 #		"fuel capacity" 400
-#		"ramsoop" 3
+#		"ramscoop" 3
 #		"cargo space" 36
 #		"energy capacity" 100
 #		"outfit space" 159
