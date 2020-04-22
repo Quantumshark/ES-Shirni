@@ -443,3 +443,40 @@ ship "Tectaria"
 #
 #	gun "Plasma Rocket Launcher"
 #	gun "Plasma Rocket Launcher"
+
+#ship "Bracken"
+#	sprite ship/bracken
+#	thumbnail thumbnail/bracken
+#	attributes
+#		category "Heavy Warship"
+#		licenses
+#			"Shirni Brethren"
+#		"cost" 13100000
+#		"shields" 27100
+#		"hull" 10800
+#		"required crew" 37
+#		"bunks" 53
+#		"mass" 762
+#		"drag" 9.1
+#		"heat dissipation" .85
+#		"fuel capacity" 600
+#		"ramscoop" 1
+#		"cargo space" 124
+#		"outfit space" 801
+#		"weapon capacity" 303
+#		"engine capacity" 219
+#	outfits
+#
+#
+#	gun
+#	gun
+#	gun
+#	gun
+#	gun
+#	turret
+#	turret
+#	turret
+#	fighter
+#	fighter
+#	fighter
+#	fighter
