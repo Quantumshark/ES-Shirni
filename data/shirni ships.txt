@@ -379,3 +379,33 @@ ship "Tectaria"
 #	turret
 #	turret "Plasma Rocket Turret"
 #	turret "Plasma Rocket Turret"
+
+#ship "Spore"
+#	sprite ship/spore
+#	thumbnail thumbnail/spore
+#	attributes
+#		category "Fighter"
+#		licenses
+#			"Shirni Brethren"
+#		"cost" 437000
+#		"shields" 1700
+#		"hull" 800
+#		"required crew" 1
+#		"bunks" 1
+#		"mass" 77
+#		"drag" .75
+#		"heat dissipation" 1.6
+#		"energy capacity" 50
+#		"outfit space" 113
+#		"weapon capacity" 26
+#		"engine capacity" 57
+#	outfits
+#		"Plasma Rocket Launcher"
+#
+#		"Weasel-Type Generator"
+#
+#		"Gale-Type Steering"
+#		"Breeze-Type Thruster"
+#
+#	gun "Plasma Rocket Launcher"
+
