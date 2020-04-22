@@ -188,7 +188,7 @@ outfit "Plasma Rocket Launcher"
 		"lifetime" 380
 		"burst reload" 3
 		"burst count" 5
-		"reload" 50
+		"reload" 40
 		"firing energy" .1
 		"firing heat" 7.3
 		"acceleration" 1.9
@@ -228,8 +228,8 @@ outfit "Plasma Rocket Turret"
 		"burst reload" 3
 		"burst count" 10
 		"reload" 20
-		"firing energy" 27.3
-		"firing heat" 65.1
+		"firing energy" .1
+		"firing heat" 7.3
 		"acceleration" 1.9
 		"drag" .11
 		"turn" 1.4
@@ -239,7 +239,7 @@ outfit "Plasma Rocket Turret"
 		"hull damage" 113
 		"heat damage" 367
 		"missile strength" 3
-	description "By mounting two Plasma Rocket Launchers on a rotating base and overclocking the missile loading systems, the Shirni have created a deadly weapon capable of destroying almost any target from long range. Only a ship which has devoted most of its weapon space to anti-missile systems could survive an attack from multiple ships armed with Plasma Rocket Turrets, and such a ship would be easily defeated by ships armed with less powerful weapons."
+	description "By mounting two Plasma Rocket Launchers on a rotating base, the Shirni have created a deadly weapon capable of destroying almost any target from long range. Only a ship which has devoted most of its weapon space to anti-missile systems could survive an attack from multiple ships armed with Plasma Rocket Turrets, and such a ship would be easily defeated by ships armed with less powerful weapons."
 	
 outfit "Anti-missile Beam"
 	category "Turrets"
