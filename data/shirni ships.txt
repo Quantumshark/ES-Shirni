@@ -409,3 +409,37 @@ ship "Tectaria"
 #
 #	gun "Plasma Rocket Launcher"
 
+#ship "Horsetail"
+#	sprite ship/horsetail
+#	thumbnail thumbnail/horsetail
+#	attributes
+#		category "Interceptor"
+#		licenses
+#			"Shirni Friend"
+#		"cost" 894000
+#		"shields" 2800
+#		"hull" 1100
+#		"required crew" 1
+#		"bunks" 4
+#		"mass" 119
+#		"drag" .95
+#		"heat dissipation" 1.4
+#		"fuel capacity" 400
+#		"ramsoop" 3
+#		"cargo space" 36
+#		"energy capacity" 100
+#		"outfit space" 159
+#		"weapon capacity" 53
+#		"engine capacity" 61
+#	outfits
+#		"Plasma Rocket Launcher" 2
+#
+#		"Weasel-Type Generator"
+#
+#		"Gale-Type Steering"
+#		"Breeze-Type Thruster"
+#
+#		"Hyperdrive"
+#
+#	gun "Plasma Rocket Launcher"
+#	gun "Plasma Rocket Launcher"
