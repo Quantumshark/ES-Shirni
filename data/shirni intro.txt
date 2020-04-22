@@ -810,4 +810,4 @@ mission "Shirni: Alphas Branch: Destroy 1: Not Wanderers"
 			`Admiral Danforth is very pleased to see you, but his expression turns grim when you explain why you have come. When you mention the Alphas, he hushes you. "Let's not speak of that, out here in the open," he says. "Not that I do not trust my people, but it is best to be safe. I will gather troops who I know are able to operate discreetly and have them be ready to join us on an expedition. Meet me in my private office at the spaceport when you're ready."`
 				decline
 			
-mission "Shirni: Alphas Branch: Destroy 2: Wanderers Not Bomb"
+#mission "Shirni: Alphas Branch: Destroy 2: Wanderers Not Bomb"
