@@ -353,7 +353,7 @@ ship "Tectaria"
 #		"cost" 13530000
 #		"shields" 9300
 #		"hull" 6200
-#		"required crew" 33
+#		"required crew" 31
 #		"bunks" 173
 #		"mass" 257
 #		"drag" 13.8
