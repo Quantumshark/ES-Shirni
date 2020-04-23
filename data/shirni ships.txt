@@ -333,6 +333,8 @@ ship "Tectaria"
 #
 #		"Fox-Type Generator"
 #		"Storage Cell"
+#		"Outfits Expansion"
+#		"Luxury Accommodations"
 #
 #		"Storm-Type Steering"
 #		"Storm-Type Thruster"
