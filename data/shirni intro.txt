@@ -343,4 +343,4 @@ mission "Shirni Pirate Surveillance"
 		set "shirni: recieved device"
 		set "license: Shirni Friend"
 
-				
+		
