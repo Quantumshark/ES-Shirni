@@ -16,8 +16,8 @@
 #		licenses
 #			"Shirni Friend"
 #		"cost" 530000
-#		"shields" 3300
-#		"hull" 3100
+#		"shields" 3100
+#		"hull" 3300
 #		"required crew" 2
 #		"bunks" 11
 #		"mass" 157
@@ -276,7 +276,7 @@ ship "Tectaria"
 #			"Shirni Brethren"
 #		"cost" 83230000
 #		"shields" 11300
-#		"hull" 4400
+#		"hull" 5700
 #		"required crew" 7
 #		"bunks" 16
 #		"mass" 301
@@ -316,7 +316,7 @@ ship "Tectaria"
 #			"Shirni Brethren"
 #		"cost" 5530000
 #		"shields" 4300
-#		"hull" 5600
+#		"hull" 5900
 #		"required crew" 15
 #		"bunks" 65
 #		"mass" 257
@@ -354,7 +354,7 @@ ship "Tectaria"
 #			"Shirni Brethren"
 #		"cost" 13530000
 #		"shields" 9300
-#		"hull" 6200
+#		"hull" 6800
 #		"required crew" 31
 #		"bunks" 173
 #		"mass" 257
@@ -391,7 +391,7 @@ ship "Tectaria"
 #			"Shirni Brethren"
 #		"cost" 437000
 #		"shields" 1700
-#		"hull" 800
+#		"hull" 900
 #		"required crew" 1
 #		"bunks" 1
 #		"mass" 77
@@ -420,7 +420,7 @@ ship "Tectaria"
 #			"Shirni Friend"
 #		"cost" 894000
 #		"shields" 2800
-#		"hull" 1100
+#		"hull" 1300
 #		"required crew" 1
 #		"bunks" 4
 #		"mass" 119
@@ -455,7 +455,7 @@ ship "Tectaria"
 #			"Shirni Brethren"
 #		"cost" 13100000
 #		"shields" 27100
-#		"hull" 10800
+#		"hull" 13800
 #		"required crew" 37
 #		"bunks" 53
 #		"mass" 762
