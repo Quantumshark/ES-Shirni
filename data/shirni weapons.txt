@@ -138,8 +138,8 @@ outfit "Heavy Terminator Beam"
 		"velocity" 300
 		"lifetime" 1
 		"reload" 1
-		"firing energy" 21.7
-		"firing heat" 17
+		"firing energy" 14.7
+		"firing heat" 9.3
 		"shield damage" 12.3
 		"hull damage" 8.9
 	description "This turret is a terminator beam redesigned to be active constantly, rather than in short bursts. The extra hardware for allowing this takes up even more space than the weapon itself, though not all of it needs to be installed in the weapons section of your ship."
