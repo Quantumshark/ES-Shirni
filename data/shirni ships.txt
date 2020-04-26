@@ -508,6 +508,7 @@ ship "Tectaria"
 #	outfits
 #		"Plasma Rocket Launcher" 8
 #		"Plasma Rocket" 240
+#		"Terminator Beam" 7
 #		"Bear-Type Generator" 2
 #		"Hyperdrive"
 #		"Typhoon-Type Thruster"
@@ -522,10 +523,10 @@ ship "Tectaria"
 #	gun right "Plasma Rocket Launcher"
 #	gun right "Plasma Rocket Launcher"
 #	gun right "Plasma Rocket Launcher"
-#	turret
-#	turret
-#	turret
-#	turret
-#	turret
-#	turret
-#	turret
+#	turret "Terminator Beam"
+#	turret "Terminator Beam"
+#	turret "Terminator Beam"
+#	turret "Terminator Beam"
+#	turret "Terminator Beam"
+#	turret "Terminator Beam"
+#	turret "Terminator Beam"
