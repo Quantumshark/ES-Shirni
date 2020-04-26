@@ -482,3 +482,42 @@ ship "Tectaria"
 #	fighter
 #	fighter
 #	fighter
+
+#ship "Cycad"
+#	sprite ship/cycad
+#	thumbnail thumbnail/cycad
+#	attributes
+#		category "Heavy Warship"
+#		licenses
+#			"Shirni Brethren"
+#		"cost" 25300000
+#		"shields" 51300
+#		"hull" 40600
+#		"required crew" 168
+#		"bunks" 191
+#		"mass" 1632
+#		"drag" 37.7
+#		"heat dissipation" .6
+#		"fuel capacity" 400
+#		"cargo space" 87
+#		"outfit space" 1173
+#		"weapon capacity" 555
+#		"engine capacity" 231
+#	outfits
+#
+#
+#	gun left
+#	gun left
+#	gun left
+#	gun left
+#	gun right
+#	gun right
+#	gun right
+#	gun right
+#	turret
+#	turret
+#	turret
+#	turret
+#	turret
+#	turret
+#	turret
