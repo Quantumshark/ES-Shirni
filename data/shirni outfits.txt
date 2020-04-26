@@ -334,6 +334,17 @@ outfit "Energy Burst Rifle"
 	"unplunderable" 1
 	description "The Energy Burst Rifle operates. The bursts of incredibly high-energy particles it produces are highly effective, and can even blast straight through some weaker barriers. The extra care required to avoid causing massive collateral damage makes it far less effective as a defensive weapon, however."
 	
+outfit "Shirni Bioweapon"
+	category "Hand to Hand"
+	licenses
+		"Shirni Brethren"
+	"cost" 150000
+	"atrocity" 1
+	thumbnail "outfit/nerve gas"
+	"capture attack" 3.5
+	"unplunderable" 1
+	description "Outside Shirni space, anyone found in posession of these would be either imprisoned or killed on the spot. Because of their circumstances, the Shirni have made them available for sale and agreed to look the other way."
+	
 outfit "Shirni Friend License"
 	category "Special"
 	thumbnail "outfit/navy license"

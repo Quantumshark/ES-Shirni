@@ -19,6 +19,8 @@ government "Shirni"
 		"Alpha" -.01
 		"Pirate" -.01
 	"fine" 0
+	"penalty for"
+		atrocity 0
 		
 government "Alpha (Haven)"
 	"display name" "Alpha"
