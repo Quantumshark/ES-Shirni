@@ -327,7 +327,7 @@ ship "Tectaria"
 #		"cargo space" 48
 #		"outfit space" 288
 #		"weapon capacity" 78
-#		"engine capacity" 136
+#		"engine capacity" 138
 #	outfits
 #		"Plasma Rocket Launcher" 2
 #
@@ -357,15 +357,15 @@ ship "Tectaria"
 #		"hull" 6800
 #		"required crew" 31
 #		"bunks" 173
-#		"mass" 257
+#		"mass" 255
 #		"drag" 13.8
 #		"heat dissipation" .75
 #		"fuel capacity" 600
 #		"ramscoop" .25
 #		"cargo space" 113
-#		"outfit space" 518
-#		"weapon capacity" 131
-#		"engine capacity" 217
+#		"outfit space" 519
+#		"weapon capacity" 132
+#		"engine capacity" 219
 #	outfits
 #		"Plasma Rocket Turret" 2
 #
@@ -398,7 +398,7 @@ ship "Tectaria"
 #		"drag" .75
 #		"heat dissipation" 1.6
 #		"energy capacity" 50
-#		"outfit space" 113
+#		"outfit space" 114
 #		"weapon capacity" 26
 #		"engine capacity" 57
 #	outfits
@@ -423,7 +423,7 @@ ship "Tectaria"
 #		"hull" 1300
 #		"required crew" 1
 #		"bunks" 4
-#		"mass" 119
+#		"mass" 123
 #		"drag" .95
 #		"heat dissipation" 1.4
 #		"fuel capacity" 400
@@ -431,8 +431,8 @@ ship "Tectaria"
 #		"cargo space" 36
 #		"energy capacity" 100
 #		"outfit space" 159
-#		"weapon capacity" 53
-#		"engine capacity" 61
+#		"weapon capacity" 54
+#		"engine capacity" 63
 #	outfits
 #		"Plasma Rocket Launcher" 2
 #
@@ -463,7 +463,7 @@ ship "Tectaria"
 #		"heat dissipation" .85
 #		"fuel capacity" 600
 #		"ramscoop" 1
-#		"cargo space" 124
+#		"cargo space" 126
 #		"outfit space" 801
 #		"weapon capacity" 303
 #		"engine capacity" 219
