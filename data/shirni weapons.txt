@@ -110,8 +110,8 @@ outfit "Terminator Beam"
 		"burst reload" 1
 		"burst count" 30
 		"reload" 3
-		"firing energy" 21.7
-		"firing heat" 17
+		"firing energy" 14.7
+		"firing heat" 9.3
 		"shield damage" 12.3
 		"hull damage" 8.9
 	description "This turret was designed based on observations of the Quargs' skylances. Although it is much less powerful, and its inner workings are entirely different, it does nonetheless bear at least some resemblance."
