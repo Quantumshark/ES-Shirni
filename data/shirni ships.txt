@@ -468,8 +468,10 @@ ship "Tectaria"
 #		"weapon capacity" 303
 #		"engine capacity" 219
 #	outfits
-#
-#
+#		"Bear-Type Generator"
+#		"Hyperdrive"
+#		"Typhoon-Type Thruster"
+#		"Typhoon-Type Steering"
 #	gun
 #	gun
 #	gun
@@ -504,16 +506,22 @@ ship "Tectaria"
 #		"weapon capacity" 555
 #		"engine capacity" 231
 #	outfits
+#		"Plasma Rocket Launcher" 8
+#		"Plasma Rocket" 240
+#		"Bear-Type Generator" 2
+#		"Hyperdrive"
+#		"Typhoon-Type Thruster"
+#		"Typhoon-Type Steering"
 #
 #
-#	gun left
-#	gun left
-#	gun left
-#	gun left
-#	gun right
-#	gun right
-#	gun right
-#	gun right
+#	gun left "Plasma Rocket Launcher"
+#	gun left "Plasma Rocket Launcher"
+#	gun left "Plasma Rocket Launcher"
+#	gun left "Plasma Rocket Launcher"
+#	gun right "Plasma Rocket Launcher"
+#	gun right "Plasma Rocket Launcher"
+#	gun right "Plasma Rocket Launcher"
+#	gun right "Plasma Rocket Launcher"
 #	turret
 #	turret
 #	turret
