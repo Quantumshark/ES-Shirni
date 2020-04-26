@@ -19,6 +19,7 @@ government "Shirni"
 		"Alpha" -.01
 		"Pirate" -.01
 	"fine" 0
+	"bribe" .001
 	"penalty for"
 		atrocity 0
 		
