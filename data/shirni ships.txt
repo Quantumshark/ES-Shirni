@@ -24,7 +24,7 @@
 #		"drag" 1.8
 #		"heat dissipation" 1
 #		"fuel capacity" 700
-#		"ramsoop" 3
+#		"ramscoop" 3
 #		"cargo space" 39
 #		"outfit space" 162
 #		"weapon capacity" 33
