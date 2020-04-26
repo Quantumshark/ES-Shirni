@@ -20,15 +20,15 @@
 #		"hull" 3300
 #		"required crew" 2
 #		"bunks" 11
-#		"mass" 157
+#		"mass" 156
 #		"drag" 1.8
 #		"heat dissipation" 1
 #		"fuel capacity" 700
 #		"ramsoop" 3
-#		"cargo space" 37
-#		"outfit space" 161
+#		"cargo space" 39
+#		"outfit space" 162
 #		"weapon capacity" 33
-#		"engine capacity" 77
+#		"engine capacity" 78
 #	outfits
 #		"Energy Burst Cannon" 2
 #
@@ -61,10 +61,10 @@ ship "Azolla"
 		"heat dissipation" 1.1
 		"fuel capacity" 900
 		"ramscoop" 10
-		"cargo space" 25
+		"cargo space" 27
 		"outfit space" 297
-		"weapon capacity" 86
-		"engine capacity" 101
+		"weapon capacity" 87
+		"engine capacity" 102
 		weapon
 			"blast radius" 70
 			"shield damage" 700
@@ -134,7 +134,7 @@ ship "Azolla" "Azolla (Automaton)"
 		"self destruct" 1
 		"automaton" 1
 		"hull" 700
-		"mass" 55
+		"mass" 54
 		"bunks" -7
 	outfits
 		"Energy Burst Cannon" 4
@@ -151,9 +151,9 @@ ship "Azolla" "Azolla (Antique)"
 	add attributes
 		"shields" -2000
 		"hull" -1700
-		"mass" -100
+		"mass" -102
 		"bunks" 2
-		"outfit space" -50
+		"outfit space" -48
 		"weapon capacity" -60
 		"required crew" -1
 	outfits
@@ -190,10 +190,10 @@ ship "Azolla" "Azolla (Antique)"
 #		"heat dissipation" .9
 #		"fuel capacity" 600
 #		"ramscoop" 2
-#		"cargo space" 143
-#		"outfit space" 206
-#		"weapon capacity" 58
-#		"engine capacity" 89
+#		"cargo space" 144
+#		"outfit space" 207
+#		"weapon capacity" 63
+#		"engine capacity" 93
 #	outfits
 #		"Energy Burst Cannon"
 #
@@ -228,8 +228,8 @@ ship "Tectaria"
 		"fuel capacity" 600
 		"cargo space" 473
 		"outfit space" 486
-		"weapon capacity" 187
-		"engine capacity" 133
+		"weapon capacity" 189
+		"engine capacity" 135
 		weapon
 			"blast radius" 110
 			"shield damage" 1100
@@ -279,14 +279,14 @@ ship "Tectaria"
 #		"hull" 5700
 #		"required crew" 7
 #		"bunks" 16
-#		"mass" 301
+#		"mass" 297
 #		"drag" 3.3
 #		"heat dissipation" 1.05
 #		"fuel capacity" 500
 #		"ramscoop" 1
 #		"cargo space" 51
 #		"outfit space" 417
-#		"weapon capacity" 203
+#		"weapon capacity" 204
 #		"engine capacity" 171
 #	outfits
 #		"Plasma Rocket Launcher" 7
@@ -319,12 +319,12 @@ ship "Tectaria"
 #		"hull" 5900
 #		"required crew" 15
 #		"bunks" 65
-#		"mass" 257
+#		"mass" 258
 #		"drag" 3.8
 #		"heat dissipation" .95
 #		"fuel capacity" 1200
 #		"ramscoop" 12
-#		"cargo space" 44
+#		"cargo space" 48
 #		"outfit space" 288
 #		"weapon capacity" 78
 #		"engine capacity" 136
