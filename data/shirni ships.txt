@@ -374,6 +374,7 @@ ship "Tectaria"
 #		"Plasma Rocket Turret" 2
 #
 #		"Wolf-Type Generator"
+#		"Regenerating Plating"
 #		"Storage Cell"
 #
 #		"Storm-Type Steering"
@@ -478,6 +479,7 @@ ship "Tectaria"
 #	outfits
 #		"Particle Blaster" 5
 #		"Bear-Type Generator"
+#		"Regenerating Plating"
 #		"Thermal Dissipator"
 #		"Hyperdrive"
 #		"Typhoon-Type Thruster"
@@ -501,6 +503,7 @@ ship "Tectaria"
 #		"Heavy Terminator Beam" 3
 #		"Bear-Type Generator"
 #		"Wolf-Type Generator"
+#		"Regenerating Plating"
 #		"Thermal Dissipator"
 #		"Hyperdrive"
 #		"Storm-Type Thruster"
@@ -531,6 +534,7 @@ ship "Tectaria"
 #		"Plasma Rocket" 240
 #		"Terminator Beam" 7
 #		"Bear-Type Generator" 2
+#		"Regenerating Plating" 2
 #		"Hyperdrive"
 #		"Typhoon-Type Thruster"
 #		"Typhoon-Type Steering"
