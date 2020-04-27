@@ -452,7 +452,7 @@ ship "Tectaria"
 #	gun "Plasma Rocket Launcher"
 #	gun "Plasma Rocket Launcher"
 #	description `The Horsetail is a new Shirni ship design, intended to take advantage of their deadly plasma rocket launchers while still being small and relatively affordable.`
-#	description `The Horsetail also has unusually large amounts of cargo and bunk space, allowing its pilot to earn a living on the side during peacetime. This versatility is one of the leading contributors to the Horsetail's popularity.`
+#	description `The Horsetail also has unusually large amounts of cargo and bunk space for an interceptor, allowing its pilot to earn a living on the side during peacetime. This versatility is one of the leading contributors to the Horsetail's popularity.`
 
 #ship "Bracken"
 #	sprite ship/bracken
