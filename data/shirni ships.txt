@@ -519,8 +519,8 @@ ship "Tectaria"
 #		"cost" 39400000
 #		"shields" 51300
 #		"hull" 40600
-#		"required crew" 168
-#		"bunks" 191
+#		"required crew" 218
+#		"bunks" 241
 #		"mass" 1632
 #		"drag" 47.7
 #		"heat dissipation" .6
