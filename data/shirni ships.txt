@@ -476,15 +476,16 @@ ship "Tectaria"
 #		"weapon capacity" 303
 #		"engine capacity" 219
 #	outfits
+#		"Particle Blaster" 5
 #		"Bear-Type Generator"
 #		"Hyperdrive"
 #		"Typhoon-Type Thruster"
 #		"Typhoon-Type Steering"
-#	gun
-#	gun
-#	gun
-#	gun
-#	gun
+#	gun "Particle Blaster"
+#	gun "Particle Blaster"
+#	gun "Particle Blaster"
+#	gun "Particle Blaster"
+#	gun "Particle Blaster"
 #	turret
 #	turret
 #	turret
