@@ -268,3 +268,26 @@ effect "anti-missile beam"
 	sprite "effect/anti-missile beam"
 	"lifetime" 1
 	"velocity scale" 1
+	
+outfit "Massive Anti-missile Beam"
+	category "Turrets"
+	licenses
+		"Shirni Brethren"
+	cost 3173000
+	thumbnail "outfit/laser turret"
+	"mass" 101
+	"outfit space" -101
+	"weapon capacity" -101
+	"turret mounts" -1
+	weapon
+		"hardpoint sprite" "hardpoint/wanderer anti-missile"
+		"hardpoint offset" 6.
+		sound "laser"
+		"hit effect" "anti-missile beam"
+		"anti-missile" 5
+		"velocity" 800
+		"lifetime" 1
+		"reload" 1
+		"firing energy" 9.5
+		"firing heat" 7.5
+	description "This enormous turret, far larger than any other anti-missile system you have ever seen, is specially designed to protect the Cycad from long-range missile attacks."

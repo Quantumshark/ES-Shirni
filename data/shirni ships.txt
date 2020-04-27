@@ -532,7 +532,8 @@ ship "Tectaria"
 #	outfits
 #		"Plasma Rocket Launcher" 8
 #		"Plasma Rocket" 240
-#		"Terminator Beam" 7
+#		"Terminator Beam" 6
+#		"Massive Anti-missile Beam"
 #		"Bear-Type Generator" 2
 #		"Regenerating Plating" 2
 #		"Hyperdrive"
