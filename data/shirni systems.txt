@@ -660,7 +660,7 @@ system Kukutob
 			period 25.4957
 
 system Lyikta
-	pos -837.257 -563.778
+	pos -837257 -563778
 	government Uninhabited
 	habitable 1111.68
 	asteroids "small rock" 6 6.3936
