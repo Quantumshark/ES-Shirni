@@ -74,7 +74,9 @@ shipyard "Shirni"
 fleet "Shirni Scout"
 	government "Shirni"
 	names "shirni"
-	personality coward plunders
+	personality
+		coward disables plunders
+		confusion 20
 	variant 20
 		"Azolla"
 	variant 20
@@ -87,7 +89,9 @@ fleet "Shirni Scout"
 fleet "Shirni Military"
 	government "Shirni"
 	names "shirni"
-	personality heroic disables plunders
+	personality
+		heroic disables plunders
+		confusion 10
 	variant 2
 		"Azolla" 2
 		"Azolla (Missile)" 3
@@ -104,7 +108,9 @@ fleet "Shirni Military"
 fleet "Shirni Freight"
 	government "Shirni"
 	names "shirni"
-	personality coward timid appeasing
+	personality 
+		coward timid appeasing
+		confusion 30
 	variant 30
 		"Tectaria"
 	variant 8
