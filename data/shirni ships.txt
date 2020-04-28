@@ -129,6 +129,16 @@ ship "Azolla" "Azolla (Tough)"
 		"Hyperdrive"
 		"Energy Burst Rifle" 2
 		
+ship "Azolla" "Azolla (Missile)"
+	outfits
+		"Weasel-Type Generator"
+		"Hyperdrive"
+		"Plasma Rocket Launcher" 4
+		"Plasma Rocket" 120
+		"Storm-Type Steering"
+		"Gale-Type Thruster"
+		"Hyperdrive"
+		
 ship "Azolla" "Azolla (Automaton)"
 	add attributes
 		"cost" 5000000
