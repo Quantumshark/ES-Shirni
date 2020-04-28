@@ -472,7 +472,7 @@ ship "Tectaria"
 #		category "Heavy Warship"
 #		licenses
 #			"Shirni Brethren"
-#		"cost" 12100000
+#		"cost" 18300000
 #		"shields" 27100
 #		"hull" 13800
 #		"required crew" 37
