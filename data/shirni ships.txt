@@ -57,14 +57,14 @@ ship "Azolla"
 		"hull" 3700
 		"required crew" 3
 		"bunks" 7
-		"mass" 273
-		"drag" 3.6
+		"mass" 313
+		"drag" 4.25
 		"heat dissipation" 1.1
 		"fuel capacity" 900
 		"ramscoop" 10
 		"cargo space" 27
 		"outfit space" 297
-		"weapon capacity" 87
+		"weapon capacity" 117
 		"engine capacity" 102
 		weapon
 			"blast radius" 70
