@@ -525,7 +525,7 @@ ship "Tectaria"
 #	attributes
 #		category "Heavy Warship"
 #		licenses
-#			"Shirni Brethren"
+#			"Shirni Hero"
 #		"cost" 39400000
 #		"shields" 51300
 #		"hull" 55600
