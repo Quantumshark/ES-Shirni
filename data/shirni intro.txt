@@ -314,7 +314,7 @@ mission "Shirni Pirate Surveillance"
 	to offer
 		has "Shirni Particle Cannon Delivery: done"
 #		has "Horsetail Test 2: done"
-		"shirni jobs" > 15
+		"shirni jobs" > 9
 		random < 30
 	npc
 		government "Republic"
