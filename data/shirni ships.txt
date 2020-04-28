@@ -279,6 +279,45 @@ ship "Tectaria"
 	"final explode" "final explosion large"
 	description `The Tectaria is one of the most common Shirni ships, a large freighter used to supply many of their worlds with food, water and industrial equipment. As with all their freighters, the Shirni opted to give the Tectaria only minimal shielding in order to make it cheaper and easier to produce.`
 
+#ship "Megalastrum"
+#	sprite ship/megalastrum
+#	thumbnail thumbnail/megalastrum
+#	attributes
+#		category "Heavy Freighter"
+#		licenses
+#			"Shirni Brethren"
+#		"cost" 7203000
+#		"shields" 5100
+#		"hull" 21600
+#		"required crew" 9
+#		"bunks" 18
+#		"mass" 941
+#		"drag" 26.2
+#		"heat dissipation" .55
+#		"fuel capacity" 300
+#		"cargo space" 864
+#		"outfit space" 573
+#		"weapon capacity" 201
+#		"engine capacity" 177
+#	outfits
+#		"Anti-missile Beam" 7
+#			
+#		"Wolf-Type Generator"
+#		"Storage Cell" 2
+#
+#		"Typhoon-Type Steering"
+#		"Storm-Type Thruster"
+#			
+#		"Hyperdrive"
+#			
+#	turret "Anti-missile Beam"
+#	turret "Anti-missile Beam"
+#	turret "Anti-missile Beam"
+#	turret "Anti-missile Beam"
+#	turret "Anti-missile Beam"
+#	turret "Anti-missile Beam"
+#	turret "Anti-missile Beam"
+	
 #ship "Eupodium"
 #	sprite ship/eupodium
 #	thumbnail thumbnail/eupodium
