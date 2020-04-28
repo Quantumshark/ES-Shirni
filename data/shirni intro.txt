@@ -223,7 +223,84 @@ mission "Shirni Particle Cannon Delivery"
 	on visit
 		dialog
 			`You have returned to <planet>, but you do not have a Particle Cannon. You should depart, and either purchase or steal one.`
-			
+		
+#mission "Horsetail Test 1"
+#	name "Interceptor Testing"
+#	description "Disable the <npc> without destroying or stealing it, then land on <planet> for <payment>."
+#	source
+#		government "Shirni"
+#	to offer
+#		or
+#			has "Shirni Archives A2: done"
+#			has "Shirni Archives B2: done"
+#			has "Shirni Archives A: declined"
+#		random < 30
+#	npc disable save
+#		government "Test Dummy"
+#		personality staying heroic unconstrained
+#		ship "Horsetail" "Ezota"
+#	on offer
+#		conversation
+#			`When you leave your ship, you are immediately flagged down by a Shirni wearing a comically oversized backpack. After a few seconds, one of the Quarg interpreters notices and walks over. The Shirni begins talking, and the interpreter translates.`
+#			`	"Kuzovi would like your help testing a new ship he is designing, the Horsetail. It has already been tested extensively against Shirni ships, but they would like to gather data on combat with other ships with different characteristics. You will be paid <payment>, provided you do not destroy the ship."`
+#			choice
+#				`	(Accept the mission.)`
+#					accept
+#				`	(Not right now.)`
+#					defer
+#				`	"What type of ship is this 'Horsetail'?"`
+#			`	"It is an interceptor, a tiny ship that should not be a threat to your <ship>."`
+#			choice
+#				`	(Accept the mission.)`
+#					accept
+#				`	(Not right now.)`
+#					defer
+#	on complete
+#		payment 250000
+#		dialog
+#			`Kuzovi thanks you for your help, and pays you <payment>. "Meet me in the spaceport in an hour if you're willing to help with some more testing."`
+
+#mission "Horsetail Test 2"
+#	spaceport
+#	name "Interceptor Testing 2"
+#	description "Disable the test ships without destroying or stealing them, then land on <planet> for <payment>."
+#	source
+#		government "Shirni"
+#	to offer
+#		has "Horsetail Test 1: done"
+#	npc disable save
+#		government "Test Dummy"
+#		personality staying heroic unconstrained
+#		ship "Horsetail" "Ezota 1"
+#		ship "Horsetail" "Ezota 2"
+#		ship "Horsetail" "Ezota 3"
+#		ship "Horsetail" "Ezota 4"
+#		ship "Horsetail" "Ezota 5"
+#	on offer
+#		conversation
+#			`Kuzovi is waiting for you again in the spaceport. "Obviously such a small ship would be no match for your <ship>, but we can build many of them for the same price. For a fair comparison, how about your <ship> against five of our new Horsetails? This time, we will pay you <payment>."`
+#			choice
+#				`	(Accept the mission.)`
+#					accept
+#				`	(Not right now.)`
+#					defer		
+#	on complete
+#		payment 750000
+#		conversation
+#			`Kuzovi thanks you for your help, and pays you <payment>. "So, what did you think about the new ship?"`
+#			choice
+#				`	"It's very powerful for such a small ship."`
+#					goto powerful
+#				`	"I'm afraid I didn't have much chance to see it in action."`
+#					goto chance
+#			label powerful
+#			`	"Indeed. We did have to make some sacrifices to fit two plasma rocket launchers on such a small ship, particularly in its defensive capabilities, but I think it was worth it."`
+#				goto end
+#			label chance
+#			`	"I suppose a handful of interceptors was never going to be a match for the <ship>. Still, I assure you the Horsetail had a far better chance than any other ship of similar size would."`
+#			label end
+#			`	"In any case, here's the <payment> I promised you. I will be in touch if we ever need any more ship designs tested." Kuzovi hands you the credit chips and leaves, muttering to himself.`
+		
 mission "Shirni Pirate Surveillance"
 	name "Alpha Surveillance"
 	description "Survey <stopovers> for any signs of Alpha activity, then return to <planet>."
@@ -236,6 +313,7 @@ mission "Shirni Pirate Surveillance"
 	destination Kutaze
 	to offer
 		has "Shirni Particle Cannon Delivery: done"
+#		has "Horsetail Test 2: done"
 		"shirni jobs" > 15
 		random < 30
 	npc
