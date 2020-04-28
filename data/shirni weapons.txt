@@ -283,11 +283,16 @@ outfit "Massive Anti-missile Beam"
 		"hardpoint sprite" "hardpoint/wanderer anti-missile"
 		"hardpoint offset" 6.
 		sound "laser"
-		"hit effect" "anti-missile beam"
+		"hit effect" "massive anti-missile beam"
 		"anti-missile" 5
 		"velocity" 800
 		"lifetime" 1
 		"reload" 1
-		"firing energy" 9.5
-		"firing heat" 7.5
+		"firing energy" 18.5
+		"firing heat" 23.4
 	description "This enormous turret, far larger than any other anti-missile system you have ever seen, is specially designed to protect the Cycad from long-range missile attacks."
+
+effect "massive anti-missile beam"
+	sprite "effect/massive anti-missile beam"
+	"lifetime" 1
+	"velocity scale" 1
