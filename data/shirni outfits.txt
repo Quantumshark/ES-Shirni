@@ -354,3 +354,8 @@ outfit "Shirni Brethren License"
 	category "Special"
 	thumbnail "outfit/navy license"
 	description "This license indicates that the Shirni consider you as one of their own, and will sell you their largest and most powerful outfits and their largest ships."
+	
+outfit "Shirni Hero License"
+	category "Special"
+	thumbnail "outfit/navy license"
+	description "The Cycad is the largest of Shirni warships, more powerful and more expensive to build than whole fleets of lesser ships. This license indicates that the Shirni are willing to sell it to you."
