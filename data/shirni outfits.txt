@@ -112,9 +112,9 @@ outfit "Industrial Solar Cell"
 	cost 814000
 	thumbnail "outfit/small photovoltaic"
 	"mass" 61
-	"outfit space" -47
+	"outfit space" -43
 	"solar collection" 11.3
-	"solar heat" 25.2
+	"solar heat" 24.2
 	description "This massive bundle of solar cells is repurposed from designs commonly used in Shirni factories. While it produces plenty of power, it is designed to operate with the cooling effects of an atmosphere and thus can easily cause the ship using it to overheat."
 	
 outfit "Secondary Shielding"
