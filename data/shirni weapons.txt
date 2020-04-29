@@ -297,3 +297,61 @@ effect "massive anti-missile beam"
 	sprite "effect/massive anti-missile beam"
 	"lifetime" 1
 	"velocity scale" 1
+	
+outfit "Drilling Missile"
+	category "Ammunition"
+	cost 207000
+	thumbnail "outfit/typhoon"
+	"mass" 4
+	"drilling missile capacity" -1
+	description "A Drilling Missile serves as ammunition for the Drilling Missile Launcher. Each launcher has the capacity for 30 drilling missiles; you cannot install drilling missiles if you have not first purchased a launcher to store them in."
+
+outfit "Drilling Missile Tube"
+	category "Ammunition"
+	licenses
+		"Shirni Brethren"
+	cost 87000
+	thumbnail "outfit/typhoon storage"
+	"mass" 2
+	"outfit space" -6
+	"drilling missile capacity" 1
+	ammo "Drilling Missile"
+	description "The Drilling Missile Tube stores a Drilling Missile, for use in Drilling Missile Launchers."
+
+outfit "Drilling Missile Launcher"
+	category "Secondary Weapons"
+	licenses
+		"Shirni Brethren"
+	cost 947000
+	thumbnail "outfit/typhoon launcher"
+	"mass" 14
+	"outfit space" -38
+	"weapon capacity" -38
+	"gun ports" -1
+	"drilling missile capacity" 6
+	weapon
+		sprite "projectile/typhoon"
+		sound "meteor"
+		ammo "Drilling Missile"
+		icon "icon/typhoon"
+		"fire effect" "meteor fire"
+		"die effect" "missile death"
+		"hit effect" "missile hit"
+		"inaccuracy" .1
+		"velocity" 10
+		"lifetime" 500
+		"reload" 120
+		"firing energy" 4.5
+		"firing heat" 2.5
+		"acceleration" 1.35
+		"drag" .25
+		"turn" 4.0
+		"homing" 4
+		"optical tracking" .75
+		"infrared tracking" .5
+		"shield damage" 2000
+		"hull damage" 5500
+		"piercing" .9
+		"disruption damage" .5
+		"missile strength" 120
+	description "The Drilling Missile is a small nuclear weapon tipped with a strongly magnetised drill. The drill is able to disrupt the shields of most targets enough to allow the missile to detonate inside the target, causing massive damage."
