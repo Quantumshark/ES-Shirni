@@ -223,6 +223,7 @@ outfit "Plasma Rocket Turret"
 		"die effect" "missile death"
 		"hit effect" "missile hit"
 		"inaccuracy" 20
+		"turret turn" .8
 		"velocity" 20
 		"lifetime" 380
 		"burst reload" 3
