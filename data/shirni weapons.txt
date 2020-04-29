@@ -345,7 +345,7 @@ outfit "Drilling Missile Launcher"
 		"firing heat" 25
 		"acceleration" 1.15
 		"drag" .35
-		"turn" 4.0
+		"turn" 1.5
 		"homing" 4
 		"optical tracking" .8
 		"shield damage" 3400
