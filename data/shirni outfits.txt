@@ -340,7 +340,6 @@ outfit "Thunderbolt-Type Afterburner"
 effect "thunderbolt afterburner"
 	sprite "effect/seeker impact"
 		"no repeat"
-		"random start frame"
 		"frame rate" 20
 	sound "afterburner"
 	"lifetime" 15
