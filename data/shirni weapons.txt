@@ -340,18 +340,18 @@ outfit "Drilling Missile Launcher"
 		"inaccuracy" .1
 		"velocity" 10
 		"lifetime" 500
-		"reload" 120
+		"reload" 200
 		"firing energy" 4.5
 		"firing heat" 2.5
 		"acceleration" 1.35
-		"drag" .25
+		"drag" .35
 		"turn" 4.0
 		"homing" 4
-		"optical tracking" .75
-		"infrared tracking" .5
-		"shield damage" 2000
-		"hull damage" 5500
-		"piercing" .9
+		"optical tracking" .8
+		"shield damage" 4100
+		"hull damage" 4100
+		"piercing" .8
 		"disruption damage" .5
 		"missile strength" 120
+		"stream"
 	description "The Drilling Missile is a small nuclear weapon tipped with a strongly magnetised drill. The drill is able to disrupt the shields of most targets enough to allow the missile to detonate inside the target, causing massive damage."
