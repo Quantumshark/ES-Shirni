@@ -474,7 +474,7 @@ ship "Tectaria"
 #		category "Interceptor"
 #		licenses
 #			"Shirni Friend"
-#		"cost" 894000
+#		"cost" 792000
 #		"shields" 2100
 #		"hull" 2400
 #		"required crew" 1
