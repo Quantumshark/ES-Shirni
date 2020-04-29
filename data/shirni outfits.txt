@@ -113,7 +113,7 @@ outfit "Bear-Type Generator"
 	thumbnail "outfit/small thermionic"
 	"mass" 173
 	"outfit space" -173
-	"energy generation" 26.4
+	"energy generation" 27.4
 	"heat generation" 57.8
 	"shield generation" 5.25
 	"shield heat" 17.7
