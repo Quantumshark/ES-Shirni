@@ -513,8 +513,8 @@ ship "Tectaria"
 #		licenses
 #			"Shirni Brethren"
 #		"cost" 18300000
-#		"shields" 23100
-#		"hull" 19800
+#		"shields" 26100
+#		"hull" 22800
 #		"required crew" 37
 #		"bunks" 53
 #		"mass" 762
