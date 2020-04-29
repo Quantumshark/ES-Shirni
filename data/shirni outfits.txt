@@ -32,6 +32,21 @@ outfit "Heavy Storage Cell"
 	"fuel capacity" 300
 	description "The Heavy Storage Cell is a new development, designed to provide a larger reserve of both fuel and energy in circumstances where this is necessary."
 
+outfit "Capacitance Cell"
+	category "Power"
+	licenses
+		"Shirni Brethren"
+	"cost" 271000
+	thumbnail "outfit/supercapacitor"
+	"mass" 75
+	"outfit space" -75
+	"energy capacity" 10700
+	"fuel capacity" 400
+	"energy consumption" .5
+	"heat generation" 4
+	"fuel generation" .03
+	description "The Capacitance Cell is an integrated outfit including fuel and energy storage and the ability to produce small amounts of fuel over time, in case a captain finds themself in a system with little or no solar wind."
+	
 outfit "Thermal Dissipator"
 	category "Systems"
 	licenses
