@@ -302,7 +302,7 @@ outfit "Drilling Missile"
 	category "Ammunition"
 	cost 207000
 	thumbnail "outfit/typhoon"
-	"mass" 4
+	"mass" 6
 	"drilling missile capacity" -1
 	description "A Drilling Missile serves as ammunition for the Drilling Missile Launcher. Each launcher has the capacity for 30 drilling missiles; you cannot install drilling missiles if you have not first purchased a launcher to store them in."
 
@@ -312,8 +312,8 @@ outfit "Drilling Missile Tube"
 		"Shirni Brethren"
 	cost 87000
 	thumbnail "outfit/typhoon storage"
-	"mass" 2
-	"outfit space" -6
+	"mass" 3
+	"outfit space" -9
 	"drilling missile capacity" 1
 	ammo "Drilling Missile"
 	description "The Drilling Missile Tube stores a Drilling Missile, for use in Drilling Missile Launchers."
@@ -324,11 +324,11 @@ outfit "Drilling Missile Launcher"
 		"Shirni Brethren"
 	cost 947000
 	thumbnail "outfit/typhoon launcher"
-	"mass" 14
-	"outfit space" -38
-	"weapon capacity" -38
+	"mass" 16
+	"outfit space" -46
+	"weapon capacity" -46
 	"gun ports" -1
-	"drilling missile capacity" 6
+	"drilling missile capacity" 5
 	weapon
 		sprite "projectile/typhoon"
 		sound "meteor"
@@ -338,18 +338,18 @@ outfit "Drilling Missile Launcher"
 		"die effect" "missile death"
 		"hit effect" "missile hit"
 		"inaccuracy" .1
-		"velocity" 10
-		"lifetime" 500
-		"reload" 200
-		"firing energy" 4.5
-		"firing heat" 2.5
-		"acceleration" 1.35
+		"velocity" 8
+		"lifetime" 450
+		"reload" 250
+		"firing energy" 45
+		"firing heat" 25
+		"acceleration" 1.15
 		"drag" .35
 		"turn" 4.0
 		"homing" 4
 		"optical tracking" .8
-		"shield damage" 4100
-		"hull damage" 4100
+		"shield damage" 3400
+		"hull damage" 3400
 		"piercing" .8
 		"disruption damage" .5
 		"missile strength" 120
