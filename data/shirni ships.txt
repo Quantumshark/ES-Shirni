@@ -76,7 +76,7 @@ ship "Azolla"
 		"Terminator Beam"
 	
 		"Fox-Type Generator"
-		"Storage Cell"
+		"Storage Cell" 2
 		"Thermal Dissipator"
 		"Regenerating Plating"
 		"Secondary Shielding" 2
