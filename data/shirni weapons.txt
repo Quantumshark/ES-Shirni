@@ -146,7 +146,7 @@ outfit "Heavy Terminator Beam"
 	
 outfit "Plasma Rocket"
 	category "Ammunition"
-	cost 250
+	cost 650
 	thumbnail "outfit/meteor"
 	"mass" .5
 	"plasma rocket capacity" -1
@@ -167,7 +167,7 @@ outfit "Plasma Rocket Storage"
 outfit "Plasma Rocket Launcher"
 	category "Secondary Weapons"
 	licenses
-		"Shirni Brethren"
+		"Shirni Friend"
 	cost 430000
 	thumbnail "outfit/meteor launcher"
 	"mass" 11
