@@ -330,8 +330,8 @@ outfit "Thunderbolt-Type Afterburner"
 	"outfit space" -26
 	"engine capacity" -26
 	"afterburner thrust" 129.3
-	"afterburner energy" 31.4
-	"afterburner heat" 74.4
+	"afterburner energy" 41.4
+	"afterburner heat" 54.4
 	"afterburner fuel" .015
 	"afterburner effect" "ionic afterburner"
 	description "The Thunderbolt-Type Afterburner is unusual among afterburners in that the vast majority of the thrust it provides comes from a ships' energy reserves, rather than from fuel. While it is almost impossible to concieve of a ship that could sustain its energy requirements for any length of time, the Thunderbolt provides a sudden burst of speed worthy of its namesake to all but the largest ships."
