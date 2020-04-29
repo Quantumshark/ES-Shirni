@@ -317,6 +317,7 @@ ship "Tectaria"
 #	turret "Anti-missile Beam"
 #	turret "Anti-missile Beam"
 #	turret "Anti-missile Beam"
+#	description "The Megalastrum is a massive freighter which is slowly replacing the now obsolete Tectaria."
 	
 #ship "Eupodium"
 #	sprite ship/eupodium
