@@ -707,6 +707,10 @@ system Lyikta
 		sprite planet/gas14
 		distance 2120.02
 		period 1171.06
+	object
+		sprite star/k5-old
+		distance 4067.21
+		period 3313.07
 
 system Pakutla
 	pos -819.157 -673.837
