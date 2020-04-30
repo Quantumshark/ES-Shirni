@@ -445,7 +445,7 @@ ship "Tectaria"
 #		category "Fighter"
 #		licenses
 #			"Shirni Brethren"
-#		"cost" 437000
+#		"cost" 337000
 #		"shields" 1200
 #		"hull" 1500
 #		"required crew" 1
@@ -475,7 +475,7 @@ ship "Tectaria"
 #		category "Interceptor"
 #		licenses
 #			"Shirni Friend"
-#		"cost" 792000
+#		"cost" 692000
 #		"shields" 2100
 #		"hull" 2400
 #		"required crew" 1
