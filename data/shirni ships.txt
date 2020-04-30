@@ -59,7 +59,7 @@ ship "Azolla"
 		"bunks" 7
 		"mass" 313
 		"drag" 4.25
-		"heat dissipation" 1.1
+		"heat dissipation" 1.25
 		"fuel capacity" 900
 		"ramscoop" 10
 		"cargo space" 27
@@ -198,7 +198,7 @@ ship "Azolla" "Azolla (Antique)"
 #		"bunks" 5
 #		"mass" 264
 #		"drag" 4.3
-#		"heat dissipation" .9
+#		"heat dissipation" .95
 #		"fuel capacity" 600
 #		"ramscoop" 2
 #		"cargo space" 144
@@ -236,7 +236,7 @@ ship "Tectaria"
 		"bunks" 14
 		"mass" 541
 		"drag" 13.8
-		"heat dissipation" .75
+		"heat dissipation" .8
 		"fuel capacity" 600
 		"cargo space" 473
 		"outfit space" 486
@@ -293,7 +293,7 @@ ship "Tectaria"
 #		"bunks" 18
 #		"mass" 941
 #		"drag" 26.2
-#		"heat dissipation" .55
+#		"heat dissipation" .6
 #		"fuel capacity" 300
 #		"cargo space" 864
 #		"outfit space" 573
@@ -333,7 +333,7 @@ ship "Tectaria"
 #		"bunks" 16
 #		"mass" 297
 #		"drag" 6.05
-#		"heat dissipation" 1.05
+#		"heat dissipation" 1.15
 #		"fuel capacity" 500
 #		"ramscoop" 1
 #		"cargo space" 51
@@ -482,7 +482,7 @@ ship "Tectaria"
 #		"bunks" 4
 #		"mass" 123
 #		"drag" 1.05
-#		"heat dissipation" 1.4
+#		"heat dissipation" 1.45
 #		"fuel capacity" 400
 #		"ramscoop" 3
 #		"cargo space" 36
@@ -573,7 +573,7 @@ ship "Tectaria"
 #		"bunks" 231
 #		"mass" 2136
 #		"drag" 47.7
-#		"heat dissipation" .6
+#		"heat dissipation" .65
 #		"fuel capacity" 400
 #		"cargo space" 87
 #		"outfit space" 1173
