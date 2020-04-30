@@ -158,6 +158,20 @@ outfit "Regenerating Plating"
 	"heat generation" .5
 	description "This strange organic plating is able to slowly repair any damage caused to it without using any energy, but it produces some heat even when not repairing itself."
 	
+outfit "Regenerating Armour"
+	category "Systems"
+	licenses
+		"Shirni Brethren"
+	cost 738000
+	thumbnail "outfit/interference plating"
+	"mass" 43
+	"outfit space" -43
+	"hull repair rate" .85
+	"hull energy" 0
+	"heat generation" 4.5
+	description "Regenerating Armour is able to regrow damage inflicted on it at an impressive rate, but due to its organic nature it continually produces heat even when not doing so."
+	
+	
 outfit "Radio Disruptor"
 	category "Systems"
 	licenses
