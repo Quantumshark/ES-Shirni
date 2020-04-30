@@ -171,7 +171,6 @@ outfit "Regenerating Armour"
 	"heat generation" 4.5
 	description "Regenerating Armour is able to regrow damage inflicted on it at an impressive rate, but due to its organic nature it continually produces heat even when not doing so."
 	
-	
 outfit "Radio Disruptor"
 	category "Systems"
 	licenses
