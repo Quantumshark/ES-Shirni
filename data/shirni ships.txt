@@ -18,16 +18,16 @@
 #		"cost" 530000
 #		"shields" 3100
 #		"hull" 3300
-#		"required crew" 2
-#		"bunks" 11
-#		"mass" 156
-#		"drag" 2.7
-#		"heat dissipation" 1
+#		"required crew" 3
+#		"bunks" 22
+#		"mass" 196
+#		"drag" 3.7
+#		"heat dissipation" 1.05
 #		"fuel capacity" 700
 #		"ramscoop" 3
 #		"cargo space" 39
-#		"outfit space" 162
-#		"weapon capacity" 33
+#		"outfit space" 182
+#		"weapon capacity" 43
 #		"engine capacity" 78
 #	outfits
 #		"Energy Burst Cannon" 2
