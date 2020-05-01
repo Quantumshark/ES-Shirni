@@ -148,7 +148,7 @@ outfit "Plasma Rocket"
 	category "Ammunition"
 	cost 650
 	thumbnail "outfit/meteor"
-	"mass" .5
+	"mass" .25
 	"plasma rocket capacity" -1
 	description "A Plasma Rocket serves as ammunition for the Plasma Rocket Launcher. Each plasma rocket launcher has the capacity for 30 plasma rockets; you cannot install plasma rockets if you have not first purchased a launcher to store them in."
 
@@ -160,7 +160,7 @@ outfit "Plasma Rocket Storage"
 	thumbnail "outfit/meteor storage"
 	"mass" 3
 	"outfit space" -8
-	"plasma rocket capacity" 10
+	"plasma rocket capacity" 20
 	ammo "Plasma Rocket"
 	description "The Plasma Rocket Storage is used to store extra ammunition for Plasma Rocket Launchers."
 
@@ -174,7 +174,7 @@ outfit "Plasma Rocket Launcher"
 	"outfit space" -26
 	"weapon capacity" -26
 	"gun ports" -1
-	"plasma rocket capacity" 30
+	"plasma rocket capacity" 60
 	weapon
 		sprite "projectile/javelin"
 		sound "meteor"
@@ -213,7 +213,7 @@ outfit "Plasma Rocket Turret"
 	"weapon capacity" -64
 	"required crew" 1
 	"turret mounts" -1
-	"plasma rocket capacity" 60
+	"plasma rocket capacity" 120
 	weapon
 		sprite "projectile/javelin"
 		sound "meteor"

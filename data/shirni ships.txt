@@ -134,7 +134,7 @@ ship "Azolla" "Azolla (Missile)"
 		"Weasel-Type Generator"
 		"Hyperdrive"
 		"Plasma Rocket Launcher" 4
-		"Plasma Rocket" 120
+		"Plasma Rocket" 240
 		"Storm-Type Steering"
 		"Gale-Type Thruster"
 		"Hyperdrive"
@@ -250,7 +250,7 @@ ship "Tectaria"
 	outfits
 		"Terminator Beam" 3
 		"Plasma Rocket Launcher" 2
-		"Plasma Rocket" 110
+		"Plasma Rocket" 140
 		"Plasma Rocket Storage"
 			
 		"Wolf-Type Generator"
@@ -342,6 +342,7 @@ ship "Tectaria"
 #		"engine capacity" 171
 #	outfits
 #		"Plasma Rocket Launcher" 7
+#		"Plasma Rocket" 420
 #
 #		"Fox-Type Generator"
 #		"Storage Cell"
@@ -383,6 +384,7 @@ ship "Tectaria"
 #		"engine capacity" 138
 #	outfits
 #		"Plasma Rocket Launcher" 2
+#		"Plasma Rocket" 120
 #
 #		"Fox-Type Generator"
 #		"Storage Cell"
@@ -422,6 +424,7 @@ ship "Tectaria"
 #		"engine capacity" 216
 #	outfits
 #		"Plasma Rocket Turret" 2
+#		"Plasma Rocket" 240
 #
 #		"Wolf-Type Generator"
 #		"Regenerating Plating"
@@ -461,6 +464,7 @@ ship "Tectaria"
 #		"engine capacity" 57
 #	outfits
 #		"Plasma Rocket Launcher"
+#		"Plasma Rocket" 60
 #
 #		"Weasel-Type Generator"
 #
@@ -494,6 +498,7 @@ ship "Tectaria"
 #		"engine capacity" 63
 #	outfits
 #		"Plasma Rocket Launcher" 2
+#		"Plasma Rocket" 120
 #
 #		"Weasel-Type Generator"
 #
@@ -583,7 +588,7 @@ ship "Tectaria"
 #		"engine capacity" 231
 #	outfits
 #		"Plasma Rocket Launcher" 8
-#		"Plasma Rocket" 240
+#		"Plasma Rocket" 480
 #		"Terminator Beam" 6
 #		"Massive Anti-missile Beam"
 #		"Bear-Type Generator" 2
