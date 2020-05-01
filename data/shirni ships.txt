@@ -521,7 +521,7 @@ ship "Tectaria"
 #			"Shirni Brethren"
 #		"cost" 18300000
 #		"shields" 29100
-#		"hull" 25800
+#		"hull" 31800
 #		"required crew" 37
 #		"bunks" 53
 #		"mass" 762
