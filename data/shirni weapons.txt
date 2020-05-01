@@ -324,9 +324,9 @@ outfit "Drilling Missile Launcher"
 		"Shirni Brethren"
 	cost 947000
 	thumbnail "outfit/typhoon launcher"
-	"mass" 16
-	"outfit space" -46
-	"weapon capacity" -46
+	"mass" 23
+	"outfit space" -53
+	"weapon capacity" -53
 	"gun ports" -1
 	"drilling missile capacity" 5
 	weapon
@@ -343,13 +343,13 @@ outfit "Drilling Missile Launcher"
 		"reload" 250
 		"firing energy" 45
 		"firing heat" 25
-		"acceleration" 1.15
+		"acceleration" 1.1
 		"drag" .35
 		"turn" 1.5
 		"homing" 4
 		"optical tracking" .8
-		"shield damage" 2400
-		"hull damage" 2400
+		"shield damage" 2200
+		"hull damage" 2200
 		"piercing" .8
 		"disruption damage" .5
 		"missile strength" 120
