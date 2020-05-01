@@ -348,7 +348,7 @@ outfit "Drilling Missile Launcher"
 		"turn" 1.5
 		"homing" 4
 		"optical tracking" .8
-		"shield damage" 2200
+		"shield damage" 600
 		"hull damage" 2200
 		"piercing" .8
 		"disruption damage" .5
