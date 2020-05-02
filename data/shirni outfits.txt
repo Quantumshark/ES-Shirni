@@ -281,7 +281,7 @@ outfit "Gale-Type Steering"
 	"outfit space" -31
 	"engine capacity" -31
 	"turn" 503
-	"turning energy" .3
+	"turning energy" .225
 	"turning heat" .5
 	"slowing resistance" .15
 	description "Gale-Type steering is commonly used on small Shirni ships, so that they can operate using only a relatively small generator and more space is free for whatever modifications are necessary."
