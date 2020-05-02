@@ -13,7 +13,7 @@ outfit "Energy Burst Cannon"
 	licenses
 		"Shirni Friend"
 	cost 83000
-	thumbnail "outfit/blaster"
+	thumbnail "outfit/energy burst cannon"
 	"mass" 9
 	"outfit space" -9
 	"weapon capacity" -9
