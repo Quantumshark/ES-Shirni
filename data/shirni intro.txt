@@ -368,5 +368,3 @@ mission "Shirni Pirate Surveillance"
 			`	You take the device and see that, sure enough, some of the interface has been translated into your language, albeit with some rather archaic phrases. Most of it, however, is still in the Shirni's smooth, curling script.`
 		set "shirni: recieved device"
 		set "license: Shirni Friend"
-
-		
