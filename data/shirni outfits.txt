@@ -118,7 +118,7 @@ outfit "Bear-Type Generator"
 	"shield generation" 5.25
 	"shield heat" 17.7
 	"disruption resistance" .4
-	description "The I-Type Generator is a recent design by the Shirni, who needed additional power for their newer, more heavily armed warships. Providing large amounts of power alongside integrated shield generation allows the ship this generator is equipped on to maintain its systems even while under sustained fire."
+	description "The Bear-Type Generator is a recent design by the Shirni, who needed additional power for their newer, more heavily armed warships. Providing large amounts of power alongside integrated shield generation allows the ship this generator is equipped on to maintain its systems even while under sustained fire."
 	
 outfit "Industrial Solar Cell"
 	category "Power"
