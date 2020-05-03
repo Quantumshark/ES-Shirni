@@ -304,7 +304,7 @@ outfit "Drilling Missile"
 	thumbnail "outfit/typhoon"
 	"mass" 6
 	"drilling missile capacity" -1
-	description "A Drilling Missile serves as ammunition for the Drilling Missile Launcher. Each launcher has the capacity for 30 drilling missiles; you cannot install drilling missiles if you have not first purchased a launcher to store them in."
+	description "A Drilling Missile serves as ammunition for the Drilling Missile Launcher. Each launcher has the capacity for 5 drilling missiles; you cannot install drilling missiles if you have not first purchased a launcher to store them in."
 
 outfit "Drilling Missile Tube"
 	category "Ammunition"
