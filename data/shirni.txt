@@ -77,13 +77,13 @@ fleet "Shirni Scout"
 	personality
 		coward disables plunders
 		confusion 20
-	variant 20
+	variant 15
 		"Azolla"
-	variant 20
+	variant 18
 		"Azolla (Heavy)"
-	variant 20
+	variant 8
 		"Azolla (Tough)"
-	variant 1
+	variant 5
 		"Azolla (Antique)"
 		
 fleet "Shirni Military"
