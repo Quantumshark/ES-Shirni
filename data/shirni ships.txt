@@ -291,7 +291,7 @@ ship "Tectaria"
 #		"hull" 23600
 #		"required crew" 9
 #		"bunks" 18
-#		"mass" 941
+#		"mass" 942
 #		"drag" 26.2
 #		"heat dissipation" .6
 #		"fuel capacity" 300
@@ -331,7 +331,7 @@ ship "Tectaria"
 #		"hull" 9200
 #		"required crew" 7
 #		"bunks" 16
-#		"mass" 297
+#		"mass" 309
 #		"drag" 6.05
 #		"heat dissipation" 1.15
 #		"fuel capacity" 500
@@ -413,7 +413,7 @@ ship "Tectaria"
 #		"hull" 11300
 #		"required crew" 31
 #		"bunks" 173
-#		"mass" 655
+#		"mass" 657
 #		"drag" 16.8
 #		"heat dissipation" .75
 #		"fuel capacity" 600
@@ -460,7 +460,7 @@ ship "Tectaria"
 #		"heat dissipation" 1.6
 #		"energy capacity" 50
 #		"outfit space" 114
-#		"weapon capacity" 26
+#		"weapon capacity" 27
 #		"engine capacity" 57
 #	outfits
 #		"Plasma Rocket Launcher"
