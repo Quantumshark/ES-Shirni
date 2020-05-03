@@ -234,7 +234,7 @@ ship "Tectaria"
 		"hull" 11700
 		"required crew" 6
 		"bunks" 14
-		"mass" 541
+		"mass" 543
 		"drag" 13.8
 		"heat dissipation" .8
 		"fuel capacity" 600
