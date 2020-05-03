@@ -338,7 +338,7 @@ outfit "Drilling Missile Launcher"
 		"die effect" "missile death"
 		"hit effect" "missile hit"
 		"inaccuracy" .1
-		"velocity" 8
+		"velocity" 6
 		"lifetime" 450
 		"reload" 250
 		"firing energy" 45
