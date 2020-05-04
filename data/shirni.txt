@@ -130,6 +130,7 @@ fleet "Shirni Defense"
 		confusion 5
 	variant
 		"Azolla (Automaton)" 15
+		"Azolla (Missile)" 5
 	
 phrase "shirni"
 	word
