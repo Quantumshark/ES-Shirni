@@ -15,7 +15,7 @@
 #		category "Transport"
 #		licenses
 #			"Shirni Friend"
-#		"cost" 530000
+#		"cost" 1030000
 #		"shields" 3300
 #		"hull" 3800
 #		"required crew" 3
@@ -191,7 +191,7 @@ ship "Azolla" "Azolla (Antique)"
 #		category "Light Freighter"
 #		licenses
 #			"Shirni Friend"
-#		"cost" 930000
+#		"cost" 1380000
 #		"shields" 2500
 #		"hull" 5800
 #		"required crew" 2
