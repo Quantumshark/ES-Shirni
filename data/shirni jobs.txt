@@ -342,7 +342,7 @@ mission "Shirni Equipment Transport"
 	job
 	name "Delivery to <planet>"
 	description "Deliver <cargo> to <destination>. Payment will be <payment>."
-		source
+	source
 		government "Shirni"
 		attributes factory
 	destination
