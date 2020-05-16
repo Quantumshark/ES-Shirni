@@ -166,7 +166,7 @@ outfit "Regenerating Armour"
 	thumbnail "outfit/interference plating"
 	"mass" 43
 	"outfit space" -43
-	"hull repair rate" .85
+	"hull repair rate" .9
 	"hull energy" 0
 	"heat generation" 4.5
 	description "Regenerating Armour is able to regrow damage inflicted on it at an impressive rate, but due to its organic nature it continually produces heat even when not doing so."
