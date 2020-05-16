@@ -9,8 +9,8 @@
 # PARTICULAR PURPOSE.  See the GNU General Public License for more details.
 
 ship "Salvinia"
-	sprite "ship/blackbird"
-	thumbnail "thumbnail/blackbird"
+	sprite "ship/salvinia"
+	thumbnail "thumbnail/salvinia"
 	attributes
 		category "Transport"
 		licenses
@@ -40,9 +40,9 @@ ship "Salvinia"
 
 		"Hyperdrive"
 
-	gun 0 0 "Energy Burst Cannon"
-	gun 0 0 "Energy Burst Cannon"
-	gun 0 0
+	gun "Energy Burst Cannon"
+	gun "Energy Burst Cannon"
+	gun
 	description `By far the most popular Shirni ship among new pilots, the Salvinia is a versatile transport with plenty of cargo space, numerous bunks and a fair amount of integrated ramscoop.`
 
 ship "Azolla"
@@ -185,8 +185,8 @@ ship "Azolla" "Azolla (Antique)"
 	turret 0 15
 		
 ship "Pellaea"
-	sprite "ship/gull"
-	thumbnail "thumbnail/gull"
+	sprite "ship/pellaea"
+	thumbnail "thumbnail/pellaea"
 	attributes
 		category "Light Freighter"
 		licenses
@@ -280,8 +280,8 @@ ship "Tectaria"
 	description `The Tectaria is one of the most common Shirni ships, a large freighter used to supply many of their worlds with food, water and industrial equipment. As with all their freighters, the Shirni opted to give the Tectaria only minimal shielding in order to make it cheaper and easier to produce.`
 
 ship "Megalastrum"
-	sprite "ship/geocoris"
-	thumbnail "thumbnail/geocoris"
+	sprite "ship/megalastrum"
+	thumbnail "thumbnail/megalastrum"
 	attributes
 		category "Heavy Freighter"
 		licenses
@@ -320,8 +320,8 @@ ship "Megalastrum"
 	description "The Megalastrum is a massive freighter which is slowly replacing the now obsolete Tectaria."
 
 ship "Eupodium"
-	sprite "ship/corvette"
-	thumbnail "thumbnail/corvette"
+	sprite "ship/eupodium"
+	thumbnail "thumbnail/eupodium"
 	attributes
 		category "Medium Warship"
 		licenses
@@ -362,8 +362,8 @@ ship "Eupodium"
 	description `The Eupodium is designed as a high-speed ship, capable of striking a target with a salvo of missiles with a combined force only slightly less than that of a nuclear weapon and escape before any opponents can react.`
 
 ship "Tryonia"
-	sprite "ship/scout"
-	thumbnail "thumbnail/scout"
+	sprite "ship/tryonia"
+	thumbnail "thumbnail/tryonia"
 	attributes
 		category "Transport"
 		licenses
@@ -402,8 +402,8 @@ ship "Tryonia"
 	description `The Tryonia is designed for diplomatic missions, with bunk rooms specially designed to accommodate a wide range of different species and an excellent range supplemented by a massive integrated ramscoop.`
 
 ship "Pyrrosia"
-	sprite "ship/world-ship c"
-	thumbnail "thumbnail/world-ship c"
+	sprite "ship/pyrrosia"
+	thumbnail "thumbnail/pyrrosia"
 	attributes
 		category "Transport"
 		licenses
@@ -444,8 +444,8 @@ ship "Pyrrosia"
 	description `The Pyrrosia is a troop transport, able to transport large Shirni ground forces for attacks on nearby systems and capable of providing limited missile support to warships clearing out a system in preparation for invasion.`
 
 ship "Spore"
-	sprite "ship/petrel
-	thumbnail "thumbnail/petrel"
+	sprite "ship/spore"
+	thumbnail "thumbnail/spore"
 	attributes
 		category "Fighter"
 		licenses
@@ -475,8 +475,8 @@ ship "Spore"
 	description `Based on their popular Horsetail interceptor, the Spore is the smallest Shirni ship capable of carrying a plasma rocket launcher.`
 
 ship "Horsetail"
-	sprite "ship/fury"
-	thumbnail "thumbnail/fury"
+	sprite "ship/horsetail"
+	thumbnail "thumbnail/horsetail"
 	attributes
 		category "Interceptor"
 		licenses
@@ -513,8 +513,8 @@ ship "Horsetail"
 	description `The Horsetail also has unusually large amounts of cargo and bunk space for an interceptor, allowing its pilot to earn a living on the side during peacetime. This versatility is one of the leading contributors to the Horsetail's popularity.`
 
 ship "Bracken"
-	sprite "ship/leviathan"
-	thumbnail "thumbnail/leviathan"
+	sprite "ship/bracken"
+	thumbnail "thumbnail/bracken"
 	attributes
 		category "Heavy Warship"
 		licenses
@@ -567,8 +567,8 @@ ship "Bracken" "Bracken (Dreadnought)"
 		"Typhoon-Type Steering"
 
 ship "Cycad"
-	sprite "ship/telis'het"
-	thumbnail "thumbnail/telis'het"
+	sprite "ship/cycad"
+	thumbnail "thumbnail/cycad"
 	attributes
 		category "Heavy Warship"
 		licenses
