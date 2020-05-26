@@ -202,7 +202,7 @@ ship "Pellaea"
 		"fuel capacity" 600
 		"ramscoop" 2
 		"cargo space" 144
-		"outfit space" 207
+		"outfit space" 237
 		"weapon capacity" 63
 		"engine capacity" 93
 	outfits
@@ -326,7 +326,7 @@ ship "Eupodium"
 		category "Medium Warship"
 		licenses
 			"Shirni Brethren"
-		"cost" 83230000
+		"cost" 8323000
 		"shields" 11700
 		"hull" 9200
 		"required crew" 7
@@ -337,7 +337,7 @@ ship "Eupodium"
 		"fuel capacity" 500
 		"ramscoop" 1
 		"cargo space" 51
-		"outfit space" 417
+		"outfit space" 426
 		"weapon capacity" 204
 		"engine capacity" 171
 	outfits
@@ -535,6 +535,7 @@ ship "Bracken"
 		"engine capacity" 219
 	outfits
 		"Particle Blaster" 5
+		"Terminator Beam" 2
 		"Bear-Type Generator"
 		"Regenerating Plating"
 		"Thermal Dissipator"
@@ -546,8 +547,8 @@ ship "Bracken"
 	gun "Particle Blaster"
 	gun "Particle Blaster"
 	gun "Particle Blaster"
-	turret
-	turret
+	turret "Terminator Beam"
+	turret "Terminator Beam"
 	turret
 	fighter
 	fighter
